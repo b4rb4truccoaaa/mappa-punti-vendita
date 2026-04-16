@@ -1,0 +1,1072 @@
+[
+  {
+    "brand": "Bennet",
+    "store_name": "Brugherio",
+    "province_code": "MB",
+    "province_name": "Monza e Brianza",
+    "address": "viale Lombardia, 264",
+    "postal_code": "20861",
+    "source_url": "https://www.bennet.com/storefinder/iper/0039",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Albano Sant'Alessandro",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "via Tonale, 101",
+    "postal_code": "24061",
+    "source_url": "https://www.bennet.com/storefinder/iper/0131",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Bagnolo Cremasco",
+    "province_code": "CR",
+    "province_name": "Cremona",
+    "address": "via Leonardo Da Vinci, S.S. Paullese, 1",
+    "postal_code": "26010",
+    "source_url": "https://www.bennet.com/storefinder/iper/0150",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Acqui Terme",
+    "province_code": "AL",
+    "province_name": "Alessandria",
+    "address": "S.S. Savona, 90/92",
+    "postal_code": "15011",
+    "source_url": "https://www.bennet.com/storefinder/iper/0085",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Carmagnola",
+    "province_code": "TO",
+    "province_name": "Torino",
+    "address": "via Sommariva, 29/1-2",
+    "postal_code": "10022",
+    "source_url": "https://www.bennet.com/storefinder/iper/0132",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Cantù",
+    "province_code": "CO",
+    "province_name": "Como",
+    "address": "corso Europa, 23",
+    "postal_code": "22063",
+    "source_url": "https://www.bennet.com/storefinder/iper/0066",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Bellinzago Novarese",
+    "province_code": "NO",
+    "province_name": "Novara",
+    "address": "via Libertà, 231",
+    "postal_code": "28043",
+    "source_url": "https://www.bennet.com/storefinder/iper/0045",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Alessandria",
+    "province_code": "AL",
+    "province_name": "Alessandria",
+    "address": "via Torino, 26",
+    "postal_code": "15020",
+    "source_url": "https://www.bennet.com/storefinder/iper/0088",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Anzano del Parco",
+    "province_code": "CO",
+    "province_name": "Como",
+    "address": "via Provinciale, 2",
+    "postal_code": "22040",
+    "source_url": "https://www.bennet.com/storefinder/iper/0110",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Belforte Monferrato",
+    "province_code": "AL",
+    "province_name": "Alessandria",
+    "address": "via Molino, 1",
+    "postal_code": "15070",
+    "source_url": "https://www.bennet.com/storefinder/iper/0028",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Cassina Rizzardi",
+    "province_code": "CO",
+    "province_name": "Como",
+    "address": "via Risorgimento, 1082",
+    "postal_code": "22070",
+    "source_url": "https://www.bennet.com/storefinder/iper/0065",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Caselle Torinese",
+    "province_code": "TO",
+    "province_name": "Torino",
+    "address": "strada Torino, 23",
+    "postal_code": "10072",
+    "source_url": "https://www.bennet.com/storefinder/iper/0042",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Casatenovo",
+    "province_code": "LC",
+    "province_name": "Lecco",
+    "address": "via Casati, 28",
+    "postal_code": "23880",
+    "source_url": "https://www.bennet.com/storefinder/iper/0046",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Castellamonte",
+    "province_code": "TO",
+    "province_name": "Torino",
+    "address": "via Giuseppe Romana, 40/42",
+    "postal_code": "10081",
+    "source_url": "https://www.bennet.com/storefinder/iper/0095",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Chivasso",
+    "province_code": "TO",
+    "province_name": "Torino",
+    "address": "via Caluso, 46",
+    "postal_code": "10034",
+    "source_url": "https://www.bennet.com/storefinder/iper/0148",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Ciriè",
+    "province_code": "TO",
+    "province_name": "Torino",
+    "address": "via Battitore, 100",
+    "postal_code": "10073",
+    "source_url": "https://www.bennet.com/storefinder/iper/0055",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Castelletto Ticino",
+    "province_code": "NO",
+    "province_name": "Novara",
+    "address": "via Tripolitania, 1",
+    "postal_code": "28053",
+    "source_url": "https://www.bennet.com/storefinder/iper/0061",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Cornaredo",
+    "province_code": "MI",
+    "province_name": "Milano",
+    "address": "via Milano, S.S. 11, 30",
+    "postal_code": "20010",
+    "source_url": "https://www.bennet.com/storefinder/iper/0126",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Ivrea",
+    "province_code": "TO",
+    "province_name": "Torino",
+    "address": "via Dora Baltea, 31",
+    "postal_code": "10015",
+    "source_url": "https://www.bennet.com/storefinder/iper/0117",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Erba",
+    "province_code": "CO",
+    "province_name": "Como",
+    "address": "viale Prealpi, 3",
+    "postal_code": "22036",
+    "source_url": "https://www.bennet.com/storefinder/iper/0005",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Lavena Ponte Tresa",
+    "province_code": "VA",
+    "province_name": "Varese",
+    "address": "via Luigi Colombo, S.S. 233, 42A",
+    "postal_code": "21037",
+    "source_url": "https://www.bennet.com/storefinder/iper/0109",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Lecco",
+    "province_code": "LC",
+    "province_name": "Lecco",
+    "address": "via Amendola, 119",
+    "postal_code": "23900",
+    "source_url": "https://www.bennet.com/storefinder/iper/0049",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Montano Lucino",
+    "province_code": "CO",
+    "province_name": "Como",
+    "address": "via Enzo Ratti, 4",
+    "postal_code": "22070",
+    "source_url": "https://www.bennet.com/storefinder/iper/0033",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Lentate sul Seveso",
+    "province_code": "MB",
+    "province_name": "Monza e Brianza",
+    "address": "via Nazionale dei Giovi, 249",
+    "postal_code": "20823",
+    "source_url": "https://www.bennet.com/storefinder/iper/0008",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Nichelino",
+    "province_code": "TO",
+    "province_name": "Torino",
+    "address": "via Scarrone, 10",
+    "postal_code": "10042",
+    "source_url": "https://www.bennet.com/storefinder/iper/0134",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Novi Ligure",
+    "province_code": "AL",
+    "province_name": "Alessandria",
+    "address": "via delle Vetrerie, 1",
+    "postal_code": "15067",
+    "source_url": "https://www.bennet.com/storefinder/iper/0106",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Mortara",
+    "province_code": "PV",
+    "province_name": "Pavia",
+    "address": "via Lomellina 59",
+    "postal_code": "27036",
+    "source_url": "https://www.bennet.com/storefinder/iper/0081",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Olgiate Comasco",
+    "province_code": "CO",
+    "province_name": "Como",
+    "address": "via Lomazzo, 4",
+    "postal_code": "22077",
+    "source_url": "https://www.bennet.com/storefinder/iper/0067",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Pavone Canavese",
+    "province_code": "TO",
+    "province_name": "Torino",
+    "address": "via Circonvallazione, 95",
+    "postal_code": "10018",
+    "source_url": "https://www.bennet.com/storefinder/iper/0010",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Parona",
+    "province_code": "PV",
+    "province_name": "Pavia",
+    "address": "via Case Sparse, S.S. 494 9, 4",
+    "postal_code": "27020",
+    "source_url": "https://www.bennet.com/storefinder/iper/0016",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Pieve Fissiraga",
+    "province_code": "LO",
+    "province_name": "Lodi",
+    "address": "viale Nazioni Unite, 1",
+    "postal_code": "26854",
+    "source_url": "https://www.bennet.com/storefinder/iper/0032",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Pontedassio",
+    "province_code": "IM",
+    "province_name": "Imperia",
+    "address": "via Nazionale, 1",
+    "postal_code": "18027",
+    "source_url": "https://www.bennet.com/storefinder/iper/0036",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Romano di Lombardia",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "S.S. Soncinese, 498",
+    "postal_code": "24058",
+    "source_url": "https://www.bennet.com/storefinder/iper/0119",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Romagnano Sesia",
+    "province_code": "NO",
+    "province_name": "Novara",
+    "address": "via Brigata Alpina Taurinense, 1",
+    "postal_code": "28078",
+    "source_url": "https://www.bennet.com/storefinder/iper/0107",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "San Martino Siccomario",
+    "province_code": "PV",
+    "province_name": "Pavia",
+    "address": "S.P. per Mortara, 7/37",
+    "postal_code": "27028",
+    "source_url": "https://www.bennet.com/storefinder/iper/0094",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "San Martino in Strada Lodi Sud",
+    "province_code": "LO",
+    "province_name": "Lodi",
+    "address": "via Emilia, S.S. 9, 659",
+    "postal_code": "26817",
+    "source_url": "https://www.bennet.com/storefinder/iper/0076",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Sedriano",
+    "province_code": "MI",
+    "province_name": "Milano",
+    "address": "piazza Gandhi, 6",
+    "postal_code": "20018",
+    "source_url": "https://www.bennet.com/storefinder/iper/0129",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Torino - via San Paolo",
+    "province_code": "TO",
+    "province_name": "Torino",
+    "address": "via Renier, 58 int. 5",
+    "postal_code": "10141",
+    "source_url": "https://www.bennet.com/storefinder/iper/0009",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Tavernola",
+    "province_code": "CO",
+    "province_name": "Como",
+    "address": "via Asiago, 2",
+    "postal_code": "22100",
+    "source_url": "https://www.bennet.com/storefinder/iper/0011",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Torino - via G. Bruno",
+    "province_code": "TO",
+    "province_name": "Torino",
+    "address": "via Giordano Bruno, 142",
+    "postal_code": "10134",
+    "source_url": "https://www.bennet.com/storefinder/iper/0113",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Vaprio d'Adda",
+    "province_code": "MI",
+    "province_name": "Milano",
+    "address": "via Milano, 7",
+    "postal_code": "20069",
+    "source_url": "https://www.bennet.com/storefinder/iper/0135",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Santa Vittoria d'Alba",
+    "province_code": "CN",
+    "province_name": "Cuneo",
+    "address": "via Gorreto, 2",
+    "postal_code": "12069",
+    "source_url": "https://www.bennet.com/storefinder/iper/0121",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Vanzaghello",
+    "province_code": "MI",
+    "province_name": "Milano",
+    "address": "corso Italia, 27",
+    "postal_code": "20020",
+    "source_url": "https://www.bennet.com/storefinder/iper/0124",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Vigliano Biellese",
+    "province_code": "BI",
+    "province_name": "Biella",
+    "address": "via della Tollegna, 1",
+    "postal_code": "13856",
+    "source_url": "https://www.bennet.com/storefinder/iper/0092",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Vercelli",
+    "province_code": "VC",
+    "province_name": "Vercelli",
+    "address": "strada vicinale Cantarana, 1",
+    "postal_code": "13100",
+    "source_url": "https://www.bennet.com/storefinder/iper/0105",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Verolanuova",
+    "province_code": "BS",
+    "province_name": "Brescia",
+    "address": "via delle Robinie, 2",
+    "postal_code": "25028",
+    "source_url": "https://www.bennet.com/storefinder/iper/0108",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Villanova Monferrato",
+    "province_code": "AL",
+    "province_name": "Alessandria",
+    "address": "S.P. 31, 7",
+    "postal_code": "15030",
+    "source_url": "https://www.bennet.com/storefinder/iper/0044",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Codogno",
+    "province_code": "LO",
+    "province_name": "Lodi",
+    "address": "viale Aldo Moro, 3",
+    "postal_code": "26845",
+    "source_url": "https://www.bennet.com/storefinder/iper/0158",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Bennet",
+    "store_name": "Antegnate",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "via del Commercio, 3",
+    "postal_code": "24051",
+    "source_url": "https://www.bennet.com/storefinder/iper/0155",
+    "status": "verificato_ufficiale"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Alessandria",
+    "province_code": "AL",
+    "province_name": "Alessandria",
+    "address": "Via Piave 104",
+    "postal_code": "15121",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Arquata Scrivia",
+    "province_code": "AL",
+    "province_name": "Alessandria",
+    "address": "Via Roma 92",
+    "postal_code": "15061",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Silvano d'Orba",
+    "province_code": "AL",
+    "province_name": "Alessandria",
+    "address": "Via Ovada 54",
+    "postal_code": "15060",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Villalvernia",
+    "province_code": "AL",
+    "province_name": "Alessandria",
+    "address": "Via Carbone 4",
+    "postal_code": "15050",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Bogliasco - Via Aurelia",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Aurelia 160",
+    "postal_code": "16031",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Bogliasco - Via Cavour",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Camillo Benso Conte di Cavour, 35",
+    "postal_code": "16031",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Busalla",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Suardi 82",
+    "postal_code": "16100",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Chiavari",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Colonnello Enrico Franceschi, 4",
+    "postal_code": "16043",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Cogoleto",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Mazzini 38",
+    "postal_code": "16016",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Cogorno",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Corso IV Novembre 151",
+    "postal_code": "16030",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Genova Albaro",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Cavallotti 56/R",
+    "postal_code": "16146",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Genova Antiochia",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Passo Antiochia 1/R",
+    "postal_code": "16129",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Genova Bolzaneto",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Barchetta 15",
+    "postal_code": "16163",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Genova Borzoli",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Borzoli 92",
+    "postal_code": "16154",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Genova Cornigliano",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Bertolotti 1D",
+    "postal_code": "16153",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Genova Foce - Via Barabino",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Barabino 49/R",
+    "postal_code": "16129",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Genova Marassi",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Centuriona 56",
+    "postal_code": "16139",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Genova Molassana",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Molassana 72/R",
+    "postal_code": "16138",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Genova Pegli",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Martiri della Libertà 15/R",
+    "postal_code": "16156",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Genova Prà",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Taggia 34/R",
+    "postal_code": "16157",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Genova San Fruttuoso",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Paggi 13/R",
+    "postal_code": "16143",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Genova San Gottardo",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Emilia 30/R",
+    "postal_code": "16138",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Genova San Martino",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Lagustena 22/R",
+    "postal_code": "16131",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Genova San Teodoro",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Piazza Sopranis 7/R",
+    "postal_code": "16126",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Genova Sestri Ponente",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Travi 74/R",
+    "postal_code": "16154",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Genova Sturla",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Sturla 52/R",
+    "postal_code": "16131",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Genova Sturla alt. Orsini",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Sturla 60/R",
+    "postal_code": "16131",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Rapallo",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Corso Cristoforo Colombo, 4",
+    "postal_code": "16035",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Arma di Taggia",
+    "province_code": "IM",
+    "province_name": "Imperia",
+    "address": "Via della Cornice 29",
+    "postal_code": "18018",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Diano Castello",
+    "province_code": "IM",
+    "province_name": "Imperia",
+    "address": "Via Diano S. Pietro, 111",
+    "postal_code": "18013",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Imperia",
+    "province_code": "IM",
+    "province_name": "Imperia",
+    "address": "Via Gavi 2",
+    "postal_code": "18100",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Sanremo",
+    "province_code": "IM",
+    "province_name": "Imperia",
+    "address": "Via San Francesco 43",
+    "postal_code": "18038",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Bottagna",
+    "province_code": "SP",
+    "province_name": "La Spezia",
+    "address": "Via Provinciale Piana 1",
+    "postal_code": "19020",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "La Spezia - Via Roma",
+    "province_code": "SP",
+    "province_name": "La Spezia",
+    "address": "Via Roma 91",
+    "postal_code": "19100",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "La Spezia - V. Veneto",
+    "province_code": "SP",
+    "province_name": "La Spezia",
+    "address": "Via Vittorio Veneto 107",
+    "postal_code": "19100",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Romito Magra",
+    "province_code": "SP",
+    "province_name": "La Spezia",
+    "address": "Strada Provinciale 432",
+    "postal_code": "19032",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Sarzana",
+    "province_code": "SP",
+    "province_name": "La Spezia",
+    "address": "Via Pecorina 18",
+    "postal_code": "19038",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Broni",
+    "province_code": "PV",
+    "province_name": "Pavia",
+    "address": "Via Circonvallazione SP10, 154",
+    "postal_code": "27043",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "San Martino Siccomario",
+    "province_code": "PV",
+    "province_name": "Pavia",
+    "address": "Strada dei Giovi, 6",
+    "postal_code": "27028",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Stradella",
+    "province_code": "PV",
+    "province_name": "Pavia",
+    "address": "Via Nazionale 80",
+    "postal_code": "27100",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Borgonovo Val Tidone",
+    "province_code": "PC",
+    "province_name": "Piacenza",
+    "address": "Località Castellina 3",
+    "postal_code": "29011",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Castel San Giovanni",
+    "province_code": "PC",
+    "province_name": "Piacenza",
+    "address": "Via Morselli 2/B",
+    "postal_code": "29100",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "San Nicolò a Trebbia",
+    "province_code": "PC",
+    "province_name": "Piacenza",
+    "address": "Via Emilia Ovest ang. Bergamaschi",
+    "postal_code": "29010",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Albenga",
+    "province_code": "SV",
+    "province_name": "Savona",
+    "address": "Via Leonardo da Vinci 1",
+    "postal_code": "17100",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Pietra Ligure - Crispi",
+    "province_code": "SV",
+    "province_name": "Savona",
+    "address": "Via Crispi 305",
+    "postal_code": "17027",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Pietra Ligure - Repubblica",
+    "province_code": "SV",
+    "province_name": "Savona",
+    "address": "Viale della Repubblica 188",
+    "postal_code": "17027",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Cumiana",
+    "province_code": "TO",
+    "province_name": "Torino",
+    "address": "Via Provinciale 79",
+    "postal_code": "10040",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Frossasco",
+    "province_code": "TO",
+    "province_name": "Torino",
+    "address": "Via Piscina 1",
+    "postal_code": "10060",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Grugliasco",
+    "province_code": "TO",
+    "province_name": "Torino",
+    "address": "Via F. De André 35",
+    "postal_code": "10100",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Luserna San Giovanni",
+    "province_code": "TO",
+    "province_name": "Torino",
+    "address": "Via I° Maggio 219",
+    "postal_code": "10062",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "San Secondo di Pinerolo",
+    "province_code": "TO",
+    "province_name": "Torino",
+    "address": "Via San Rocco 74",
+    "postal_code": "10060",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Torino Aurora",
+    "province_code": "TO",
+    "province_name": "Torino",
+    "address": "Corso Brescia 51",
+    "postal_code": "10100",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Torino Mirafiori Sud",
+    "province_code": "TO",
+    "province_name": "Torino",
+    "address": "Piazza Pietro Francesco Guala, 147",
+    "postal_code": "10100",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Torino Santa Rita",
+    "province_code": "TO",
+    "province_name": "Torino",
+    "address": "Piazza Montanari 137C",
+    "postal_code": "10100",
+    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
+    "status": "verificato_pdf_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Alessandria - Via Cavour",
+    "province_code": "AL",
+    "province_name": "Alessandria",
+    "address": "Via Cavour Camillo Benso, 25",
+    "postal_code": "15121",
+    "source_url": "https://www.paginegialle.it/alessandria-al/centri-commerciali/basko-s-p-a_20031476",
+    "status": "verificato_esterno_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Savona",
+    "province_code": "SV",
+    "province_name": "Savona",
+    "address": "Via Walter Benedetto, 3/R",
+    "postal_code": "17100",
+    "source_url": "https://www.paginegialle.it/savona-sv/centri-commerciali/basko-s-p-a",
+    "status": "verificato_esterno_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Pinerolo",
+    "province_code": "TO",
+    "province_name": "Torino",
+    "address": "Corso Torino, 348",
+    "postal_code": "10064",
+    "source_url": "https://www.paginegialle.it/pinerolo-to/centri-commerciali/basko",
+    "status": "verificato_esterno_recente"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Genova Pontedecimo",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Anfossi Paolo, 206/R",
+    "postal_code": "16164",
+    "source_url": "https://www.paginebianche.it/genova/basko.7323601",
+    "status": "verificato_esterno_recente"
+  }
+]

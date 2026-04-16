@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Mappa punti vendita</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+<style>
+:root{--bg:#f6f8fb;--panel:#fff;--text:#111827;--muted:#6b7280;--border:#dbe3ef;--accent:#2563eb;--soft:#e8f0ff}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--text)}
+.app{display:grid;grid-template-columns:340px 1fr;gap:16px;padding:16px;min-height:100vh}
+.panel,.map-wrap{background:var(--panel);border:1px solid var(--border);border-radius:18px;box-shadow:0 8px 24px rgba(15,23,42,.05)}
+.panel{padding:18px;overflow:auto}.map-wrap{overflow:hidden;min-height:calc(100vh - 32px)}#map{width:100%;height:calc(100vh - 32px)}
+h1{margin:0 0 8px;font-size:1.35rem}.sub{color:var(--muted);margin-bottom:16px}
+label{display:block;font-weight:600;margin-bottom:8px}select{width:100%;padding:12px 14px;border-radius:12px;border:1px solid var(--border);font-size:1rem}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:16px 0}.stat{border:1px solid var(--border);border-radius:14px;padding:12px;background:#fbfdff}
+.stat .label{color:var(--muted);font-size:.82rem;margin-bottom:6px}.stat .value{font-size:1.4rem;font-weight:700}
+.province-list{display:grid;gap:8px;max-height:48vh;overflow:auto}.province-item{display:flex;justify-content:space-between;align-items:center;border:1px solid var(--border);border-radius:12px;padding:10px 12px}
+.province-item .count{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:var(--soft);color:var(--accent);font-weight:700}
+.province-item .meta,.note{color:var(--muted);font-size:.84rem}.note{line-height:1.45;margin-top:14px}
+.legend{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 16px}.chip{border:1px solid var(--border);border-radius:999px;padding:6px 10px;color:var(--muted);font-size:.82rem}
+@media (max-width:980px){.app{grid-template-columns:1fr}#map,.map-wrap{height:68vh;min-height:68vh}}
+</style>
+</head>
+<body>
+<div class="app">
+  <aside class="panel">
+    <h1>Mappa punti vendita</h1>
+    <div class="sub">Pagina web pubblica con database Postgres.</div>
+    <label for="brandSelect">Brand</label>
+    <select id="brandSelect"></select>
+    <div class="stats">
+      <div class="stat"><div class="label">Punti vendita</div><div class="value" id="totalStores">0</div></div>
+      <div class="stat"><div class="label">Province coperte</div><div class="value" id="provinceCount">0</div></div>
+    </div>
+    <div class="legend">
+      <div class="chip">Grigio: non presente</div>
+      <div class="chip">Blu più scuro: più negozi</div>
+    </div>
+    <div style="font-weight:700;margin:16px 0 8px;">Province</div>
+    <div class="province-list" id="provinceList"></div>
+    <div class="note">Dataset iniziale incluso: 49 Bennet + 58 Basko verificati.</div>
+  </aside>
+  <main class="map-wrap"><div id="map"></div></main>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script>
+const map = L.map('map').setView([42.8,12.5],6);
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'&copy; OpenStreetMap contributors'}).addTo(map);
+const brandSelect=document.getElementById('brandSelect');
+const totalStoresEl=document.getElementById('totalStores');
+const provinceCountEl=document.getElementById('provinceCount');
+const provinceListEl=document.getElementById('provinceList');
+let currentBrand=null, provinceSummary={}, geojsonLayer=null;
+const getProvinceCode=(p)=>{for(const k of ['prov_acr','prov_sigla','prov_code','sigla','province_code','provincia','acr']){if(p&&p[k]) return String(p[k]).trim().toUpperCase()} return '';}
+const getProvinceName=(p)=>{for(const k of ['prov_name','province_name','name','provincia','denominazione_provincia','DEN_PROV','NOME_PROV']){if(p&&p[k]) return String(p[k]).trim()} return 'Provincia';}
+function getColor(c){if(!c) return '#e5e7eb'; if(c>=10) return '#08306b'; if(c>=7) return '#08519c'; if(c>=4) return '#3182bd'; if(c>=2) return '#6baed6'; return '#bdd7e7';}
+function styleFeature(f){const code=getProvinceCode(f.properties); const count=provinceSummary[code]?.count||0; return {fillColor:getColor(count),weight:1,opacity:1,color:'#fff',fillOpacity:.88};}
+function tooltipHtml(code,fallbackName){const e=provinceSummary[code]; const name=e?.province_name||fallbackName; const count=e?.count||0; return `<div><strong>${name}</strong><br>${currentBrand}: <strong>${count}</strong> punti vendita</div>`}
+function onEachFeature(feature,layer){const code=getProvinceCode(feature.properties); const name=getProvinceName(feature.properties); layer.bindTooltip(tooltipHtml(code,name),{sticky:true}); layer.on({mouseover:(e)=>{const l=e.target; l.setStyle({weight:2,color:'#111827'}); if(!L.Browser.ie&&!L.Browser.opera&&!L.Browser.edge) l.bringToFront();},mouseout:(e)=>geojsonLayer.resetStyle(e.target)});}
+async function loadBrands(){const res=await fetch('/api/brands'); const brands=await res.json(); brandSelect.innerHTML=brands.map(b=>`<option value="${b.brand}">${b.brand}</option>`).join(''); currentBrand=brandSelect.value;}
+async function loadProvinceSummary(){const res=await fetch(`/api/brand/${encodeURIComponent(currentBrand)}/province-summary`); const rows=await res.json(); provinceSummary=Object.fromEntries(rows.map(r=>[r.province_code,r])); totalStoresEl.textContent=rows.reduce((s,r)=>s+r.count,0); provinceCountEl.textContent=rows.length; provinceListEl.innerHTML=rows.map(r=>`<div class="province-item"><div><div><strong>${r.province_name}</strong></div><div class="meta">${r.province_code}</div></div><div class="count">${r.count}</div></div>`).join(''); if(geojsonLayer){geojsonLayer.eachLayer(layer=>{const code=getProvinceCode(layer.feature.properties); const name=getProvinceName(layer.feature.properties); layer.setStyle(styleFeature(layer.feature)); layer.setTooltipContent(tooltipHtml(code,name));});}}
+async function initMap(){const geo=await fetch('https://raw.githubusercontent.com/openpolis/geojson-italy/master/geojson/limits_IT_provinces.geojson').then(r=>r.json()); geojsonLayer=L.geoJSON(geo,{style:styleFeature,onEachFeature}).addTo(map); map.fitBounds(geojsonLayer.getBounds(),{padding:[20,20]});}
+brandSelect.addEventListener('change', async (e)=>{currentBrand=e.target.value; await loadProvinceSummary();});
+(async function(){await loadBrands(); await initMap(); await loadProvinceSummary();})();
+</script>
+</body>
+</html>
