@@ -35,27 +35,18 @@ def estrai_punti_vendita(html):
         "località", "loc.", "frazione", "fraz."
     ]
 
-    parole_da_escludere = [
-        "pavia", "aviano"
+    regioni = [
+        "abruzzo", "basilicata", "calabria", "campania",
+        "emilia romagna", "friuli venezia giulia", "lazio",
+        "liguria", "lombardia", "marche", "molise", "piemonte",
+        "puglia", "sardegna", "sicilia", "toscana",
+        "trentino alto adige", "umbria", "valle d'aosta",
+        "veneto"
     ]
 
-    province_sigle = [
-        "AG", "AL", "AN", "AO", "AR", "AP", "AT", "AV",
-        "BA", "BT", "BL", "BN", "BG", "BI", "BO", "BZ", "BS", "BR",
-        "CA", "CL", "CB", "CI", "CE", "CT", "CZ", "CH", "CO", "CS", "CR", "KR", "CN",
-        "EN", "FM", "FE", "FI", "FG", "FC", "FR",
-        "GE", "GO", "GR",
-        "IM", "IS",
-        "SP", "AQ", "LT", "LE", "LC", "LI", "LO", "LU",
-        "MC", "MN", "MS", "MT", "VS", "ME", "MI", "MO", "MB",
-        "NA", "NO", "NU",
-        "OR",
-        "PD", "PA", "PR", "PV", "PG", "PU", "PE", "PC", "PI", "PT", "PN", "PZ", "PO",
-        "RG", "RA", "RC", "RE", "RI", "RN", "RM", "RO",
-        "SA", "SS", "SV", "SI", "SR", "SO",
-        "TA", "TE", "TR", "TO", "TP", "TN", "TV", "TS",
-        "UD",
-        "VA", "VE", "VB", "VC", "VR", "VV", "VI", "VT"
+    parole_da_escludere = [
+        "home", "punti vendita", "contatti", "privacy",
+        "cookie", "newsletter", "volantino", "login"
     ]
 
     def sembra_indirizzo(riga):
@@ -64,7 +55,10 @@ def estrai_punti_vendita(html):
         if len(riga) < 8:
             return False
 
-        if riga_lower in parole_da_escludere:
+        if riga_lower in regioni:
+            return False
+
+        if any(blocco in riga_lower for blocco in parole_da_escludere):
             return False
 
         return any(
@@ -72,75 +66,48 @@ def estrai_punti_vendita(html):
             for parola in parole_indirizzo
         )
 
-    def sembra_comune_o_provincia(riga):
-        if len(riga) < 3:
-            return False
+    def pulisci_comune(riga):
+        riga = riga.strip()
 
-        if riga.lower() in parole_da_escludere:
-            return False
+        # Se è una regione, non usarla come comune
+        if riga.lower() in regioni:
+            return ""
 
-        # Esempi: "Pavia", "Vittorio Veneto (TV)", "FIVIZZANO - Fraz. ROMETTA (MS)"
-        if any(f"({sigla})" in riga.upper() for sigla in province_sigle):
-            return True
+        # Se è troppo lunga, probabilmente non è un comune
+        if len(riga) > 35:
+            return ""
 
-        # Riga breve senza numeri: spesso è un comune
-        if len(riga) <= 40 and not any(char.isdigit() for char in riga):
-            parole_bloccate = [
-                "home", "punti vendita", "contatti", "privacy",
-                "cookie", "newsletter", "volantino", "login"
-            ]
+        # Se contiene numeri, probabilmente non è un comune
+        if any(char.isdigit() for char in riga):
+            return ""
 
-            if not any(blocco in riga.lower() for blocco in parole_bloccate):
-                return True
+        # Se contiene parole da menu/sito, scartala
+        if any(blocco in riga.lower() for blocco in parole_da_escludere):
+            return ""
 
-        return False
-
-    ultimo_comune = ""
-    ultima_provincia = ""
+        return riga
 
     for i, riga in enumerate(testi):
         riga_pulita = riga.strip()
-        riga_upper = riga_pulita.upper()
-
-        # Se troviamo una riga tipo "Vittorio Veneto (TV)", salviamo comune e provincia
-        provincia_trovata = ""
-        for sigla in province_sigle:
-            if f"({sigla})" in riga_upper:
-                provincia_trovata = sigla
-                break
-
-        if sembra_comune_o_provincia(riga_pulita) and not sembra_indirizzo(riga_pulita):
-            ultimo_comune = riga_pulita
-            ultima_provincia = provincia_trovata
-            continue
 
         if not sembra_indirizzo(riga_pulita):
             continue
 
-        comune = ultimo_comune
-        provincia = ultima_provincia
+        comune = ""
 
-        # Se nelle 3 righe dopo l'indirizzo c'è una città/provincia, la usa
-        for prossima in testi[i + 1:i + 4]:
-            if sembra_comune_o_provincia(prossima) and not sembra_indirizzo(prossima):
-                comune = prossima
+        # Guarda solo le 2 righe dopo l'indirizzo
+        for prossima in testi[i + 1:i + 3]:
+            possibile_comune = pulisci_comune(prossima)
 
-                prossima_upper = prossima.upper()
-                for sigla in province_sigle:
-                    if f"({sigla})" in prossima_upper:
-                        provincia = sigla
-                        break
-
+            if possibile_comune and not sembra_indirizzo(possibile_comune):
+                comune = possibile_comune
                 break
 
-        pezzi_indirizzo = [riga_pulita]
+        indirizzo_completo = riga_pulita
 
         if comune and comune.lower() not in riga_pulita.lower():
-            pezzi_indirizzo.append(comune)
+            indirizzo_completo = f"{riga_pulita}, {comune}"
 
-        indirizzo_completo = ", ".join(pezzi_indirizzo)
-
-        # Evita duplicati
         if any(store["indirizzo_completo"].lower() == indirizzo_completo.lower() for store in stores):
             continue
 
@@ -148,11 +115,12 @@ def estrai_punti_vendita(html):
             "nome": "Di Più",
             "indirizzo": riga_pulita,
             "comune": comune,
-            "provincia": provincia,
+            "provincia": "",
             "indirizzo_completo": indirizzo_completo,
             "azienda": "Di Più"
         })
 
+    return stores
     return stores
 def salva_json(stores):
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
