@@ -48,22 +48,168 @@ label{display:block;font-weight:600;margin-bottom:8px}select{width:100%;padding:
 <script>
 const map = L.map('map').setView([42.8,12.5],6);
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'&copy; OpenStreetMap contributors'}).addTo(map);
+
 const brandSelect=document.getElementById('brandSelect');
 const totalStoresEl=document.getElementById('totalStores');
 const provinceCountEl=document.getElementById('provinceCount');
 const provinceListEl=document.getElementById('provinceList');
-let currentBrand=null, provinceSummary={}, geojsonLayer=null;
-const getProvinceCode=(p)=>{for(const k of ['prov_acr','prov_sigla','prov_code','sigla','province_code','provincia','acr']){if(p&&p[k]) return String(p[k]).trim().toUpperCase()} return '';}
-const getProvinceName=(p)=>{for(const k of ['prov_name','province_name','name','provincia','denominazione_provincia','DEN_PROV','NOME_PROV']){if(p&&p[k]) return String(p[k]).trim()} return 'Provincia';}
-function getColor(c){if(!c) return '#e5e7eb'; if(c>=10) return '#08306b'; if(c>=7) return '#08519c'; if(c>=4) return '#3182bd'; if(c>=2) return '#6baed6'; return '#bdd7e7';}
-function styleFeature(f){const code=getProvinceCode(f.properties); const count=provinceSummary[code]?.count||0; return {fillColor:getColor(count),weight:1,opacity:1,color:'#fff',fillOpacity:.88};}
-function tooltipHtml(code,fallbackName){const e=provinceSummary[code]; const name=e?.province_name||fallbackName; const count=e?.count||0; return `<div><strong>${name}</strong><br>${currentBrand}: <strong>${count}</strong> punti vendita</div>`}
-function onEachFeature(feature,layer){const code=getProvinceCode(feature.properties); const name=getProvinceName(feature.properties); layer.bindTooltip(tooltipHtml(code,name),{sticky:true}); layer.on({mouseover:(e)=>{const l=e.target; l.setStyle({weight:2,color:'#111827'}); if(!L.Browser.ie&&!L.Browser.opera&&!L.Browser.edge) l.bringToFront();},mouseout:(e)=>geojsonLayer.resetStyle(e.target)});}
-async function loadBrands(){const res=await fetch('/api/brands'); const brands=await res.json(); brandSelect.innerHTML=brands.map(b=>`<option value="${b.brand}">${b.brand}</option>`).join(''); currentBrand=brandSelect.value;}
-async function loadProvinceSummary(){const res=await fetch(`/api/brand/${encodeURIComponent(currentBrand)}/province-summary`); const rows=await res.json(); provinceSummary=Object.fromEntries(rows.map(r=>[r.province_code,r])); totalStoresEl.textContent=rows.reduce((s,r)=>s+r.count,0); provinceCountEl.textContent=rows.length; provinceListEl.innerHTML=rows.map(r=>`<div class="province-item"><div><div><strong>${r.province_name}</strong></div><div class="meta">${r.province_code}</div></div><div class="count">${r.count}</div></div>`).join(''); if(geojsonLayer){geojsonLayer.eachLayer(layer=>{const code=getProvinceCode(layer.feature.properties); const name=getProvinceName(layer.feature.properties); layer.setStyle(styleFeature(layer.feature)); layer.setTooltipContent(tooltipHtml(code,name));});}}
-async function initMap(){const geo=await fetch('https://raw.githubusercontent.com/openpolis/geojson-italy/master/geojson/limits_IT_provinces.geojson').then(r=>r.json()); geojsonLayer=L.geoJSON(geo,{style:styleFeature,onEachFeature}).addTo(map); map.fitBounds(geojsonLayer.getBounds(),{padding:[20,20]});}
-brandSelect.addEventListener('change', async (e)=>{currentBrand=e.target.value; await loadProvinceSummary();});
-(async function(){await loadBrands(); await initMap(); await loadProvinceSummary();})();
+
+let currentBrand=null;
+let provinceSummary={};
+let provinceSummaryByName={};
+let geojsonLayer=null;
+
+function normalizeName(value){
+  return String(value || '')
+    .trim()
+    .toLowerCase()
+    .replaceAll("'", "")
+    .replaceAll("’", "")
+    .replaceAll(".", "")
+    .replaceAll("/", " ")
+    .replace(/\s+/g, " ");
+}
+
+const provinceNameAliases = {
+  "massa carrara": "massa-carrara",
+  "forli cesena": "forlì-cesena",
+  "forli/cesena": "forlì-cesena",
+  "regg emilia": "reggio nell'emilia",
+  "reggio emilia": "reggio nell'emilia",
+  "monza brianza": "monza e della brianza",
+  "pesaro": "pesaro e urbino",
+  "pu pesaro urbino": "pesaro e urbino",
+  "(pu)pesaro urbino": "pesaro e urbino"
+};
+
+function canonicalProvinceName(value){
+  const normalized = normalizeName(value);
+  return provinceNameAliases[normalized] || normalized;
+}
+
+const getProvinceCode=(p)=>{
+  for(const k of ['prov_acr','prov_sigla','prov_code','sigla','province_code','provincia','acr']){
+    if(p&&p[k]) return String(p[k]).trim().toUpperCase();
+  }
+  return '';
+};
+
+const getProvinceName=(p)=>{
+  for(const k of ['prov_name','province_name','name','provincia','denominazione_provincia','DEN_PROV','NOME_PROV']){
+    if(p&&p[k]) return String(p[k]).trim();
+  }
+  return 'Provincia';
+};
+
+function getColor(c){
+  if(!c) return '#e5e7eb';
+  if(c>=10) return '#08306b';
+  if(c>=7) return '#08519c';
+  if(c>=4) return '#3182bd';
+  if(c>=2) return '#6baed6';
+  return '#bdd7e7';
+}
+
+function getProvinceData(feature){
+  const code = getProvinceCode(feature.properties);
+  const name = getProvinceName(feature.properties);
+  return provinceSummary[code] || provinceSummaryByName[canonicalProvinceName(name)] || null;
+}
+
+function styleFeature(f){
+  const data = getProvinceData(f);
+  const count = data?.count || 0;
+  return {
+    fillColor:getColor(count),
+    weight:1,
+    opacity:1,
+    color:'#fff',
+    fillOpacity:.88
+  };
+}
+
+function tooltipHtml(code,fallbackName,feature){
+  const e = feature ? getProvinceData(feature) : provinceSummary[code];
+  const name = e?.province_name || fallbackName;
+  const count = e?.count || 0;
+  return `<div><strong>${name}</strong><br>${currentBrand}: <strong>${count}</strong> punti vendita</div>`;
+}
+
+function onEachFeature(feature,layer){
+  const code=getProvinceCode(feature.properties);
+  const name=getProvinceName(feature.properties);
+
+  layer.bindTooltip(tooltipHtml(code,name,feature),{sticky:true});
+
+  layer.on({
+    mouseover:(e)=>{
+      const l=e.target;
+      l.setStyle({weight:2,color:'#111827'});
+      if(!L.Browser.ie&&!L.Browser.opera&&!L.Browser.edge) l.bringToFront();
+    },
+    mouseout:(e)=>geojsonLayer.resetStyle(e.target)
+  });
+}
+
+async function loadBrands(){
+  const res=await fetch('/api/brands');
+  const brands=await res.json();
+
+  brandSelect.innerHTML=brands.map(b=>`<option value="${b.brand}">${b.brand}</option>`).join('');
+  currentBrand=brandSelect.value;
+}
+
+async function loadProvinceSummary(){
+  const res=await fetch(`/api/brand/${encodeURIComponent(currentBrand)}/province-summary`);
+  const rows=await res.json();
+
+  provinceSummary=Object.fromEntries(
+    rows.map(r=>[String(r.province_code || '').trim().toUpperCase(),r])
+  );
+
+  provinceSummaryByName=Object.fromEntries(
+    rows.map(r=>[canonicalProvinceName(r.province_name),r])
+  );
+
+  totalStoresEl.textContent=rows.reduce((s,r)=>s+r.count,0);
+  provinceCountEl.textContent=rows.length;
+
+  provinceListEl.innerHTML=rows.map(r=>`
+    <div class="province-item">
+      <div>
+        <div><strong>${r.province_name}</strong></div>
+        <div class="meta">${r.province_code || ''}</div>
+      </div>
+      <div class="count">${r.count}</div>
+    </div>
+  `).join('');
+
+  if(geojsonLayer){
+    geojsonLayer.eachLayer(layer=>{
+      const code=getProvinceCode(layer.feature.properties);
+      const name=getProvinceName(layer.feature.properties);
+      layer.setStyle(styleFeature(layer.feature));
+      layer.setTooltipContent(tooltipHtml(code,name,layer.feature));
+    });
+  }
+}
+
+async function initMap(){
+  const geo=await fetch('https://raw.githubusercontent.com/openpolis/geojson-italy/master/geojson/limits_IT_provinces.geojson').then(r=>r.json());
+  geojsonLayer=L.geoJSON(geo,{style:styleFeature,onEachFeature}).addTo(map);
+  map.fitBounds(geojsonLayer.getBounds(),{padding:[20,20]});
+}
+
+brandSelect.addEventListener('change', async (e)=>{
+  currentBrand=e.target.value;
+  await loadProvinceSummary();
+});
+
+(async function(){
+  await loadBrands();
+  await initMap();
+  await loadProvinceSummary();
+})();
 </script>
 </body>
 </html>
