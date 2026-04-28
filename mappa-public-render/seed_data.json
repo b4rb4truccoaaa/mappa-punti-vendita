@@ -1,3278 +1,562 @@
 [
   {
-    "nome": "Di Più",
-    "indirizzo": "Via Lodi, 1",
-    "comune": "Pavia",
-    "provincia": "",
-    "indirizzo_completo": "Via Lodi, 1, Pavia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "via Meer, 60",
-    "comune": "Bergamo",
-    "provincia": "",
-    "indirizzo_completo": "via Meer, 60, Bergamo",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Pertini,4A",
-    "comune": "Venezia",
-    "provincia": "",
-    "indirizzo_completo": "Via Pertini,4A, Venezia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Casati,4 angolo via Papina",
-    "comune": "Monza Brianza",
-    "provincia": "",
-    "indirizzo_completo": "Via Casati,4 angolo via Papina, Monza Brianza",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Due Ponti, snc",
-    "comune": "Bologna",
-    "provincia": "",
-    "indirizzo_completo": "Via Due Ponti, snc, Bologna",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Nettunese ang.Via Colli San Paolo, 3 (Zona Colli)",
-    "comune": "Roma",
-    "provincia": "",
-    "indirizzo_completo": "Via Nettunese ang.Via Colli San Paolo, 3 (Zona Colli), Roma",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Milano,160",
-    "comune": "Novara",
-    "provincia": "",
-    "indirizzo_completo": "Via Milano,160, Novara",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Viale dell'industria, n° 54",
-    "comune": "Vicenza",
-    "provincia": "",
-    "indirizzo_completo": "Viale dell'industria, n° 54, Vicenza",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "via Castellana",
-    "comune": "Treviso",
-    "provincia": "",
-    "indirizzo_completo": "via Castellana, Treviso",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "via Della Repubblica,45",
-    "comune": "Massa Carrara",
-    "provincia": "",
-    "indirizzo_completo": "via Della Repubblica,45, Massa Carrara",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Pordenone, 13",
-    "comune": "Pordenone",
-    "provincia": "",
-    "indirizzo_completo": "Via Pordenone, 13",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Toscanini, 11/B",
-    "comune": "Ravenna",
-    "provincia": "",
-    "indirizzo_completo": "Via Toscanini, 11/B, Ravenna",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Manin, 1",
-    "comune": "Verona",
-    "provincia": "",
-    "indirizzo_completo": "Via Manin, 1, Verona",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via S. Pietro Marconi,18",
-    "comune": "Como",
-    "provincia": "",
-    "indirizzo_completo": "Via S. Pietro Marconi,18, Como",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Serassi 5/11",
-    "comune": "Bergamo",
-    "provincia": "",
-    "indirizzo_completo": "Via Serassi 5/11, Bergamo",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Sthendhal, 37",
-    "comune": "Bologna",
-    "provincia": "",
-    "indirizzo_completo": "Via Sthendhal, 37, Bologna",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via P. Caiani,60",
-    "comune": "Firenze",
-    "provincia": "",
-    "indirizzo_completo": "Via P. Caiani,60, Firenze",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Ripalimosani, 2",
-    "comune": "Bologna",
-    "provincia": "",
-    "indirizzo_completo": "Via Ripalimosani, 2, Bologna",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Peveragno, 105",
-    "comune": "Cuneo",
-    "provincia": "",
-    "indirizzo_completo": "Via Peveragno, 105, Cuneo",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Verdi, 60",
-    "comune": "Brescia",
-    "provincia": "",
-    "indirizzo_completo": "Via Verdi, 60, Brescia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Viale Europa, 28",
-    "comune": "Milano",
-    "provincia": "",
-    "indirizzo_completo": "Viale Europa, 28, Milano",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via A.Moro,72",
-    "comune": "Padova",
-    "provincia": "",
-    "indirizzo_completo": "Via A.Moro,72, Padova",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Magenta, snc",
-    "comune": "Varese",
-    "provincia": "",
-    "indirizzo_completo": "Via Magenta, snc, Varese",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "S.S. 233",
-    "comune": "Varese",
-    "provincia": "",
-    "indirizzo_completo": "S.S. 233, Varese",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Isorella, 12/a",
-    "comune": "Brescia",
-    "provincia": "",
-    "indirizzo_completo": "Via Isorella, 12/a, Brescia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Perin, 20/24",
-    "comune": "Vicenza",
-    "provincia": "",
-    "indirizzo_completo": "Via Perin, 20/24, Vicenza",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Campli - Fraz. Campovalano",
-    "comune": "Teramo",
-    "provincia": "",
-    "indirizzo_completo": "Campli - Fraz. Campovalano, Teramo",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via della Fornace, 1",
-    "comune": "Teramo",
-    "provincia": "",
-    "indirizzo_completo": "Via della Fornace, 1, Teramo",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Grisini",
-    "comune": "Pavia",
-    "provincia": "",
-    "indirizzo_completo": "Via Grisini, Pavia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Cacciatori delle Alpi, angolo Via Elvezia",
-    "comune": "Varese",
-    "provincia": "",
-    "indirizzo_completo": "Via Cacciatori delle Alpi, angolo Via Elvezia, Varese",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Bussandri angolo S.S. Padana Inferiore",
-    "comune": "Piacenza",
-    "provincia": "",
-    "indirizzo_completo": "Via Bussandri angolo S.S. Padana Inferiore, Piacenza",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Baciocchi, 4",
-    "comune": "Pisa",
-    "provincia": "",
-    "indirizzo_completo": "Via Baciocchi, 4, Pisa",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "via XX Settembre, 80/D",
-    "comune": "Varese",
-    "provincia": "",
-    "indirizzo_completo": "via XX Settembre, 80/D, Varese",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Torino, 48",
-    "comune": "Novara",
-    "provincia": "",
-    "indirizzo_completo": "Via Torino, 48, Novara",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Viale Vittorio Venerto, snc",
-    "comune": "Cuneo",
-    "provincia": "",
-    "indirizzo_completo": "Viale Vittorio Venerto, snc, Cuneo",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Cimabue, 7",
-    "comune": "Bologna",
-    "provincia": "",
-    "indirizzo_completo": "Via Cimabue, 7, Bologna",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Valcuvia,2",
-    "comune": "Varese",
-    "provincia": "",
-    "indirizzo_completo": "Via Valcuvia,2, Varese",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "via IV Novembre angolo s.p. 209",
-    "comune": "Pavia",
-    "provincia": "",
-    "indirizzo_completo": "via IV Novembre angolo s.p. 209, Pavia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Torino, n. 123/A",
-    "comune": "Pavia",
-    "provincia": "",
-    "indirizzo_completo": "Via Torino, n. 123/A, Pavia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Damiano Chiesa, 24",
-    "comune": "Ancona",
-    "provincia": "",
-    "indirizzo_completo": "Via Damiano Chiesa, 24, Ancona",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Martiri di Felisio n. 53",
-    "comune": "Ravenna",
-    "provincia": "",
-    "indirizzo_completo": "Via Martiri di Felisio n. 53, Ravenna",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Marconi",
-    "comune": "Verona",
-    "provincia": "",
-    "indirizzo_completo": "Via Marconi, Verona",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Fratelli Bandiera, 48",
-    "comune": "Piacenza",
-    "provincia": "",
-    "indirizzo_completo": "Via Fratelli Bandiera, 48, Piacenza",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Piazza del Volontariato, 6",
-    "comune": "Pisa",
-    "provincia": "",
-    "indirizzo_completo": "Piazza del Volontariato, 6, Pisa",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Del Maniscalco, 30",
-    "comune": "Modena",
-    "provincia": "",
-    "indirizzo_completo": "Via Del Maniscalco, 30, Modena",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Borgo Treviso, 138",
-    "comune": "Treviso",
-    "provincia": "",
-    "indirizzo_completo": "Via Borgo Treviso, 138",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "via P.zza franco romano,s/n",
-    "comune": "Torino",
-    "provincia": "",
-    "indirizzo_completo": "via P.zza franco romano,s/n, Torino",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via E. Fermi, 2",
-    "comune": "Treviso",
-    "provincia": "",
-    "indirizzo_completo": "Via E. Fermi, 2, Treviso",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Lambro, 17",
-    "comune": "Como",
-    "provincia": "",
-    "indirizzo_completo": "Via Lambro, 17, Como",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via della Croce, 18",
-    "comune": "Treviso",
-    "provincia": "",
-    "indirizzo_completo": "Via della Croce, 18, Treviso",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "via Parmiggiana, 9",
-    "comune": "Regg. Emilia",
-    "provincia": "",
-    "indirizzo_completo": "via Parmiggiana, 9, Regg. Emilia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via E.Romagna",
-    "comune": "Ravenna",
-    "provincia": "",
-    "indirizzo_completo": "Via E.Romagna, Ravenna",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Turati (Strada Statale 55 dei Giovi)",
-    "comune": "Pavia",
-    "provincia": "",
-    "indirizzo_completo": "Via Turati (Strada Statale 55 dei Giovi), Pavia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Dante Alighieri, 40/B",
-    "comune": "Ferrara",
-    "provincia": "",
-    "indirizzo_completo": "Via Dante Alighieri, 40/B, Ferrara",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Roma,320",
-    "comune": "Padova",
-    "provincia": "",
-    "indirizzo_completo": "Via Roma,320, Padova",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Venezia,10",
-    "comune": "Udine",
-    "provincia": "",
-    "indirizzo_completo": "Via Venezia,10, Udine",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via delle Acacie, 12",
-    "comune": "Milano",
-    "provincia": "",
-    "indirizzo_completo": "Via delle Acacie, 12, Milano",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Marzolino I, 265",
-    "comune": "Forlì Cesena",
-    "provincia": "",
-    "indirizzo_completo": "Via Marzolino I, 265, Forlì Cesena",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Negrelli,24",
-    "comune": "Forlì/Cesena",
-    "provincia": "",
-    "indirizzo_completo": "Via Negrelli,24, Forlì/Cesena",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Einaudi, snc",
-    "comune": "Cuneo",
-    "provincia": "",
-    "indirizzo_completo": "Via Einaudi, snc, Cuneo",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Località Vernetto, SS 25",
-    "comune": "Torino",
-    "provincia": "",
-    "indirizzo_completo": "Località Vernetto, SS 25, Torino",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Consorzio, 19",
-    "comune": "Brescia",
-    "provincia": "",
-    "indirizzo_completo": "Via Consorzio, 19, Brescia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Pescara, 223",
-    "comune": "Chieti",
-    "provincia": "",
-    "indirizzo_completo": "Via Pescara, 223, Chieti",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Gravellona, 2",
-    "comune": "Pavia",
-    "provincia": "",
-    "indirizzo_completo": "Via Gravellona, 2, Pavia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via G. di Vittorio, 1",
-    "comune": "Perugia",
-    "provincia": "",
-    "indirizzo_completo": "Via G. di Vittorio, 1, Perugia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via S.Donato, 22/A",
-    "comune": "Padova",
-    "provincia": "",
-    "indirizzo_completo": "Via S.Donato, 22/A, Padova",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Strada Statale Aretina Nord, 125 - Località Pieve al Toppo",
-    "comune": "Arezzo",
-    "provincia": "",
-    "indirizzo_completo": "Strada Statale Aretina Nord, 125 - Località Pieve al Toppo, Arezzo",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via XXIX Ottobre ang.Div.Julia",
-    "comune": "Udine",
-    "provincia": "",
-    "indirizzo_completo": "Via XXIX Ottobre ang.Div.Julia, Udine",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "S.S. Romea, 13",
-    "comune": "Ferrara",
-    "provincia": "",
-    "indirizzo_completo": "S.S. Romea, 13, Ferrara",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via G. Donizetti n. 3-5",
-    "comune": "Ferrara",
-    "provincia": "",
-    "indirizzo_completo": "Via G. Donizetti n. 3-5, Ferrara",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Ausa, 118/120",
-    "comune": "Rimini",
-    "provincia": "",
-    "indirizzo_completo": "Via Ausa, 118/120, Rimini",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Isonzo",
-    "comune": "Udine",
-    "provincia": "",
-    "indirizzo_completo": "Via Isonzo, Udine",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Battisti-Strada Prov., 82",
-    "comune": "Bergamo",
-    "provincia": "",
-    "indirizzo_completo": "Via Battisti-Strada Prov., 82, Bergamo",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Paolo Borsellino, 20/22",
-    "comune": "Bologna",
-    "provincia": "",
-    "indirizzo_completo": "Via Paolo Borsellino, 20/22, Bologna",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Cesare Battisti",
-    "comune": "Varese",
-    "provincia": "",
-    "indirizzo_completo": "Via Cesare Battisti, Varese",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Padre Bevilacqua,3- angolo mini tangenziale",
-    "comune": "Brescia",
-    "provincia": "",
-    "indirizzo_completo": "Via Padre Bevilacqua,3- angolo mini tangenziale, Brescia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via per Seregno,30",
-    "comune": "Monza Brianza",
-    "provincia": "",
-    "indirizzo_completo": "Via per Seregno,30, Monza Brianza",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Karl Marx, 10",
-    "comune": "Monza Brianza",
-    "provincia": "",
-    "indirizzo_completo": "Via Karl Marx, 10, Monza Brianza",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Diano Calderina - Loc. Fornace Chinni (no numero civico)",
-    "comune": "Imperia",
-    "provincia": "",
-    "indirizzo_completo": "Via Diano Calderina - Loc. Fornace Chinni (no numero civico), Imperia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via della Vittoria, 20",
-    "comune": "Firenze",
-    "provincia": "",
-    "indirizzo_completo": "Via della Vittoria, 20, Firenze",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "ss 42 N° 268",
-    "comune": "Bergamo",
-    "provincia": "",
-    "indirizzo_completo": "ss 42 N° 268, Bergamo",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Medaglie d'oro/via Laghi 86",
-    "comune": "Ravenna",
-    "provincia": "",
-    "indirizzo_completo": "Via Medaglie d'oro/via Laghi 86, Ravenna",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Spilimbergo, 210",
-    "comune": "Udine",
-    "provincia": "",
-    "indirizzo_completo": "Via Spilimbergo, 210, Udine",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Busto Arsizio",
-    "comune": "Varese",
-    "provincia": "",
-    "indirizzo_completo": "Via Busto Arsizio, Varese",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "via Galileo Galilei, 26",
-    "comune": "(PU)Pesaro-Urbino",
-    "provincia": "",
-    "indirizzo_completo": "via Galileo Galilei, 26, (PU)Pesaro-Urbino",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "strada Capelli 1,località Pataro",
-    "comune": "Parma",
-    "provincia": "",
-    "indirizzo_completo": "strada Capelli 1,località Pataro, Parma",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Fiorentina, 96/A",
-    "comune": "Firenze",
-    "provincia": "",
-    "indirizzo_completo": "Via Fiorentina, 96/A, Firenze",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via C.Colombo, 9",
-    "comune": "Forlì",
-    "provincia": "",
-    "indirizzo_completo": "Via C.Colombo, 9, Forlì",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Enrico Fermi, 11",
-    "comune": "Venezia",
-    "provincia": "",
-    "indirizzo_completo": "Via Enrico Fermi, 11, Venezia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Ex Tramvia",
-    "comune": "Ravenna",
-    "provincia": "",
-    "indirizzo_completo": "Via Ex Tramvia, Ravenna",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Preite,21",
-    "comune": "Verona",
-    "provincia": "",
-    "indirizzo_completo": "Via Preite,21, Verona",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Mameli,2",
-    "comune": "Brescia",
-    "provincia": "",
-    "indirizzo_completo": "Via Mameli,2, Brescia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Piazza dei Pescatori,fraz.di Moconesi",
-    "comune": "Genova",
-    "provincia": "",
-    "indirizzo_completo": "Piazza dei Pescatori,fraz.di Moconesi, Genova",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Qurena, 230",
-    "comune": "Brescia",
-    "provincia": "",
-    "indirizzo_completo": "Via Qurena, 230, Brescia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Viale Ticino, 83",
-    "comune": "Varese",
-    "provincia": "",
-    "indirizzo_completo": "Viale Ticino, 83, Varese",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via montesanto, 96",
-    "comune": "Gorizia",
-    "provincia": "",
-    "indirizzo_completo": "Via montesanto, 96, Gorizia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Pavone, 53/a",
-    "comune": "Brescia",
-    "provincia": "",
-    "indirizzo_completo": "Via Pavone, 53/a, Brescia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Udine, 24",
-    "comune": "Gorizia",
-    "provincia": "",
-    "indirizzo_completo": "Via Udine, 24, Gorizia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Gaetano Donizetti, 45",
-    "comune": "Bergamo",
-    "provincia": "",
-    "indirizzo_completo": "Via Gaetano Donizetti, 45, Bergamo",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Strada del Barocchio, 81",
-    "comune": "Torino",
-    "provincia": "",
-    "indirizzo_completo": "Strada del Barocchio, 81, Torino",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via La Salle, 135",
-    "comune": "Torino",
-    "provincia": "",
-    "indirizzo_completo": "Via La Salle, 135, Torino",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "via Goito,38/b",
-    "comune": "Mantova",
-    "provincia": "",
-    "indirizzo_completo": "via Goito,38/b, Mantova",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Pianette, 33",
-    "comune": "Brescia",
-    "provincia": "",
-    "indirizzo_completo": "Via Pianette, 33, Brescia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "via Goito,snc",
-    "comune": "Bologna",
-    "provincia": "",
-    "indirizzo_completo": "via Goito,snc, Bologna",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Provinciale , 205",
-    "comune": "Torino",
-    "provincia": "",
-    "indirizzo_completo": "Via Provinciale , 205, Torino",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "via Europa, 17",
-    "comune": "Brescia",
-    "provincia": "",
-    "indirizzo_completo": "via Europa, 17, Brescia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Enrico Fermi, 519",
-    "comune": "Varese",
-    "provincia": "",
-    "indirizzo_completo": "Via Enrico Fermi, 519, Varese",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Crosere, 1",
-    "comune": "Udine",
-    "provincia": "",
-    "indirizzo_completo": "Via Crosere, 1, Udine",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Piazza Mateotti, 11",
-    "comune": "Udine",
-    "provincia": "",
-    "indirizzo_completo": "Piazza Mateotti, 11, Udine",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Viale Piacenza",
-    "comune": "Lodi",
-    "provincia": "",
-    "indirizzo_completo": "Viale Piacenza, Lodi",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Ragazzi del 99, 53/D",
-    "comune": "Brescia",
-    "provincia": "",
-    "indirizzo_completo": "Via Ragazzi del 99, 53/D, Brescia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "via Vallassina, 13/a",
-    "comune": "Como",
-    "provincia": "",
-    "indirizzo_completo": "via Vallassina, 13/a, Como",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via circonvallazione 28/C",
-    "comune": "Venezia",
-    "provincia": "",
-    "indirizzo_completo": "Via circonvallazione 28/C, Venezia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Pordenone ang. Via Cairoli, 2",
-    "comune": "Pordenone",
-    "provincia": "",
-    "indirizzo_completo": "Via Pordenone ang. Via Cairoli, 2",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via C.A.Dalla Chiesa, 1",
-    "comune": "Cuneo",
-    "provincia": "",
-    "indirizzo_completo": "Via C.A.Dalla Chiesa, 1, Cuneo",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Damiano Chiesa, snc",
-    "comune": "Milano",
-    "provincia": "",
-    "indirizzo_completo": "Via Damiano Chiesa, snc, Milano",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "strada statale,35",
-    "comune": "Varese",
-    "provincia": "",
-    "indirizzo_completo": "strada statale,35, Varese",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "via F.lli Cairoli, 23/35",
-    "comune": "Pavia",
-    "provincia": "",
-    "indirizzo_completo": "via F.lli Cairoli, 23/35, Pavia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Tempietto, Strada Provinciale 1",
-    "comune": "Belluno",
-    "provincia": "",
-    "indirizzo_completo": "Via Tempietto, Strada Provinciale 1, Belluno",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Provinciale,55",
-    "comune": "Varese",
-    "provincia": "",
-    "indirizzo_completo": "Via Provinciale,55, Varese",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Miranese, 86",
-    "comune": "Venezia",
-    "provincia": "",
-    "indirizzo_completo": "Via Miranese, 86, Venezia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Reale, 290",
-    "comune": "Ravenna",
-    "provincia": "",
-    "indirizzo_completo": "Via Reale, 290, Ravenna",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Enrico Toti, 63",
-    "comune": "Modena",
-    "provincia": "",
-    "indirizzo_completo": "Via Enrico Toti, 63, Modena",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Statale 16 Adriatica, 169",
-    "comune": "Rimini",
-    "provincia": "",
-    "indirizzo_completo": "Via Statale 16 Adriatica, 169, Rimini",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Emilia Ovest, 386",
-    "comune": "Modena",
-    "provincia": "",
-    "indirizzo_completo": "Via Emilia Ovest, 386, Modena",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Piave, 98",
-    "comune": "Modena",
-    "provincia": "",
-    "indirizzo_completo": "Via Piave, 98, Modena",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "via Bruno Buozzi",
-    "comune": "Torino",
-    "provincia": "",
-    "indirizzo_completo": "via Bruno Buozzi, Torino",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "via Trieste 8,angolo via Langhe",
-    "comune": "Cuneo",
-    "provincia": "",
-    "indirizzo_completo": "via Trieste 8,angolo via Langhe, Cuneo",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Pergola, S/n",
-    "comune": "Brescia",
-    "provincia": "",
-    "indirizzo_completo": "Via Pergola, S/n, Brescia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "via Ca' Oddo, 34 H",
-    "comune": "Padova",
-    "provincia": "",
-    "indirizzo_completo": "via Ca' Oddo, 34 H, Padova",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "viale Santa Maria delleVertighe,2/d Vertighe, snc",
-    "comune": "Arezzo",
-    "provincia": "",
-    "indirizzo_completo": "viale Santa Maria delleVertighe,2/d Vertighe, snc, Arezzo",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Appennini, 32",
-    "comune": "Fermo",
-    "provincia": "",
-    "indirizzo_completo": "Via Appennini, 32, Fermo",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Asti Mare, 55",
-    "comune": "Asti",
-    "provincia": "",
-    "indirizzo_completo": "Via Asti Mare, 55",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Arti e Mestieri, 15",
-    "comune": "Firenze",
-    "provincia": "",
-    "indirizzo_completo": "Via Arti e Mestieri, 15, Firenze",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "via S.S Adriatica ang. Via Honorati",
-    "comune": "Ancona",
-    "provincia": "",
-    "indirizzo_completo": "via S.S Adriatica ang. Via Honorati, Ancona",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Cassia Sud, 336/B",
-    "comune": "Siena",
-    "provincia": "",
-    "indirizzo_completo": "Via Cassia Sud, 336/B, Siena",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Meuccio Ruini,24",
-    "comune": "Arezzo",
-    "provincia": "",
-    "indirizzo_completo": "Via Meuccio Ruini,24, Arezzo",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via XXV Aprile, 20",
-    "comune": "Verona",
-    "provincia": "",
-    "indirizzo_completo": "Via XXV Aprile, 20, Verona",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Valeriana, 127",
-    "comune": "Sondrio",
-    "provincia": "",
-    "indirizzo_completo": "Via Valeriana, 127, Sondrio",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Momo,120",
-    "comune": "Novara",
-    "provincia": "",
-    "indirizzo_completo": "Via Momo,120, Novara",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Gramsci, 8",
-    "comune": "Vercelli",
-    "provincia": "",
-    "indirizzo_completo": "Via Gramsci, 8, Vercelli",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "via Risorgimento,31",
-    "comune": "Milano",
-    "provincia": "",
-    "indirizzo_completo": "via Risorgimento,31, Milano",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Campoformido, 63",
-    "comune": "Udine",
-    "provincia": "",
-    "indirizzo_completo": "Via Campoformido, 63, Udine",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Torino, 32",
-    "comune": "Torino",
-    "provincia": "",
-    "indirizzo_completo": "Via Torino, 32",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Giardini Sud, 65",
-    "comune": "Modena",
-    "provincia": "",
-    "indirizzo_completo": "Via Giardini Sud, 65, Modena",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Petrarca, 37",
-    "comune": "Firenze",
-    "provincia": "",
-    "indirizzo_completo": "Via Petrarca, 37, Firenze",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Strada della Fabreccia, 1/1",
-    "comune": "pesaro",
-    "provincia": "",
-    "indirizzo_completo": "Strada della Fabreccia, 1/1, pesaro",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Caravaggio, 277",
-    "comune": "Pescara",
-    "provincia": "",
-    "indirizzo_completo": "Via Caravaggio, 277, Pescara",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Rigopiano, 133",
-    "comune": "Pescara",
-    "provincia": "",
-    "indirizzo_completo": "Via Rigopiano, 133, Pescara",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Pietrasantina, 26",
-    "comune": "Pisa",
-    "provincia": "",
-    "indirizzo_completo": "Via Pietrasantina, 26, Pisa",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via XX Settembre",
-    "comune": "Ferrara",
-    "provincia": "",
-    "indirizzo_completo": "Via XX Settembre, Ferrara",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Camporcioni, snc",
-    "comune": "pistoia",
-    "provincia": "",
-    "indirizzo_completo": "Via Camporcioni, snc, pistoia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "via Del Seminario",
-    "comune": "Massa Carrara",
-    "provincia": "",
-    "indirizzo_completo": "via Del Seminario, Massa Carrara",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "VALDILANA, frazione Ponzone",
-    "comune": "Biella",
-    "provincia": "",
-    "indirizzo_completo": "VALDILANA, frazione Ponzone, Biella",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Provinciale, 52",
-    "comune": "Biella",
-    "provincia": "",
-    "indirizzo_completo": "Via Provinciale, 52, Biella",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Guazzi, 15/17",
-    "comune": "Arezzo",
-    "provincia": "",
-    "indirizzo_completo": "Via Guazzi, 15/17, Arezzo",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Vallada, 8",
-    "comune": "Pordenone",
-    "provincia": "",
-    "indirizzo_completo": "Via Vallada, 8, Pordenone",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Viale Trieste, 49",
-    "comune": "Venezia",
-    "provincia": "",
-    "indirizzo_completo": "Viale Trieste, 49, Venezia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via per Iolo - Loc. Tobbiana",
-    "comune": "Prato",
-    "provincia": "",
-    "indirizzo_completo": "Via per Iolo - Loc. Tobbiana, Prato",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Montalbano, 404/3",
-    "comune": "Pistoia",
-    "provincia": "",
-    "indirizzo_completo": "Via Montalbano, 404/3, Pistoia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Grandi, 30",
-    "comune": "Ravenna",
-    "provincia": "",
-    "indirizzo_completo": "Via Grandi, 30, Ravenna",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "via Dei Poggi,58",
-    "comune": "Ravenna",
-    "provincia": "",
-    "indirizzo_completo": "via Dei Poggi,58, Ravenna",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via André Marie Ampére",
-    "comune": "Reggio Emilia",
-    "provincia": "",
-    "indirizzo_completo": "Via André Marie Ampére, Reggio Emilia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Bandini, 29",
-    "comune": "Regg. Emilia",
-    "provincia": "",
-    "indirizzo_completo": "Via Bandini, 29, Regg. Emilia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Ex S.S.54, 53",
-    "comune": "Udine",
-    "provincia": "",
-    "indirizzo_completo": "Via Ex S.S.54, 53, Udine",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Lucio Lando,47",
-    "comune": "Rimini",
-    "provincia": "",
-    "indirizzo_completo": "Via Lucio Lando,47, Rimini",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Marte, 26",
-    "comune": "Rimini",
-    "provincia": "",
-    "indirizzo_completo": "Via Marte, 26, Rimini",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "via Lazzaretto,snc",
-    "comune": "Vicenza",
-    "provincia": "",
-    "indirizzo_completo": "via Lazzaretto,snc, Vicenza",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Roma Via Boccea",
-    "comune": "Roma",
-    "provincia": "",
-    "indirizzo_completo": "Roma Via Boccea",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "via Boccea, 457-angolo Costanzo Guglielmi",
-    "comune": "Roma",
-    "provincia": "",
-    "indirizzo_completo": "via Boccea, 457-angolo Costanzo Guglielmi, Roma",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Roma via Carmine",
-    "comune": "Roma",
-    "provincia": "",
-    "indirizzo_completo": "Roma via Carmine",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "via CarmineCalo' nn4-6-10/ angolo di Selva Candida",
-    "comune": "Roma",
-    "provincia": "",
-    "indirizzo_completo": "via CarmineCalo' nn4-6-10/ angolo di Selva Candida, Roma",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Garibaldi, ang.Marconi",
-    "comune": "Gorizia",
-    "provincia": "",
-    "indirizzo_completo": "Via Garibaldi, ang.Marconi, Gorizia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "via Silvio Pellico, 10",
-    "comune": "Milano",
-    "provincia": "",
-    "indirizzo_completo": "via Silvio Pellico, 10, Milano",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Emilia ,187",
-    "comune": "Piacenza",
-    "provincia": "",
-    "indirizzo_completo": "Via Emilia ,187, Piacenza",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Renzi",
-    "comune": "Ravenna",
-    "provincia": "",
-    "indirizzo_completo": "Via Renzi, Ravenna",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Viale Repubblica",
-    "comune": "Pordenone",
-    "provincia": "",
-    "indirizzo_completo": "Viale Repubblica, Pordenone",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Roma, 187",
-    "comune": "Venezia",
-    "provincia": "",
-    "indirizzo_completo": "Via Roma, 187, Venezia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Provinciale, 3",
-    "comune": "Torino",
-    "provincia": "",
-    "indirizzo_completo": "Via Provinciale, 3, Torino",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Libertà, 57",
-    "comune": "Verona",
-    "provincia": "",
-    "indirizzo_completo": "Via Libertà, 57, Verona",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via del Donatore, 291",
-    "comune": "Padova",
-    "provincia": "",
-    "indirizzo_completo": "Via del Donatore, 291, Padova",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Nazionale 80/81",
-    "comune": "Udine",
-    "provincia": "",
-    "indirizzo_completo": "Via Nazionale 80/81, Udine",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "S.S. Romea, 72/A",
-    "comune": "Ferrara",
-    "provincia": "",
-    "indirizzo_completo": "S.S. Romea, 72/A, Ferrara",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Umbra snc",
-    "comune": "Perugia",
-    "provincia": "",
-    "indirizzo_completo": "Via Umbra snc, Perugia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "via Mirabello 2/a",
-    "comune": "(PU)Pesaro-Urbino",
-    "provincia": "",
-    "indirizzo_completo": "via Mirabello 2/a, (PU)Pesaro-Urbino",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Cà Donà, 100/H",
-    "comune": "Rovigo",
-    "provincia": "",
-    "indirizzo_completo": "Via Cà Donà, 100/H, Rovigo",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Ionio, 15/17 angolo Via Adriatica",
-    "comune": "Forlì Cesena",
-    "provincia": "",
-    "indirizzo_completo": "Via Ionio, 15/17 angolo Via Adriatica, Forlì Cesena",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Emilia Pavese, 31/A",
-    "comune": "Piacenza",
-    "provincia": "",
-    "indirizzo_completo": "Via Emilia Pavese, 31/A, Piacenza",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Galliera nord, 271",
-    "comune": "Bologna",
-    "provincia": "",
-    "indirizzo_completo": "Via Galliera nord, 271, Bologna",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Pitagora, 1",
-    "comune": "Livorno",
-    "provincia": "",
-    "indirizzo_completo": "Via Pitagora, 1, Livorno",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Viale Zuccherificio, 4",
-    "comune": "Pordenone",
-    "provincia": "",
-    "indirizzo_completo": "Viale Zuccherificio, 4, Pordenone",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Diaz, 13",
-    "comune": "Brescia",
-    "provincia": "",
-    "indirizzo_completo": "Via Diaz, 13, Brescia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via San Martino",
-    "comune": "Treviso",
-    "provincia": "",
-    "indirizzo_completo": "Via San Martino, Treviso",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via SS 221",
-    "comune": "Ferrara",
-    "provincia": "",
-    "indirizzo_completo": "Via SS 221, Ferrara",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Variante Aurelia,40",
-    "comune": "La Spezia",
-    "provincia": "",
-    "indirizzo_completo": "Via Variante Aurelia,40, La Spezia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via I° Maggio",
-    "comune": "Gorizia",
-    "provincia": "",
-    "indirizzo_completo": "Via I° Maggio, Gorizia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "via Guglielmo Marconi",
-    "comune": "Vicenza",
-    "provincia": "",
-    "indirizzo_completo": "via Guglielmo Marconi, Vicenza",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Rovereto, 96",
-    "comune": "Vicenza",
-    "provincia": "",
-    "indirizzo_completo": "Via Rovereto, 96, Vicenza",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via delle Rose, 1",
-    "comune": "Latina",
-    "provincia": "",
-    "indirizzo_completo": "Via delle Rose, 1, Latina",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Severino Menè, 28",
-    "comune": "Ancona",
-    "provincia": "",
-    "indirizzo_completo": "Via Severino Menè, 28, Ancona",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via dei Colli ang. Via Madre Teresa di Calcutta",
-    "comune": "Firenze",
-    "provincia": "",
-    "indirizzo_completo": "Via dei Colli ang. Via Madre Teresa di Calcutta, Firenze",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Papa Giovanni XXIII,123",
-    "comune": "Padova",
-    "provincia": "",
-    "indirizzo_completo": "Via Papa Giovanni XXIII,123, Padova",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via delle Industrie, 31",
-    "comune": "Verona",
-    "provincia": "",
-    "indirizzo_completo": "Via delle Industrie, 31, Verona",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Madonna di Loreto, 26",
-    "comune": "Viterbo",
-    "provincia": "",
-    "indirizzo_completo": "Via Madonna di Loreto, 26, Viterbo",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Risorgimento,24",
-    "comune": "Vicenza",
-    "provincia": "",
-    "indirizzo_completo": "Via Risorgimento,24, Vicenza",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Dante Alighieri, 126",
-    "comune": "Treviso",
-    "provincia": "",
-    "indirizzo_completo": "Via Dante Alighieri, 126, Treviso",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via F.lli Fontanot, 10",
-    "comune": "Gorizia",
-    "provincia": "",
-    "indirizzo_completo": "Via F.lli Fontanot, 10, Gorizia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Silvio Pellico",
-    "comune": "Bergamo",
-    "provincia": "",
-    "indirizzo_completo": "Via Silvio Pellico, Bergamo",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Morolense, km 6+300",
-    "comune": "Frosinone",
-    "provincia": "",
-    "indirizzo_completo": "Via Morolense, km 6+300, Frosinone",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Matteotti, 19",
-    "comune": "Udine",
-    "provincia": "",
-    "indirizzo_completo": "Via Matteotti, 19, Udine",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Alfonsine, snc",
-    "comune": "Terni",
-    "provincia": "",
-    "indirizzo_completo": "Via Alfonsine, snc, Terni",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Passo Buole, 170",
-    "comune": "Torino",
-    "provincia": "",
-    "indirizzo_completo": "Via Passo Buole, 170, Torino",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Negarville",
-    "comune": "Torino",
-    "provincia": "",
-    "indirizzo_completo": "Via Negarville, Torino",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Caraglio,21",
-    "comune": "Torino",
-    "provincia": "",
-    "indirizzo_completo": "Via Caraglio,21, Torino",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via San Pelajo, 126/h",
-    "comune": "Treviso",
-    "provincia": "",
-    "indirizzo_completo": "Via San Pelajo, 126/h, Treviso",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via mazzini,70",
-    "comune": "Milano",
-    "provincia": "",
-    "indirizzo_completo": "Via mazzini,70, Milano",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via de Bachino Villan, 2",
-    "comune": "Trieste",
-    "provincia": "",
-    "indirizzo_completo": "Via de Bachino Villan, 2, Trieste",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Del Destriero",
-    "comune": "Trieste",
-    "provincia": "",
-    "indirizzo_completo": "Via Del Destriero, Trieste",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via IV Novembre",
-    "comune": "Varese",
-    "provincia": "",
-    "indirizzo_completo": "Via IV Novembre, Varese",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Mantova,91",
-    "comune": "Udine",
-    "provincia": "",
-    "indirizzo_completo": "Via Mantova,91, Udine",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "via Guglielmo Marconi",
-    "comune": "Milano",
-    "provincia": "",
-    "indirizzo_completo": "via Guglielmo Marconi, Milano",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Corso Amedeo Avogadro di Quaregna, 1",
-    "comune": "Vercelli",
-    "provincia": "",
-    "indirizzo_completo": "Corso Amedeo Avogadro di Quaregna, 1, Vercelli",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Sempione, 41",
-    "comune": "Varese",
-    "provincia": "",
-    "indirizzo_completo": "Via Sempione, 41, Varese",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Murari Bra, 49",
-    "comune": "Verona",
-    "provincia": "",
-    "indirizzo_completo": "Via Murari Bra, 49, Verona",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Zeila, 12",
-    "comune": "Verona",
-    "provincia": "",
-    "indirizzo_completo": "Via Zeila, 12, Verona",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "piazza Vinco,1",
-    "comune": "Verona",
-    "provincia": "",
-    "indirizzo_completo": "piazza Vinco,1, Verona",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Roveggia, 124",
-    "comune": "Verona",
-    "provincia": "",
-    "indirizzo_completo": "Via Roveggia, 124, Verona",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Beato Angelico,5",
-    "comune": "Firenze",
-    "provincia": "",
-    "indirizzo_completo": "Via Beato Angelico,5, Firenze",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Quadri, 77",
-    "comune": "Vicenza",
-    "provincia": "",
-    "indirizzo_completo": "Via Quadri, 77, Vicenza",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Provinciale Vicarese, 189",
-    "comune": "Pisa",
-    "provincia": "",
-    "indirizzo_completo": "Via Provinciale Vicarese, 189, Pisa",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via dell'Industria",
-    "comune": "Milano",
-    "provincia": "",
-    "indirizzo_completo": "Via dell'Industria, Milano",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via per Spilamberto, 1557",
-    "comune": "Modena",
-    "provincia": "",
-    "indirizzo_completo": "Via per Spilamberto, 1557, Modena",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Strada Stratale Marecchia",
-    "comune": "Rimini",
-    "provincia": "",
-    "indirizzo_completo": "Strada Stratale Marecchia, Rimini",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Matteotti, 101",
-    "comune": "Padova",
-    "provincia": "",
-    "indirizzo_completo": "Via Matteotti, 101, Padova",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Roccaforte",
-    "comune": "Cuneo",
-    "provincia": "",
-    "indirizzo_completo": "Via Roccaforte, Cuneo",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "via POSTIOMA, 69",
-    "comune": "Treviso",
-    "provincia": "",
-    "indirizzo_completo": "via POSTIOMA, 69, Treviso",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Vallata, 9 - 31029 Vittorio Veneto (TV)",
-    "comune": "Treviso",
-    "provincia": "",
-    "indirizzo_completo": "Via Vallata, 9 - 31029 Vittorio Veneto (TV), Treviso",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Verdi, 2",
-    "comune": "Torino",
-    "provincia": "",
-    "indirizzo_completo": "Via Verdi, 2, Torino",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via F. Gonzanga,73",
-    "comune": "Mantova",
-    "provincia": "",
-    "indirizzo_completo": "Via F. Gonzanga,73, Mantova",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Dante, 157",
-    "comune": "Brescia",
-    "provincia": "",
-    "indirizzo_completo": "Via Dante, 157, Brescia",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Risorgimento,86",
-    "comune": "Bologna",
-    "provincia": "",
-    "indirizzo_completo": "Via Risorgimento,86, Bologna",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via piave, 3",
-    "comune": "TV",
-    "provincia": "",
-    "indirizzo_completo": "Via piave, 3, TV",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Berlinguer, 102",
-    "comune": "BO",
-    "provincia": "",
-    "indirizzo_completo": "Via Berlinguer, 102, BO",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "via delle industrie, s/n",
-    "comune": "CR",
-    "provincia": "",
-    "indirizzo_completo": "via delle industrie, s/n, CR",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "via Giarre di Sicilia, 2",
-    "comune": "VI",
-    "provincia": "",
-    "indirizzo_completo": "via Giarre di Sicilia, 2",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Nazionale, 153",
-    "comune": "BO",
-    "provincia": "",
-    "indirizzo_completo": "Via Nazionale, 153, BO",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Romana, 71",
-    "comune": "PG",
-    "provincia": "",
-    "indirizzo_completo": "Via Romana, 71, PG",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Frascineto, 2",
-    "comune": "RM",
-    "provincia": "",
-    "indirizzo_completo": "Via Frascineto, 2, RM",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via della Pisana, 475",
-    "comune": "RM",
-    "provincia": "",
-    "indirizzo_completo": "Via della Pisana, 475, RM",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Pietro Gasparri, 92",
-    "comune": "RM",
-    "provincia": "",
-    "indirizzo_completo": "Via Pietro Gasparri, 92, RM",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via della Cecchignola, 159",
-    "comune": "RM",
-    "provincia": "",
-    "indirizzo_completo": "Via della Cecchignola, 159, RM",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via delle Vigne, 28",
-    "comune": "VT",
-    "provincia": "",
-    "indirizzo_completo": "Via delle Vigne, 28, VT",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Molinetto, 1",
-    "comune": "VA",
-    "provincia": "",
-    "indirizzo_completo": "Via Molinetto, 1, VA",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Galimberti, 20",
-    "comune": "TO",
-    "provincia": "",
-    "indirizzo_completo": "Via Galimberti, 20, TO",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Verdi,15",
-    "comune": "TO",
-    "provincia": "",
-    "indirizzo_completo": "Via Verdi,15, TO",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via M. L. King, 2",
-    "comune": "MB",
-    "provincia": "",
-    "indirizzo_completo": "Via M. L. King, 2, MB",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "FIVIZZANO - Fraz. ROMETTA (MS)",
-    "comune": "MS",
-    "provincia": "",
-    "indirizzo_completo": "FIVIZZANO - Fraz. ROMETTA (MS)",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Località Il Piano, 20",
-    "comune": "MS",
-    "provincia": "",
-    "indirizzo_completo": "Località Il Piano, 20, MS",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Di Più",
-    "indirizzo": "Via Michelino da Besozzo,20",
-    "comune": "VA",
-    "provincia": "",
-    "indirizzo_completo": "Via Michelino da Besozzo,20, VA",
-    "azienda": "Di Più",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Corso Brescia, 51, 10100 Torino TO",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Corso Brescia, 51, 10100 Torino TO, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Passo Antiochia, 1/r, 16129 Genova GE",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Passo Antiochia, 1/r, 16129 Genova GE, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Corso Cristoforo Colombo, 4, 16035 Rapallo GE",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Corso Cristoforo Colombo, 4, 16035 Rapallo GE, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Corso IV Novembre, 151, 16030 Cogorno GE",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Corso IV Novembre, 151, 16030 Cogorno GE, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Piazza Guala, 147, 10100 Torino TO",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Piazza Guala, 147, 10100 Torino TO, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Piazza Carlo Montanari, 137 C, 10100 Torino TO",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Piazza Carlo Montanari, 137 C, 10100 Torino TO, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Piazza Raffaele Sopranis, 7/r, 16126 Genova GE",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Piazza Raffaele Sopranis, 7/r, 16126 Genova GE, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Strada Statale dei Giovi, San Martino Siccomario",
-    "comune": "martedì",
-    "provincia": "",
-    "indirizzo_completo": "Basko Strada Statale dei Giovi, San Martino Siccomario, martedì",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Strada statale dei Giovi ,6 27043 San Martino Siccomario PV",
-    "comune": "martedì",
-    "provincia": "",
-    "indirizzo_completo": "Strada statale dei Giovi ,6 27043 San Martino Siccomario PV, martedì",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Asti, Santena",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Asti, Santena, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Asti, 45, 10026 Santena TO",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Via Asti, 45, 10026 Santena TO, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Aurelia Bogliasco",
-    "comune": "martedì",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Aurelia Bogliasco, martedì",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "VIA AURELIA, 160 - 162, 16031 BOGLIASCO GE",
-    "comune": "martedì",
-    "provincia": "",
-    "indirizzo_completo": "VIA AURELIA, 160 - 162, 16031 BOGLIASCO GE, martedì",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Barabino, Genova Foce",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Barabino, Genova Foce, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Carlo Barabino, 49/r, 16129 Genova GE",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Via Carlo Barabino, 49/r, 16129 Genova GE, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Barchetta, Genova Bolzaneto",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Barchetta, Genova Bolzaneto, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Barchetta, 15-17, 16162 GENOVA GE",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Via Barchetta, 15-17, 16162 GENOVA GE, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Bertolotti, Genova Cornigliano",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Bertolotti, Genova Cornigliano, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Bertolotti, 1 D 1 E/r, 16153 GENOVA GE",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Via Bertolotti, 1 D 1 E/r, 16153 GENOVA GE, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Borzoli, Genova Sestri Ponente",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Borzoli, Genova Sestri Ponente, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Borzoli, 92, 16154 Genova GE",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Via Borzoli, 92, 16154 Genova GE, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Carbone, Villalvernia",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Carbone, Villalvernia, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Carbone, 4, 15050 Villalvernia AL",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Via Carbone, 4, 15050 Villalvernia AL, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Carrara, Genova Quarto",
-    "comune": "Casse Veloci",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Carrara, Genova Quarto, Casse Veloci",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Angelo Carrara,252 A 16147 Genova GE",
-    "comune": "Casse Veloci",
-    "provincia": "",
-    "indirizzo_completo": "Via Angelo Carrara,252 A 16147 Genova GE, Casse Veloci",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Casata Centuriona, Genova Marassi",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Casata Centuriona, Genova Marassi, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Casata Centuriona, 56, 16139 Genova GE",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Via Casata Centuriona, 56, 16139 Genova GE, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Cavallotti, Genova Albaro",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Cavallotti, Genova Albaro, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Felice Cavallotti, 56/r, 16146 GENOVA GE",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Via Felice Cavallotti, 56/r, 16146 GENOVA GE, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Cavour, Bogliasco",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Cavour, Bogliasco, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Camillo Benso di Cavour, 35, 16031 Bogliasco GE",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Via Camillo Benso di Cavour, 35, 16031 Bogliasco GE, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Circonvallazione, Broni",
-    "comune": "martedì",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Circonvallazione, Broni, martedì",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "via circonvallazione ,154 27043 Broni PV",
-    "comune": "martedì",
-    "provincia": "",
-    "indirizzo_completo": "via circonvallazione ,154 27043 Broni PV, martedì",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Cornice, Arma di Taggia",
-    "comune": "Reparti",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Cornice, Arma di Taggia, Reparti",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Della Cornice, 29, 18018 Arma di Taggia IM",
-    "comune": "Reparti",
-    "provincia": "",
-    "indirizzo_completo": "Via Della Cornice, 29, 18018 Arma di Taggia IM, Reparti",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Crispi, Pietra Ligure",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Crispi, Pietra Ligure, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Francesco Crispi, 305, 17027 Pietra Ligure SV",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Via Francesco Crispi, 305, 17027 Pietra Ligure SV, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via De Andrè, Grugliasco",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via De Andrè, Grugliasco, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Viale Fabrizio de Andrè, 35, 10100 Grugliasco TO",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Viale Fabrizio de Andrè, 35, 10100 Grugliasco TO, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Diano San Pietro, Diano Castello",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Diano San Pietro, Diano Castello, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Diano San Pietro, 111,111 18013 Diano Castello IM",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Via Diano San Pietro, 111,111 18013 Diano Castello IM, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Emilia, San Nicolò di Rottofreno",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Emilia, San Nicolò di Rottofreno, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Emilia Ovest ang. Via Bergamaschi, 29010 S. NICOLO 'DI ROTTOFRENO PC",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Via Emilia Ovest ang. Via Bergamaschi, 29010 S. NICOLO 'DI ROTTOFRENO PC, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Franceschi, Chiavari",
-    "comune": "Spesa al TELEFONO > CONSEGNA A CASA",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Franceschi, Chiavari, Spesa al TELEFONO > CONSEGNA A CASA",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Colonnello Enrico Franceschi, 4, 16043 Chiavari GE",
-    "comune": "Spesa al TELEFONO > CONSEGNA A CASA",
-    "provincia": "",
-    "indirizzo_completo": "Via Colonnello Enrico Franceschi, 4, 16043 Chiavari GE, Spesa al TELEFONO > CONSEGNA A CASA",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via I Maggio, Luserna",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via I Maggio, Luserna, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via I Maggio, 219, 10062 Luserna San Giovanni TO",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Via I Maggio, 219, 10062 Luserna San Giovanni TO, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Lagustena, Genova S. Martino",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Lagustena, Genova S. Martino, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Silvio Lagustena, 22/r, 16010 GENOVA GE",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Via Silvio Lagustena, 22/r, 16010 GENOVA GE, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Leonardo Da Vinci, Albenga",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Leonardo Da Vinci, Albenga, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Leonardo da Vinci, 1, 17100 Albenga SV",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Via Leonardo da Vinci, 1, 17100 Albenga SV, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Marengo, Alessandria",
-    "comune": "Casse Veloci",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Marengo, Alessandria, Casse Veloci",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Piave, 104, 15121 Alessandria AL",
-    "comune": "Casse Veloci",
-    "provincia": "",
-    "indirizzo_completo": "Via Piave, 104, 15121 Alessandria AL, Casse Veloci",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Martiri Libertà, Genova Pegli",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Martiri Libertà, Genova Pegli, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Martiri della Libertà, 15/r, 16010 GENOVA GE",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Via Martiri della Libertà, 15/r, 16010 GENOVA GE, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Mazzini, Cogoleto",
-    "comune": "Spesa al TELEFONO > CONSEGNA A CASA",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Mazzini, Cogoleto, Spesa al TELEFONO > CONSEGNA A CASA",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Giuseppe Mazzini, 38, 16016 Cogoleto GE",
-    "comune": "Spesa al TELEFONO > CONSEGNA A CASA",
-    "provincia": "",
-    "indirizzo_completo": "Via Giuseppe Mazzini, 38, 16016 Cogoleto GE, Spesa al TELEFONO > CONSEGNA A CASA",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Molassana, Genova Molassana",
-    "comune": "Casse Veloci",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Molassana, Genova Molassana, Casse Veloci",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Molassana, 72/r, 16138 GENOVA GE",
-    "comune": "Casse Veloci",
-    "provincia": "",
-    "indirizzo_completo": "Via Molassana, 72/r, 16138 GENOVA GE, Casse Veloci",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Montanara, Borgonovo Val Tidone",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Montanara, Borgonovo Val Tidone, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Montanara, 3, 29011 Borgonovo Val Tidone PC",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Via Montanara, 3, 29011 Borgonovo Val Tidone PC, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Morselli, Castel San Giovanni",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Morselli, Castel San Giovanni, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via E. Morselli, 2 B, 29100 Castel San Giovanni PC",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Via E. Morselli, 2 B, 29100 Castel San Giovanni PC, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Nazionale, Stradella",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Nazionale, Stradella, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Nazionale, 80, 27100 Stradella PV",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Via Nazionale, 80, 27100 Stradella PV, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Ovada, Silvano d'Orba",
-    "comune": "Casse Veloci",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Ovada, Silvano d'Orba, Casse Veloci",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Ovada, 54, 15060 Silvano d'Orba AL",
-    "comune": "Casse Veloci",
-    "provincia": "",
-    "indirizzo_completo": "Via Ovada, 54, 15060 Silvano d'Orba AL, Casse Veloci",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Paggi, Genova San Fruttuoso",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Paggi, Genova San Fruttuoso, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Paggi, 13/r, 16143 GENOVA GE",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Via Paggi, 13/r, 16143 GENOVA GE, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Piacenza, Genova San Gottardo",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Piacenza, Genova San Gottardo, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Emilia, 30/r, 16138 GENOVA GE",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Via Emilia, 30/r, 16138 GENOVA GE, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Piscina, Frossasco",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Piscina, Frossasco, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Piscina, 1, 10060 Frossasco TO",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Via Piscina, 1, 10060 Frossasco TO, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Provinciale, Cumiana",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Provinciale, Cumiana, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Provinciale, 79,79 10040 Cumiana TO",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Via Provinciale, 79,79 10040 Cumiana TO, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Provinciale, Romito Magra",
-    "comune": "Casse Veloci",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Provinciale, Romito Magra, Casse Veloci",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Strada Provinciale 432, 30, 19032 Romito Magra SP",
-    "comune": "Casse Veloci",
-    "provincia": "",
-    "indirizzo_completo": "Strada Provinciale 432, 30, 19032 Romito Magra SP, Casse Veloci",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Prov. Piana, Bottagna",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Prov. Piana, Bottagna, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Provinciale Piana, 1, 19020 Bottagna SP",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Via Provinciale Piana, 1, 19020 Bottagna SP, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Repubblica, Pietra Ligure",
-    "comune": "Reparti",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Repubblica, Pietra Ligure, Reparti",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Viale della Repubblica, 188, 17027 Pietra Ligure SV",
-    "comune": "Reparti",
-    "provincia": "",
-    "indirizzo_completo": "Viale della Repubblica, 188, 17027 Pietra Ligure SV, Reparti",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Roma, Arquata Scrivia",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Roma, Arquata Scrivia, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Roma, 92,92 15061 Arquata Scrivia AL",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Via Roma, 92,92 15061 Arquata Scrivia AL, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Roma, La Spezia",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Roma, La Spezia, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Roma, 91, 19100 LA Spezia SP",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Via Roma, 91, 19100 LA Spezia SP, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via San Francesco, Sanremo",
-    "comune": "Spesa in NEGOZIO > CONSEGNA A CASA",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via San Francesco, Sanremo, Spesa in NEGOZIO > CONSEGNA A CASA",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via San Francesco, 43, 18038 Sanremo IM",
-    "comune": "Spesa in NEGOZIO > CONSEGNA A CASA",
-    "provincia": "",
-    "indirizzo_completo": "Via San Francesco, 43, 18038 Sanremo IM, Spesa in NEGOZIO > CONSEGNA A CASA",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via San Rocco, San Secondo di Pinerolo",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via San Rocco, San Secondo di Pinerolo, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via San Rocco, 74, 10060 SAN SECONDO DI PINEROLO TO",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Via San Rocco, 74, 10060 SAN SECONDO DI PINEROLO TO, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Sturla alt.Isonzo, Genova Sturla",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Sturla alt.Isonzo, Genova Sturla, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Sturla, 52/r, 16131 Genova GE",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Via Sturla, 52/r, 16131 Genova GE, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Sturla alt. Orsini, Genova Sturla",
-    "comune": "Spesa al TELEFONO > CONSEGNA A CASA",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Sturla alt. Orsini, Genova Sturla, Spesa al TELEFONO > CONSEGNA A CASA",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Sturla, 60/r, 16131 Genova GE",
-    "comune": "Spesa al TELEFONO > CONSEGNA A CASA",
-    "provincia": "",
-    "indirizzo_completo": "Via Sturla, 60/r, 16131 Genova GE, Spesa al TELEFONO > CONSEGNA A CASA",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Suardi, Busalla",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Suardi, Busalla, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Suardi, 82, 16100 Busalla GE",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Via Suardi, 82, 16100 Busalla GE, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Taggia, Genova Pra",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Taggia, Genova Pra, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Taggia, 34/r, 16157 GENOVA - PRA' GE",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Via Taggia, 34/r, 16157 GENOVA - PRA' GE, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Travi, genova Sestri Ponente",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Travi, genova Sestri Ponente, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Antonio Travi, 76/r, 16154 Genova GE",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Via Antonio Travi, 76/r, 16154 Genova GE, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via Variante Cisa, Sarzana",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via Variante Cisa, Sarzana, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Pecorina, 18, 19038 Sarzana SP",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Via Pecorina, 18, 19038 Sarzana SP, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via V. Gavi, Imperia",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via V. Gavi, Imperia, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Vittorio Gavi, 2, 18100 Imperia IM",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Via Vittorio Gavi, 2, 18100 Imperia IM, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Basko Via V. Veneto, La Spezia",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Basko Via V. Veneto, La Spezia, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
-  },
-  {
-    "nome": "Basko",
-    "indirizzo": "Via Vittorio Veneto, 107, 19100 LA Spezia SP",
-    "comune": "Continuato",
-    "provincia": "",
-    "indirizzo_completo": "Via Vittorio Veneto, 107, 19100 LA Spezia SP, Continuato",
-    "azienda": "Basko",
-    "source_url": "https://www.basko.it/supermercati"
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "TO",
+    "province_name": "Torino",
+    "address": "Corso Brescia, 51, 10100 Torino TO",
+    "postal_code": "10100",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Passo Antiochia, 1/r, 16129 Genova GE",
+    "postal_code": "16129",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Corso Cristoforo Colombo, 4, 16035 Rapallo GE",
+    "postal_code": "16035",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Corso IV Novembre, 151, 16030 Cogorno GE",
+    "postal_code": "16030",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "TO",
+    "province_name": "Torino",
+    "address": "Piazza Guala, 147, 10100 Torino TO",
+    "postal_code": "10100",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "TO",
+    "province_name": "Torino",
+    "address": "Piazza Carlo Montanari, 137 C, 10100 Torino TO",
+    "postal_code": "10100",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Piazza Raffaele Sopranis, 7/r, 16126 Genova GE",
+    "postal_code": "16126",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "PV",
+    "province_name": "Pavia",
+    "address": "Strada statale dei Giovi ,6 27043 San Martino Siccomario PV",
+    "postal_code": "27043",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "TO",
+    "province_name": "Torino",
+    "address": "Via Asti, 45, 10026 Santena TO",
+    "postal_code": "10026",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "VIA AURELIA, 160 - 162, 16031 BOGLIASCO GE",
+    "postal_code": "16031",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Carlo Barabino, 49/r, 16129 Genova GE",
+    "postal_code": "16129",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Barchetta, 15-17, 16162 GENOVA GE",
+    "postal_code": "16162",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Bertolotti, 1 D 1 E/r, 16153 GENOVA GE",
+    "postal_code": "16153",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Borzoli, 92, 16154 Genova GE",
+    "postal_code": "16154",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "AL",
+    "province_name": "Alessandria",
+    "address": "Via Carbone, 4, 15050 Villalvernia AL",
+    "postal_code": "15050",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Angelo Carrara,252 A 16147 Genova GE",
+    "postal_code": "16147",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Casata Centuriona, 56, 16139 Genova GE",
+    "postal_code": "16139",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Felice Cavallotti, 56/r, 16146 GENOVA GE",
+    "postal_code": "16146",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Camillo Benso di Cavour, 35, 16031 Bogliasco GE",
+    "postal_code": "16031",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "PV",
+    "province_name": "Pavia",
+    "address": "via circonvallazione ,154 27043 Broni PV",
+    "postal_code": "27043",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "IM",
+    "province_name": "Imperia",
+    "address": "Via Della Cornice, 29, 18018 Arma di Taggia IM",
+    "postal_code": "18018",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "SV",
+    "province_name": "Savona",
+    "address": "Via Francesco Crispi, 305, 17027 Pietra Ligure SV",
+    "postal_code": "17027",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "TO",
+    "province_name": "Torino",
+    "address": "Viale Fabrizio de Andrè, 35, 10100 Grugliasco TO",
+    "postal_code": "10100",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "IM",
+    "province_name": "Imperia",
+    "address": "Via Diano San Pietro, 111,111 18013 Diano Castello IM",
+    "postal_code": "18013",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "PC",
+    "province_name": "Piacenza",
+    "address": "Via Emilia Ovest ang. Via Bergamaschi, 29010 S. NICOLO 'DI ROTTOFRENO PC",
+    "postal_code": "29010",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Colonnello Enrico Franceschi, 4, 16043 Chiavari GE",
+    "postal_code": "16043",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "TO",
+    "province_name": "Torino",
+    "address": "Via I Maggio, 219, 10062 Luserna San Giovanni TO",
+    "postal_code": "10062",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Silvio Lagustena, 22/r, 16010 GENOVA GE",
+    "postal_code": "16010",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "SV",
+    "province_name": "Savona",
+    "address": "Via Leonardo da Vinci, 1, 17100 Albenga SV",
+    "postal_code": "17100",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "AL",
+    "province_name": "Alessandria",
+    "address": "Via Piave, 104, 15121 Alessandria AL",
+    "postal_code": "15121",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Martiri della Libertà, 15/r, 16010 GENOVA GE",
+    "postal_code": "16010",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Giuseppe Mazzini, 38, 16016 Cogoleto GE",
+    "postal_code": "16016",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Molassana, 72/r, 16138 GENOVA GE",
+    "postal_code": "16138",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "PC",
+    "province_name": "Piacenza",
+    "address": "Via Montanara, 3, 29011 Borgonovo Val Tidone PC",
+    "postal_code": "29011",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "PC",
+    "province_name": "Piacenza",
+    "address": "Via E. Morselli, 2 B, 29100 Castel San Giovanni PC",
+    "postal_code": "29100",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "PV",
+    "province_name": "Pavia",
+    "address": "Via Nazionale, 80, 27100 Stradella PV",
+    "postal_code": "27100",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "AL",
+    "province_name": "Alessandria",
+    "address": "Via Ovada, 54, 15060 Silvano d'Orba AL",
+    "postal_code": "15060",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Paggi, 13/r, 16143 GENOVA GE",
+    "postal_code": "16143",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Emilia, 30/r, 16138 GENOVA GE",
+    "postal_code": "16138",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "TO",
+    "province_name": "Torino",
+    "address": "Via Piscina, 1, 10060 Frossasco TO",
+    "postal_code": "10060",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "TO",
+    "province_name": "Torino",
+    "address": "Via Provinciale, 79,79 10040 Cumiana TO",
+    "postal_code": "10040",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "SP",
+    "province_name": "La Spezia",
+    "address": "Strada Provinciale 432, 30, 19032 Romito Magra SP",
+    "postal_code": "19032",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "SP",
+    "province_name": "La Spezia",
+    "address": "Via Provinciale Piana, 1, 19020 Bottagna SP",
+    "postal_code": "19020",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "SV",
+    "province_name": "Savona",
+    "address": "Viale della Repubblica, 188, 17027 Pietra Ligure SV",
+    "postal_code": "17027",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "AL",
+    "province_name": "Alessandria",
+    "address": "Via Roma, 92,92 15061 Arquata Scrivia AL",
+    "postal_code": "15061",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "SP",
+    "province_name": "La Spezia",
+    "address": "Via Roma, 91, 19100 LA Spezia SP",
+    "postal_code": "19100",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "IM",
+    "province_name": "Imperia",
+    "address": "Via San Francesco, 43, 18038 Sanremo IM",
+    "postal_code": "18038",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "TO",
+    "province_name": "Torino",
+    "address": "Via San Rocco, 74, 10060 SAN SECONDO DI PINEROLO TO",
+    "postal_code": "10060",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Sturla, 52/r, 16131 Genova GE",
+    "postal_code": "16131",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Sturla, 60/r, 16131 Genova GE",
+    "postal_code": "16131",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Suardi, 82, 16100 Busalla GE",
+    "postal_code": "16100",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Taggia, 34/r, 16157 GENOVA - PRA' GE",
+    "postal_code": "16157",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "Via Antonio Travi, 76/r, 16154 Genova GE",
+    "postal_code": "16154",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "SP",
+    "province_name": "La Spezia",
+    "address": "Via Pecorina, 18, 19038 Sarzana SP",
+    "postal_code": "19038",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "IM",
+    "province_name": "Imperia",
+    "address": "Via Vittorio Gavi, 2, 18100 Imperia IM",
+    "postal_code": "18100",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
+  },
+  {
+    "brand": "Basko",
+    "store_name": "Basko",
+    "province_code": "SP",
+    "province_name": "La Spezia",
+    "address": "Via Vittorio Veneto, 107, 19100 LA Spezia SP",
+    "postal_code": "19100",
+    "source_url": "https://www.basko.it/supermercati",
+    "status": "active"
   }
 ]
