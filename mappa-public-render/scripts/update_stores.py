@@ -8,10 +8,17 @@ URL = "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-2
 OUTPUT_FILE = Path("data/stores.json")
 
 def scarica_pagina():
-    response = requests.get(URL, timeout=30)
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "it-IT,it;q=0.9,en;q=0.8",
+        "Referer": "https://www.dipiuperlascuola.it/"
+    }
+
+    response = requests.get(URL, headers=headers, timeout=30)
     response.raise_for_status()
     return response.text
-
+    
 def estrai_punti_vendita(html):
     soup = BeautifulSoup(html, "html.parser")
 
