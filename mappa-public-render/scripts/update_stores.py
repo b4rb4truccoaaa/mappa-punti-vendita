@@ -57,10 +57,18 @@ def salva_json(stores):
 
 def main():
     html = scarica_pagina()
+
+    soup = BeautifulSoup(html, "html.parser")
+    testi = soup.get_text("\n", strip=True).split("\n")
+
+    print("=== PRIME 200 RIGHE LETTE DALLA PAGINA ===")
+    for i, riga in enumerate(testi[:200]):
+        print(i, repr(riga))
+    print("=== FINE RIGHE ===")
+
     stores = estrai_punti_vendita(html)
     salva_json(stores)
 
     print(f"Aggiornati {len(stores)} punti vendita.")
-
 if __name__ == "__main__":
     main()
