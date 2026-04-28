@@ -1,3642 +1,1262 @@
 [
   {
-    "brand": "Bennet",
-    "store_name": "Brugherio",
-    "province_code": "MB",
-    "province_name": "Monza e Brianza",
-    "address": "viale Lombardia, 264",
-    "postal_code": "20861",
-    "source_url": "https://www.bennet.com/storefinder/iper/0039",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Albano Sant'Alessandro",
-    "province_code": "BG",
-    "province_name": "Bergamo",
-    "address": "via Tonale, 101",
-    "postal_code": "24061",
-    "source_url": "https://www.bennet.com/storefinder/iper/0131",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Bagnolo Cremasco",
-    "province_code": "CR",
-    "province_name": "Cremona",
-    "address": "via Leonardo Da Vinci, S.S. Paullese, 1",
-    "postal_code": "26010",
-    "source_url": "https://www.bennet.com/storefinder/iper/0150",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Acqui Terme",
-    "province_code": "AL",
-    "province_name": "Alessandria",
-    "address": "S.S. Savona, 90/92",
-    "postal_code": "15011",
-    "source_url": "https://www.bennet.com/storefinder/iper/0085",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Carmagnola",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "via Sommariva, 29/1-2",
-    "postal_code": "10022",
-    "source_url": "https://www.bennet.com/storefinder/iper/0132",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Cantù",
-    "province_code": "CO",
-    "province_name": "Como",
-    "address": "corso Europa, 23",
-    "postal_code": "22063",
-    "source_url": "https://www.bennet.com/storefinder/iper/0066",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Bellinzago Novarese",
-    "province_code": "NO",
-    "province_name": "Novara",
-    "address": "via Libertà, 231",
-    "postal_code": "28043",
-    "source_url": "https://www.bennet.com/storefinder/iper/0045",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Alessandria",
-    "province_code": "AL",
-    "province_name": "Alessandria",
-    "address": "via Torino, 26",
-    "postal_code": "15020",
-    "source_url": "https://www.bennet.com/storefinder/iper/0088",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Anzano del Parco",
-    "province_code": "CO",
-    "province_name": "Como",
-    "address": "via Provinciale, 2",
-    "postal_code": "22040",
-    "source_url": "https://www.bennet.com/storefinder/iper/0110",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Belforte Monferrato",
-    "province_code": "AL",
-    "province_name": "Alessandria",
-    "address": "via Molino, 1",
-    "postal_code": "15070",
-    "source_url": "https://www.bennet.com/storefinder/iper/0028",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Cassina Rizzardi",
-    "province_code": "CO",
-    "province_name": "Como",
-    "address": "via Risorgimento, 1082",
-    "postal_code": "22070",
-    "source_url": "https://www.bennet.com/storefinder/iper/0065",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Caselle Torinese",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "strada Torino, 23",
-    "postal_code": "10072",
-    "source_url": "https://www.bennet.com/storefinder/iper/0042",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Casatenovo",
-    "province_code": "LC",
-    "province_name": "Lecco",
-    "address": "via Casati, 28",
-    "postal_code": "23880",
-    "source_url": "https://www.bennet.com/storefinder/iper/0046",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Castellamonte",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "via Giuseppe Romana, 40/42",
-    "postal_code": "10081",
-    "source_url": "https://www.bennet.com/storefinder/iper/0095",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Chivasso",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "via Caluso, 46",
-    "postal_code": "10034",
-    "source_url": "https://www.bennet.com/storefinder/iper/0148",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Ciriè",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "via Battitore, 100",
-    "postal_code": "10073",
-    "source_url": "https://www.bennet.com/storefinder/iper/0055",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Castelletto Ticino",
-    "province_code": "NO",
-    "province_name": "Novara",
-    "address": "via Tripolitania, 1",
-    "postal_code": "28053",
-    "source_url": "https://www.bennet.com/storefinder/iper/0061",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Cornaredo",
-    "province_code": "MI",
-    "province_name": "Milano",
-    "address": "via Milano, S.S. 11, 30",
-    "postal_code": "20010",
-    "source_url": "https://www.bennet.com/storefinder/iper/0126",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Ivrea",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "via Dora Baltea, 31",
-    "postal_code": "10015",
-    "source_url": "https://www.bennet.com/storefinder/iper/0117",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Erba",
-    "province_code": "CO",
-    "province_name": "Como",
-    "address": "viale Prealpi, 3",
-    "postal_code": "22036",
-    "source_url": "https://www.bennet.com/storefinder/iper/0005",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Lavena Ponte Tresa",
-    "province_code": "VA",
-    "province_name": "Varese",
-    "address": "via Luigi Colombo, S.S. 233, 42A",
-    "postal_code": "21037",
-    "source_url": "https://www.bennet.com/storefinder/iper/0109",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Lecco",
-    "province_code": "LC",
-    "province_name": "Lecco",
-    "address": "via Amendola, 119",
-    "postal_code": "23900",
-    "source_url": "https://www.bennet.com/storefinder/iper/0049",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Montano Lucino",
-    "province_code": "CO",
-    "province_name": "Como",
-    "address": "via Enzo Ratti, 4",
-    "postal_code": "22070",
-    "source_url": "https://www.bennet.com/storefinder/iper/0033",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Lentate sul Seveso",
-    "province_code": "MB",
-    "province_name": "Monza e Brianza",
-    "address": "via Nazionale dei Giovi, 249",
-    "postal_code": "20823",
-    "source_url": "https://www.bennet.com/storefinder/iper/0008",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Nichelino",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "via Scarrone, 10",
-    "postal_code": "10042",
-    "source_url": "https://www.bennet.com/storefinder/iper/0134",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Novi Ligure",
-    "province_code": "AL",
-    "province_name": "Alessandria",
-    "address": "via delle Vetrerie, 1",
-    "postal_code": "15067",
-    "source_url": "https://www.bennet.com/storefinder/iper/0106",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Mortara",
-    "province_code": "PV",
-    "province_name": "Pavia",
-    "address": "via Lomellina 59",
-    "postal_code": "27036",
-    "source_url": "https://www.bennet.com/storefinder/iper/0081",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Olgiate Comasco",
-    "province_code": "CO",
-    "province_name": "Como",
-    "address": "via Lomazzo, 4",
-    "postal_code": "22077",
-    "source_url": "https://www.bennet.com/storefinder/iper/0067",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Pavone Canavese",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "via Circonvallazione, 95",
-    "postal_code": "10018",
-    "source_url": "https://www.bennet.com/storefinder/iper/0010",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Parona",
-    "province_code": "PV",
-    "province_name": "Pavia",
-    "address": "via Case Sparse, S.S. 494 9, 4",
-    "postal_code": "27020",
-    "source_url": "https://www.bennet.com/storefinder/iper/0016",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Pieve Fissiraga",
-    "province_code": "LO",
-    "province_name": "Lodi",
-    "address": "viale Nazioni Unite, 1",
-    "postal_code": "26854",
-    "source_url": "https://www.bennet.com/storefinder/iper/0032",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Pontedassio",
-    "province_code": "IM",
-    "province_name": "Imperia",
-    "address": "via Nazionale, 1",
-    "postal_code": "18027",
-    "source_url": "https://www.bennet.com/storefinder/iper/0036",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Romano di Lombardia",
-    "province_code": "BG",
-    "province_name": "Bergamo",
-    "address": "S.S. Soncinese, 498",
-    "postal_code": "24058",
-    "source_url": "https://www.bennet.com/storefinder/iper/0119",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Romagnano Sesia",
-    "province_code": "NO",
-    "province_name": "Novara",
-    "address": "via Brigata Alpina Taurinense, 1",
-    "postal_code": "28078",
-    "source_url": "https://www.bennet.com/storefinder/iper/0107",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "San Martino Siccomario",
-    "province_code": "PV",
-    "province_name": "Pavia",
-    "address": "S.P. per Mortara, 7/37",
-    "postal_code": "27028",
-    "source_url": "https://www.bennet.com/storefinder/iper/0094",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "San Martino in Strada Lodi Sud",
-    "province_code": "LO",
-    "province_name": "Lodi",
-    "address": "via Emilia, S.S. 9, 659",
-    "postal_code": "26817",
-    "source_url": "https://www.bennet.com/storefinder/iper/0076",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Sedriano",
-    "province_code": "MI",
-    "province_name": "Milano",
-    "address": "piazza Gandhi, 6",
-    "postal_code": "20018",
-    "source_url": "https://www.bennet.com/storefinder/iper/0129",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Torino - via San Paolo",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "via Renier, 58 int. 5",
-    "postal_code": "10141",
-    "source_url": "https://www.bennet.com/storefinder/iper/0009",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Tavernola",
-    "province_code": "CO",
-    "province_name": "Como",
-    "address": "via Asiago, 2",
-    "postal_code": "22100",
-    "source_url": "https://www.bennet.com/storefinder/iper/0011",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Torino - via G. Bruno",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "via Giordano Bruno, 142",
-    "postal_code": "10134",
-    "source_url": "https://www.bennet.com/storefinder/iper/0113",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Vaprio d'Adda",
-    "province_code": "MI",
-    "province_name": "Milano",
-    "address": "via Milano, 7",
-    "postal_code": "20069",
-    "source_url": "https://www.bennet.com/storefinder/iper/0135",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Santa Vittoria d'Alba",
-    "province_code": "CN",
-    "province_name": "Cuneo",
-    "address": "via Gorreto, 2",
-    "postal_code": "12069",
-    "source_url": "https://www.bennet.com/storefinder/iper/0121",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Vanzaghello",
-    "province_code": "MI",
-    "province_name": "Milano",
-    "address": "corso Italia, 27",
-    "postal_code": "20020",
-    "source_url": "https://www.bennet.com/storefinder/iper/0124",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Vigliano Biellese",
-    "province_code": "BI",
-    "province_name": "Biella",
-    "address": "via della Tollegna, 1",
-    "postal_code": "13856",
-    "source_url": "https://www.bennet.com/storefinder/iper/0092",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Vercelli",
-    "province_code": "VC",
-    "province_name": "Vercelli",
-    "address": "strada vicinale Cantarana, 1",
-    "postal_code": "13100",
-    "source_url": "https://www.bennet.com/storefinder/iper/0105",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Verolanuova",
-    "province_code": "BS",
-    "province_name": "Brescia",
-    "address": "via delle Robinie, 2",
-    "postal_code": "25028",
-    "source_url": "https://www.bennet.com/storefinder/iper/0108",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Villanova Monferrato",
-    "province_code": "AL",
-    "province_name": "Alessandria",
-    "address": "S.P. 31, 7",
-    "postal_code": "15030",
-    "source_url": "https://www.bennet.com/storefinder/iper/0044",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Codogno",
-    "province_code": "LO",
-    "province_name": "Lodi",
-    "address": "viale Aldo Moro, 3",
-    "postal_code": "26845",
-    "source_url": "https://www.bennet.com/storefinder/iper/0158",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Bennet",
-    "store_name": "Antegnate",
-    "province_code": "BG",
-    "province_name": "Bergamo",
-    "address": "via del Commercio, 3",
-    "postal_code": "24051",
-    "source_url": "https://www.bennet.com/storefinder/iper/0155",
-    "status": "verificato_ufficiale"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Alessandria",
-    "province_code": "AL",
-    "province_name": "Alessandria",
-    "address": "Via Piave 104",
-    "postal_code": "15121",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Arquata Scrivia",
-    "province_code": "AL",
-    "province_name": "Alessandria",
-    "address": "Via Roma 92",
-    "postal_code": "15061",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Silvano d'Orba",
-    "province_code": "AL",
-    "province_name": "Alessandria",
-    "address": "Via Ovada 54",
-    "postal_code": "15060",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Villalvernia",
-    "province_code": "AL",
-    "province_name": "Alessandria",
-    "address": "Via Carbone 4",
-    "postal_code": "15050",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Bogliasco - Via Aurelia",
-    "province_code": "GE",
-    "province_name": "Genova",
-    "address": "Via Aurelia 160",
-    "postal_code": "16031",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Bogliasco - Via Cavour",
-    "province_code": "GE",
-    "province_name": "Genova",
-    "address": "Via Camillo Benso Conte di Cavour, 35",
-    "postal_code": "16031",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Busalla",
-    "province_code": "GE",
-    "province_name": "Genova",
-    "address": "Via Suardi 82",
-    "postal_code": "16100",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Chiavari",
-    "province_code": "GE",
-    "province_name": "Genova",
-    "address": "Via Colonnello Enrico Franceschi, 4",
-    "postal_code": "16043",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Cogoleto",
-    "province_code": "GE",
-    "province_name": "Genova",
-    "address": "Via Mazzini 38",
-    "postal_code": "16016",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Cogorno",
-    "province_code": "GE",
-    "province_name": "Genova",
-    "address": "Corso IV Novembre 151",
-    "postal_code": "16030",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Genova Albaro",
-    "province_code": "GE",
-    "province_name": "Genova",
-    "address": "Via Cavallotti 56/R",
-    "postal_code": "16146",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Genova Antiochia",
-    "province_code": "GE",
-    "province_name": "Genova",
-    "address": "Passo Antiochia 1/R",
-    "postal_code": "16129",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Genova Bolzaneto",
-    "province_code": "GE",
-    "province_name": "Genova",
-    "address": "Via Barchetta 15",
-    "postal_code": "16163",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Genova Borzoli",
-    "province_code": "GE",
-    "province_name": "Genova",
-    "address": "Via Borzoli 92",
-    "postal_code": "16154",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Genova Cornigliano",
-    "province_code": "GE",
-    "province_name": "Genova",
-    "address": "Via Bertolotti 1D",
-    "postal_code": "16153",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Genova Foce - Via Barabino",
-    "province_code": "GE",
-    "province_name": "Genova",
-    "address": "Via Barabino 49/R",
-    "postal_code": "16129",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Genova Marassi",
-    "province_code": "GE",
-    "province_name": "Genova",
-    "address": "Via Centuriona 56",
-    "postal_code": "16139",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Genova Molassana",
-    "province_code": "GE",
-    "province_name": "Genova",
-    "address": "Via Molassana 72/R",
-    "postal_code": "16138",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Genova Pegli",
-    "province_code": "GE",
-    "province_name": "Genova",
-    "address": "Via Martiri della Libertà 15/R",
-    "postal_code": "16156",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Genova Prà",
-    "province_code": "GE",
-    "province_name": "Genova",
-    "address": "Via Taggia 34/R",
-    "postal_code": "16157",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Genova San Fruttuoso",
-    "province_code": "GE",
-    "province_name": "Genova",
-    "address": "Via Paggi 13/R",
-    "postal_code": "16143",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Genova San Gottardo",
-    "province_code": "GE",
-    "province_name": "Genova",
-    "address": "Via Emilia 30/R",
-    "postal_code": "16138",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Genova San Martino",
-    "province_code": "GE",
-    "province_name": "Genova",
-    "address": "Via Lagustena 22/R",
-    "postal_code": "16131",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Genova San Teodoro",
-    "province_code": "GE",
-    "province_name": "Genova",
-    "address": "Piazza Sopranis 7/R",
-    "postal_code": "16126",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Genova Sestri Ponente",
-    "province_code": "GE",
-    "province_name": "Genova",
-    "address": "Via Travi 74/R",
-    "postal_code": "16154",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Genova Sturla",
-    "province_code": "GE",
-    "province_name": "Genova",
-    "address": "Via Sturla 52/R",
-    "postal_code": "16131",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Genova Sturla alt. Orsini",
-    "province_code": "GE",
-    "province_name": "Genova",
-    "address": "Via Sturla 60/R",
-    "postal_code": "16131",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Rapallo",
-    "province_code": "GE",
-    "province_name": "Genova",
-    "address": "Corso Cristoforo Colombo, 4",
-    "postal_code": "16035",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Arma di Taggia",
-    "province_code": "IM",
-    "province_name": "Imperia",
-    "address": "Via della Cornice 29",
-    "postal_code": "18018",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Diano Castello",
-    "province_code": "IM",
-    "province_name": "Imperia",
-    "address": "Via Diano S. Pietro, 111",
-    "postal_code": "18013",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Imperia",
-    "province_code": "IM",
-    "province_name": "Imperia",
-    "address": "Via Gavi 2",
-    "postal_code": "18100",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Sanremo",
-    "province_code": "IM",
-    "province_name": "Imperia",
-    "address": "Via San Francesco 43",
-    "postal_code": "18038",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Bottagna",
-    "province_code": "SP",
-    "province_name": "La Spezia",
-    "address": "Via Provinciale Piana 1",
-    "postal_code": "19020",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "La Spezia - Via Roma",
-    "province_code": "SP",
-    "province_name": "La Spezia",
-    "address": "Via Roma 91",
-    "postal_code": "19100",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "La Spezia - V. Veneto",
-    "province_code": "SP",
-    "province_name": "La Spezia",
-    "address": "Via Vittorio Veneto 107",
-    "postal_code": "19100",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Romito Magra",
-    "province_code": "SP",
-    "province_name": "La Spezia",
-    "address": "Strada Provinciale 432",
-    "postal_code": "19032",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Sarzana",
-    "province_code": "SP",
-    "province_name": "La Spezia",
-    "address": "Via Pecorina 18",
-    "postal_code": "19038",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Broni",
-    "province_code": "PV",
-    "province_name": "Pavia",
-    "address": "Via Circonvallazione SP10, 154",
-    "postal_code": "27043",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "San Martino Siccomario",
-    "province_code": "PV",
-    "province_name": "Pavia",
-    "address": "Strada dei Giovi, 6",
-    "postal_code": "27028",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Stradella",
-    "province_code": "PV",
-    "province_name": "Pavia",
-    "address": "Via Nazionale 80",
-    "postal_code": "27100",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Borgonovo Val Tidone",
-    "province_code": "PC",
-    "province_name": "Piacenza",
-    "address": "Località Castellina 3",
-    "postal_code": "29011",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Castel San Giovanni",
-    "province_code": "PC",
-    "province_name": "Piacenza",
-    "address": "Via Morselli 2/B",
-    "postal_code": "29100",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "San Nicolò a Trebbia",
-    "province_code": "PC",
-    "province_name": "Piacenza",
-    "address": "Via Emilia Ovest ang. Bergamaschi",
-    "postal_code": "29010",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Albenga",
-    "province_code": "SV",
-    "province_name": "Savona",
-    "address": "Via Leonardo da Vinci 1",
-    "postal_code": "17100",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Pietra Ligure - Crispi",
-    "province_code": "SV",
-    "province_name": "Savona",
-    "address": "Via Crispi 305",
-    "postal_code": "17027",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Pietra Ligure - Repubblica",
-    "province_code": "SV",
-    "province_name": "Savona",
-    "address": "Viale della Repubblica 188",
-    "postal_code": "17027",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Cumiana",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "Via Provinciale 79",
-    "postal_code": "10040",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Frossasco",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "Via Piscina 1",
-    "postal_code": "10060",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Grugliasco",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "Via F. De André 35",
-    "postal_code": "10100",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Luserna San Giovanni",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "Via I° Maggio 219",
-    "postal_code": "10062",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "San Secondo di Pinerolo",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "Via San Rocco 74",
-    "postal_code": "10060",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Torino Aurora",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "Corso Brescia 51",
-    "postal_code": "10100",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Torino Mirafiori Sud",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "Piazza Pietro Francesco Guala, 147",
-    "postal_code": "10100",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Torino Santa Rita",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "Piazza Montanari 137C",
-    "postal_code": "10100",
-    "source_url": "https://www.mygiftcard.it/media/pdv/PDV_Basko.pdf",
-    "status": "verificato_pdf_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Alessandria - Via Cavour",
-    "province_code": "AL",
-    "province_name": "Alessandria",
-    "address": "Via Cavour Camillo Benso, 25",
-    "postal_code": "15121",
-    "source_url": "https://www.paginegialle.it/alessandria-al/centri-commerciali/basko-s-p-a_20031476",
-    "status": "verificato_esterno_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Savona",
-    "province_code": "SV",
-    "province_name": "Savona",
-    "address": "Via Walter Benedetto, 3/R",
-    "postal_code": "17100",
-    "source_url": "https://www.paginegialle.it/savona-sv/centri-commerciali/basko-s-p-a",
-    "status": "verificato_esterno_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Pinerolo",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "Corso Torino, 348",
-    "postal_code": "10064",
-    "source_url": "https://www.paginegialle.it/pinerolo-to/centri-commerciali/basko",
-    "status": "verificato_esterno_recente"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Genova Pontedecimo",
-    "province_code": "GE",
-    "province_name": "Genova",
-    "address": "Via Anfossi Paolo, 206/R",
-    "postal_code": "16164",
-    "source_url": "https://www.paginebianche.it/genova/basko.7323601",
-    "status": "verificato_esterno_recente"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Albuzzano",
-    "province_code": "PV",
-    "province_name": "Pavia",
-    "address": "Via Lodi, 1",
-    "postal_code": "27010",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Alzano Lombardo",
-    "province_code": "BG",
-    "province_name": "Bergamo",
-    "address": "via Meer, 60",
-    "postal_code": "24022",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Annone Veneto",
-    "province_code": "VE",
-    "province_name": "Venezia",
-    "address": "Via Pertini,4A",
-    "postal_code": "30020",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Arcore",
-    "province_code": "MB",
-    "province_name": "Monza Brianza",
-    "address": "Via Casati,4 angolo via Papina",
-    "postal_code": "20862",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Argelato",
-    "province_code": "BO",
-    "province_name": "Bologna",
-    "address": "Via Due Ponti, snc",
-    "postal_code": "40050",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Ariccia",
-    "province_code": "RM",
-    "province_name": "Roma",
-    "address": "Via Nettunese ang.Via Colli San Paolo, 3 (Zona Colli)",
-    "postal_code": "00072",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Arona",
-    "province_code": "NO",
-    "province_name": "Novara",
-    "address": "Via Milano,160",
-    "postal_code": "28041",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Arzignano",
-    "province_code": "VI",
-    "province_name": "Vicenza",
-    "address": "Viale dell'industria, n° 54",
-    "postal_code": "36070",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Asolo",
-    "province_code": "TV",
-    "province_name": "Treviso",
-    "address": "via Castellana",
-    "postal_code": "31011",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Aulla",
-    "province_code": "MS",
-    "province_name": "Massa Carrara",
-    "address": "via Della Repubblica,45",
-    "postal_code": "54011",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Aviano",
-    "province_code": "PN",
-    "province_name": "Pordenone",
-    "address": "Via Pordenone, 13",
-    "postal_code": "33081",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Bagnacavallo",
-    "province_code": "RA",
-    "province_name": "Ravenna",
-    "address": "Via Toscanini, 11/B",
-    "postal_code": "48012",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Bardolino",
-    "province_code": "VR",
-    "province_name": "Verona",
-    "address": "Via Manin, 1",
-    "postal_code": "37011",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Beregazzo con Figliaro",
-    "province_code": "CO",
-    "province_name": "Como",
-    "address": "Via S. Pietro Marconi,18",
-    "postal_code": "22070",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Bergamo",
-    "province_code": "BG",
-    "province_name": "Bergamo",
-    "address": "Via Serassi 5/11",
-    "postal_code": "24100",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Bologna",
-    "province_code": "BO",
-    "province_name": "Bologna",
-    "address": "Via Sthendhal, 37",
-    "postal_code": "40123",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Borgo San Lorenzo",
-    "province_code": "FI",
-    "province_name": "Firenze",
-    "address": "Via P. Caiani,60",
-    "postal_code": "50032",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Borgo Tossignano",
-    "province_code": "BO",
-    "province_name": "Bologna",
-    "address": "Via Ripalimosani, 2",
-    "postal_code": "40021",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Boves",
-    "province_code": "CN",
-    "province_name": "Cuneo",
-    "address": "Via Peveragno, 105",
-    "postal_code": "12012",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Bovezzo",
-    "province_code": "BS",
-    "province_name": "Brescia",
-    "address": "Via Verdi, 60",
-    "postal_code": "25073",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Brugherio",
-    "province_code": "MI",
-    "province_name": "Milano",
-    "address": "Viale Europa, 28",
-    "postal_code": "20047",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Brugine",
-    "province_code": "PD",
-    "province_name": "Padova",
-    "address": "Via A.Moro,72",
-    "postal_code": "35020",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Bucine",
-    "province_code": "AR",
-    "province_name": "Arezzo",
-    "address": "SR 69 di Valdarno, 56",
-    "postal_code": "52021",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Busto Arsizio",
-    "province_code": "VA",
-    "province_name": "Varese",
-    "address": "Via Magenta, snc",
-    "postal_code": "21052",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Cadegliano - Viconago",
-    "province_code": "VA",
-    "province_name": "Varese",
-    "address": "S.S. 233",
-    "postal_code": "21031",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Calvisano",
-    "province_code": "BS",
-    "province_name": "Brescia",
-    "address": "Via Isorella, 12/a",
-    "postal_code": "25012",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Camisano Vicentino",
-    "province_code": "VI",
-    "province_name": "Vicenza",
-    "address": "Via Perin, 20/24",
-    "postal_code": "36043",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Campli - Fraz. Campovalano",
-    "province_code": "TE",
-    "province_name": "Teramo",
-    "address": "Via della Fornace, 1",
-    "postal_code": "64012",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Campospinoso",
-    "province_code": "PV",
-    "province_name": "Pavia",
-    "address": "Via Grisini",
-    "postal_code": "27040",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Cantello",
-    "province_code": "VA",
-    "province_name": "Varese",
-    "address": "Via Cacciatori delle Alpi, angolo Via Elvezia",
-    "postal_code": "21050",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Caorso",
-    "province_code": "PC",
-    "province_name": "Piacenza",
-    "address": "Via Bussandri angolo S.S. Padana Inferiore",
-    "postal_code": "29012",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Capannoli",
-    "province_code": "PI",
-    "province_name": "Pisa",
-    "address": "Via Baciocchi, 4",
-    "postal_code": "56033",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Caravate",
-    "province_code": "VA",
-    "province_name": "Varese",
-    "address": "via XX Settembre, 80/D",
-    "postal_code": "21032",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Carpignano Sesia",
-    "province_code": "NO",
-    "province_name": "Novara",
-    "address": "Via Torino, 48",
-    "postal_code": "28064",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Carrù",
-    "province_code": "CN",
-    "province_name": "Cuneo",
-    "address": "Viale Vittorio Venerto, snc",
-    "postal_code": "12061",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Casalecchio di Reno",
-    "province_code": "BO",
-    "province_name": "Bologna",
-    "address": "Via Cimabue, 7",
-    "postal_code": "40033",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Casalzuigno",
-    "province_code": "VA",
-    "province_name": "Varese",
-    "address": "Via Valcuvia,2",
-    "postal_code": "21030",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Cassolnovo",
-    "province_code": "PV",
-    "province_name": "Pavia",
-    "address": "via IV Novembre angolo s.p. 209",
-    "postal_code": "27023",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Casteggio",
-    "province_code": "PV",
-    "province_name": "Pavia",
-    "address": "Via Torino, n. 123/A",
-    "postal_code": "27045",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Castelfidardo",
-    "province_code": "AN",
-    "province_name": "Ancona",
-    "address": "Via Damiano Chiesa, 24",
-    "postal_code": "60022",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Castel Bolognese",
-    "province_code": "RA",
-    "province_name": "Ravenna",
-    "address": "Via Martiri di Felisio n. 53",
-    "postal_code": "48014",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Castel d'Azzano",
-    "province_code": "VR",
-    "province_name": "Verona",
-    "address": "Via Marconi",
-    "postal_code": "37060",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Castel San Giovanni",
-    "province_code": "PC",
-    "province_name": "Piacenza",
-    "address": "Via Fratelli Bandiera, 48",
-    "postal_code": "29015",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Castelfranco di Sotto",
-    "province_code": "PI",
-    "province_name": "Pisa",
-    "address": "Piazza del Volontariato, 6",
-    "postal_code": "56022",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Castelfranco Emilia",
-    "province_code": "MO",
-    "province_name": "Modena",
-    "address": "Via Del Maniscalco, 30",
-    "postal_code": "41013",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Castelfranco Veneto",
-    "province_code": "TV",
-    "province_name": "Treviso",
-    "address": "Via Borgo Treviso, 138",
-    "postal_code": "31033",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Castellamonte",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "via P.zza franco romano,s/n",
-    "postal_code": "10081",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Castello di Godego",
-    "province_code": "TV",
-    "province_name": "Treviso",
-    "address": "Via E. Fermi, 2",
-    "postal_code": "31030",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Castelmarte",
-    "province_code": "CO",
-    "province_name": "Como",
-    "address": "Via Lambro, 17",
-    "postal_code": "22030",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Castelminio di Resana",
-    "province_code": "TV",
-    "province_name": "Treviso",
-    "address": "Via della Croce, 18",
-    "postal_code": "31023",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Castelnovo di Sotto",
-    "province_code": "RE",
-    "province_name": "Regg. Emilia",
-    "address": "via Parmiggiana, 9",
-    "postal_code": "42024",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Cattolica",
-    "province_code": "RN",
-    "province_name": "Rimini",
-    "address": "Via E. Romagna",
-    "postal_code": "47841",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Cava Manara",
-    "province_code": "PV",
-    "province_name": "Pavia",
-    "address": "Via Turati (Strada Statale 55 dei Giovi)",
-    "postal_code": "27051",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Cento",
-    "province_code": "FE",
-    "province_name": "Ferrara",
-    "address": "Via Dante Alighieri, 40/B",
-    "postal_code": "44042",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Cervarese Santa Croce",
-    "province_code": "PD",
-    "province_name": "Padova",
-    "address": "Via Roma,320",
-    "postal_code": "35030",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Cervignano del Friuli",
-    "province_code": "UD",
-    "province_name": "Udine",
-    "address": "Via Venezia,10",
-    "postal_code": "33052",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Cesano Boscone",
-    "province_code": "MI",
-    "province_name": "Milano",
-    "address": "Via delle Acacie, 12",
-    "postal_code": "20090",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Cesena",
-    "province_code": "FC",
-    "province_name": "Forlì Cesena",
-    "address": "Via Marzolino I, 265",
-    "postal_code": "47521",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Cesenatico",
-    "province_code": "FC",
-    "province_name": "Forlì/Cesena",
-    "address": "Via Negrelli,24",
-    "postal_code": "47042",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Cherasco",
-    "province_code": "CN",
-    "province_name": "Cuneo",
-    "address": "Via Einaudi, snc",
-    "postal_code": "12062",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Chianocco",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "Località Vernetto, SS 25",
-    "postal_code": "10050",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Chiari",
-    "province_code": "BS",
-    "province_name": "Brescia",
-    "address": "Via Consorzio, 19",
-    "postal_code": "25032",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Chieti",
-    "province_code": "CH",
-    "province_name": "Chieti",
-    "address": "Via Pescara, 223",
-    "postal_code": "66100",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Cilavegna",
-    "province_code": "PV",
-    "province_name": "Pavia",
-    "address": "Via Gravellona, 2",
-    "postal_code": "27024",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Città di Castello",
-    "province_code": "PG",
-    "province_name": "Perugia",
-    "address": "Via G. di Vittorio, 1",
-    "postal_code": "06012",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Cittadella",
-    "province_code": "PD",
-    "province_name": "Padova",
-    "address": "Via S.Donato, 22/A",
-    "postal_code": "35013",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Civitella in Val di Chiana Strada Statale Aretina Nord, 125 -",
-    "province_code": "AR",
-    "province_name": "Arezzo",
-    "address": "Località Pieve al Toppo",
-    "postal_code": "52041",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Codroipo",
-    "province_code": "UD",
-    "province_name": "Udine",
-    "address": "Via XXIX Ottobre ang.Div.Julia",
-    "postal_code": "33033",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Comacchio",
-    "province_code": "FE",
-    "province_name": "Ferrara",
-    "address": "S.S. Romea, 13",
-    "postal_code": "44020",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Copparo",
-    "province_code": "FE",
-    "province_name": "Ferrara",
-    "address": "Via G. Donizetti n. 3-5",
-    "postal_code": "44034",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Coriano",
-    "province_code": "RN",
-    "province_name": "Rimini",
-    "address": "Via Ausa, 118/120",
-    "postal_code": "47853",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Cormons",
-    "province_code": "UD",
-    "province_name": "Udine",
-    "address": "Via Isonzo",
-    "postal_code": "34071",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Costa Volpino",
-    "province_code": "BG",
-    "province_name": "Bergamo",
-    "address": "Via Battisti-Strada Prov., 82",
-    "postal_code": "24062",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Crespellano",
-    "province_code": "BO",
-    "province_name": "Bologna",
-    "address": "Via Paolo Borsellino, 20/22",
-    "postal_code": "40056",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Daverio",
-    "province_code": "VA",
-    "province_name": "Varese",
-    "address": "Via Cesare Battisti",
-    "postal_code": "21020",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Desenzano del Garda",
-    "province_code": "BS",
-    "province_name": "Brescia",
-    "address": "Via Padre Bevilacqua,3- angolo mini tangenziale",
-    "postal_code": "25015",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Desio",
-    "province_code": "MB",
-    "province_name": "Monza Brianza",
-    "address": "Via per Seregno,30",
-    "postal_code": "20832",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Desio",
-    "province_code": "MB",
-    "province_name": "Monza Brianza",
-    "address": "Via Karl Marx, 10",
-    "postal_code": "20832",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Diano Marina",
-    "province_code": "IM",
-    "province_name": "Imperia",
-    "address": "Via Diano Calderina - Loc. Fornace Chinni (no numero civico)",
-    "postal_code": "18013",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Dicomano",
-    "province_code": "FI",
-    "province_name": "Firenze",
-    "address": "Via della Vittoria, 20",
-    "postal_code": "50062",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Endine Gaiano",
-    "province_code": "BG",
-    "province_name": "Bergamo",
-    "address": "ss 42 N° 268",
-    "postal_code": "24060",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Faenza",
-    "province_code": "RA",
-    "province_name": "Ravenna",
-    "address": "Via Medaglie d'oro/via Laghi 86",
-    "postal_code": "48018",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Fagagna",
-    "province_code": "UD",
-    "province_name": "Udine",
-    "address": "Via Spilimbergo, 210",
-    "postal_code": "33034",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Fagnano Olona",
-    "province_code": "VA",
-    "province_name": "Varese",
-    "address": "Via Busto Arsizio",
-    "postal_code": "21054",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Fano",
-    "province_code": "PU",
-    "province_name": "Pesaro-Urbino",
-    "address": "via Galileo Galilei, 26",
-    "postal_code": "61032",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Felino",
-    "province_code": "PR",
-    "province_name": "Parma",
-    "address": "strada Capelli 1, località Pataro",
-    "postal_code": "43035",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Felino",
-    "province_code": "PR",
-    "province_name": "Parma",
-    "address": "Via Fiorentina, 96/A",
-    "postal_code": "50063",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Forli'",
-    "province_code": "FC",
-    "province_name": "Forlì",
-    "address": "Via C.Colombo, 9",
-    "postal_code": "47122",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Fossalta di Portogruaro",
-    "province_code": "VE",
-    "province_name": "Venezia",
-    "address": "Via Enrico Fermi, 11",
-    "postal_code": "30025",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Fusignano",
-    "province_code": "RA",
-    "province_name": "Ravenna",
-    "address": "Via Ex Tramvia",
-    "postal_code": "48034",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Garda",
-    "province_code": "VR",
-    "province_name": "Verona",
-    "address": "Via Preite,21",
-    "postal_code": "37016",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Gardone Val Trompia",
-    "province_code": "BS",
-    "province_name": "Brescia",
-    "address": "Via Mameli,2",
-    "postal_code": "25063",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Gattorna",
-    "province_code": "GE",
-    "province_name": "Genova",
-    "address": "Piazza dei Pescatori,fraz.di Moconesi",
-    "postal_code": "16047",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Gavardo",
-    "province_code": "BS",
-    "province_name": "Brescia",
-    "address": "Via Qurena, 230",
-    "postal_code": "25085",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Gavirate",
-    "province_code": "VA",
-    "province_name": "Varese",
-    "address": "Viale Ticino, 83",
-    "postal_code": "21026",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Gorizia",
-    "province_code": "GO",
-    "province_name": "Gorizia",
-    "address": "Via montesanto, 96",
-    "postal_code": "34170",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Gottolengo",
-    "province_code": "BS",
-    "province_name": "Brescia",
-    "address": "Via Pavone, 53/a",
-    "postal_code": "25023",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Gradisca d'Isonzo",
-    "province_code": "GO",
-    "province_name": "Gorizia",
-    "address": "Via Udine, 24",
-    "postal_code": "34072",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Grassobbio",
-    "province_code": "BG",
-    "province_name": "Bergamo",
-    "address": "Via Gaetano Donizetti, 45",
-    "postal_code": "24050",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Grugliasco",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "Strada del Barocchio, 81",
-    "postal_code": "10095",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Grugliasco",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "Via La Salle, 135",
-    "postal_code": "10095",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Guidizzolo",
-    "province_code": "MN",
-    "province_name": "Mantova",
-    "address": "via Goito,38/b",
-    "postal_code": "46040",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Gussago",
-    "province_code": "BS",
-    "province_name": "Brescia",
-    "address": "Via Pianette, 33",
-    "postal_code": "25064",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Imola",
-    "province_code": "BO",
-    "province_name": "Bologna",
-    "address": "via Goito,snc",
-    "postal_code": "40026",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Inverso di Pinasca",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "Via Provinciale , 205",
-    "postal_code": "10060",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Iseo",
-    "province_code": "BS",
-    "province_name": "Brescia",
-    "address": "via Europa, 17",
-    "postal_code": "25049",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Ispra",
-    "province_code": "VA",
-    "province_name": "Varese",
-    "address": "Via Enrico Fermi, 519",
-    "postal_code": "21027",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Latisana",
-    "province_code": "UD",
-    "province_name": "Udine",
-    "address": "Via Crosere, 1",
-    "postal_code": "33053",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Latisana",
-    "province_code": "UD",
-    "province_name": "Udine",
-    "address": "Piazza Mateotti, 11",
-    "postal_code": "33053",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Lodi",
-    "province_code": "LO",
-    "province_name": "Lodi",
-    "address": "Viale Piacenza",
-    "postal_code": "26900",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Lumezzane",
-    "province_code": "BS",
-    "province_name": "Brescia",
-    "address": "Via Ragazzi del 99, 53/D",
-    "postal_code": "25065",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Lurago D'Erba",
-    "province_code": "CO",
-    "province_name": "Como",
-    "address": "via Vallassina, 13/a",
-    "postal_code": "22040",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Maerne di Martellago",
-    "province_code": "VE",
-    "province_name": "Venezia",
-    "address": "Via circonvallazione 28/C",
-    "postal_code": "30030",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Maniago",
-    "province_code": "PN",
-    "province_name": "Pordenone",
-    "address": "Via Pordenone ang. Via Cairoli, 2",
-    "postal_code": "33085",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Manta",
-    "province_code": "CN",
-    "province_name": "Cuneo",
-    "address": "Via C.A.Dalla Chiesa, 1",
-    "postal_code": "12030",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Marcallo con Casone",
-    "province_code": "MI",
-    "province_name": "Milano",
-    "address": "Via Damiano Chiesa, snc",
-    "postal_code": "20010",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Marchirolo",
-    "province_code": "VA",
-    "province_name": "Varese",
-    "address": "strada statale,35",
-    "postal_code": "21039",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Mede",
-    "province_code": "PV",
-    "province_name": "Pavia",
-    "address": "via F.lli Cairoli, 23/35",
-    "postal_code": "27035",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Mel",
-    "province_code": "BL",
-    "province_name": "Belluno",
-    "address": "Via Tempietto, Strada Provinciale 1",
-    "postal_code": "36026",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Mesenzana",
-    "province_code": "VA",
-    "province_name": "Varese",
-    "address": "Via Provinciale,55",
-    "postal_code": "21030",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Mestre",
-    "province_code": "VE",
-    "province_name": "Venezia",
-    "address": "Via Miranese, 86",
-    "postal_code": "30170",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Mezzano di Ravenna",
-    "province_code": "RA",
-    "province_name": "Ravenna",
-    "address": "Via Reale, 290",
-    "postal_code": "48123",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Mirandola",
-    "province_code": "MO",
-    "province_name": "Modena",
-    "address": "Via Enrico Toti, 63",
-    "postal_code": "41037",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Misano Adriatico",
-    "province_code": "RN",
-    "province_name": "Rimini",
-    "address": "Via Statale 16 Adriatica, 169",
-    "postal_code": "47843",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Modena",
-    "province_code": "MO",
-    "province_name": "Modena",
-    "address": "Via Emilia Ovest, 386",
-    "postal_code": "41100",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Modena",
-    "province_code": "MO",
-    "province_name": "Modena",
-    "address": "Via Piave, 98",
-    "postal_code": "41100",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Moncalieri",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "via Bruno Buozzi",
-    "postal_code": "10024",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Mondovì",
-    "province_code": "CN",
-    "province_name": "Cuneo",
-    "address": "via Trieste 8,angolo via Langhe",
-    "postal_code": "12084",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Monfalcone",
-    "province_code": "GO",
-    "province_name": "Gorizia",
-    "address": "V.le S. Marco, 82",
-    "postal_code": "34074",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Moniga del Garda",
-    "province_code": "BS",
-    "province_name": "Brescia",
-    "address": "Via Pergola, S/n",
-    "postal_code": "25080",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Monselice",
-    "province_code": "PD",
-    "province_name": "Padova",
-    "address": "via Ca' Oddo, 34 H",
-    "postal_code": "35043",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Monte San Savino",
-    "province_code": "AR",
-    "province_name": "Arezzo",
-    "address": "viale Santa Maria delleVertighe,2/d Vertighe, snc",
-    "postal_code": "52048",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Monte Urano",
-    "province_code": "FM",
-    "province_name": "Fermo",
-    "address": "Via Appennini, 32",
-    "postal_code": "63813",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Montegrosso d'Asti",
-    "province_code": "AT",
-    "province_name": "Asti",
-    "address": "Via Asti Mare, 55",
-    "postal_code": "14048",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Montelupo Fiorentino",
-    "province_code": "FI",
-    "province_name": "Firenze",
-    "address": "Via Arti e Mestieri, 15",
-    "postal_code": "50056",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Montemarciano via S.S Adriatica ang.",
-    "province_code": "AN",
-    "province_name": "Ancona",
-    "address": "Via Honorati",
-    "postal_code": "60018",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Monteroni d'Arbia",
-    "province_code": "SI",
-    "province_name": "Siena",
-    "address": "Via Cassia Sud, 336/B",
-    "postal_code": "53014",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Montevarchi",
-    "province_code": "AR",
-    "province_name": "Arezzo",
-    "address": "Via Meuccio Ruini,24",
-    "postal_code": "52025",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Nogara",
-    "province_code": "VR",
-    "province_name": "Verona",
-    "address": "Via XXV Aprile, 20",
-    "postal_code": "37054",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Nuova Olonio di Dubino",
-    "province_code": "SO",
-    "province_name": "Sondrio",
-    "address": "Via Valeriana, 127",
-    "postal_code": "23015",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Oleggio",
-    "province_code": "NO",
-    "province_name": "Novara",
-    "address": "Via Momo,120",
-    "postal_code": "28047",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Ovada",
-    "province_code": "VC",
-    "province_name": "Vercelli",
-    "address": "Via Gramsci, 8",
-    "postal_code": "15076",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Pantigliate",
-    "province_code": "MI",
-    "province_name": "Milano",
-    "address": "via Risorgimento,31",
-    "postal_code": "20090",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Pasian di Prato",
-    "province_code": "UD",
-    "province_name": "Udine",
-    "address": "Via Campoformido, 63",
-    "postal_code": "33037",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Pavone Canavese",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "Via Torino, 32",
-    "postal_code": "10018",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Pavullo nel Frignano",
-    "province_code": "MO",
-    "province_name": "Modena",
-    "address": "Via Giardini Sud, 65",
-    "postal_code": "41026",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Pelago",
-    "province_code": "FI",
-    "province_name": "Firenze",
-    "address": "Via Petrarca, 37",
-    "postal_code": "50060",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Pelago",
-    "province_code": "FI",
-    "province_name": "Firenze",
-    "address": "Strada della Fabreccia, 1/1",
-    "postal_code": "50060",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Pescara",
-    "province_code": "PE",
-    "province_name": "Pescara",
-    "address": "Via Caravaggio, 277",
-    "postal_code": "65125",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Pescara 3",
-    "province_code": "PE",
-    "province_name": "Pescara",
-    "address": "Via Rigopiano, 133",
-    "postal_code": "65124",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Pisa",
-    "province_code": "PI",
-    "province_name": "Pisa",
-    "address": "Via Pietrasantina, 26",
-    "postal_code": "56100",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Poggio Renatico",
-    "province_code": "FE",
-    "province_name": "Ferrara",
-    "address": "Via XX Settembre",
-    "postal_code": "44028",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Ponte Buggianese",
-    "province_code": "PT",
-    "province_name": "Pistoia",
-    "address": "Via Camporcioni, snc",
-    "postal_code": "51019",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Pontremoli",
-    "province_code": "MS",
-    "province_name": "Massa Carrara",
-    "address": "via Del Seminario",
-    "postal_code": "54027",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "VALDILANA, frazione Ponzone",
-    "province_code": "BI",
-    "province_name": "Biella",
-    "address": "Via Provinciale, 52",
-    "postal_code": "13835",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Poppi",
-    "province_code": "AR",
-    "province_name": "Arezzo",
-    "address": "Via Guazzi, 15/17",
-    "postal_code": "52014",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Porcia",
-    "province_code": "PN",
-    "province_name": "Pordenone",
-    "address": "Via Vallada, 8",
-    "postal_code": "33080",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Portogruaro",
-    "province_code": "VE",
-    "province_name": "Venezia",
-    "address": "Viale Trieste, 49",
-    "postal_code": "30026",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Prato",
-    "province_code": "PO",
-    "province_name": "Prato",
-    "address": "Via per Iolo - Loc. Tobbiana",
-    "postal_code": "59100",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Quarrata",
-    "province_code": "PT",
-    "province_name": "Pistoia",
-    "address": "Via Montalbano, 404/3",
-    "postal_code": "51039",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Ravenna",
-    "province_code": "RA",
-    "province_name": "Ravenna",
-    "address": "Via Grandi, 30",
-    "postal_code": "48100",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Ravenna",
-    "province_code": "RA",
-    "province_name": "Ravenna",
-    "address": "via Dei Poggi,58",
-    "postal_code": "48100",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Reggio Emilia",
-    "province_code": "RE",
-    "province_name": "Reggio Emilia",
-    "address": "Via André Marie Ampére",
-    "postal_code": "42121",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Reggiolo",
-    "province_code": "RE",
-    "province_name": "Regg. Emilia",
-    "address": "Via Bandini, 29",
-    "postal_code": "42046",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Remanzacco",
-    "province_code": "UD",
-    "province_name": "Udine",
-    "address": "Via Ex S.S.54, 53",
-    "postal_code": "33047",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Rimini",
-    "province_code": "RN",
-    "province_name": "Rimini",
-    "address": "Via Lucio Lando,47",
-    "postal_code": "47921",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Rimini",
-    "province_code": "RN",
-    "province_name": "Rimini",
-    "address": "Via Marte, 26",
-    "postal_code": "47923",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Roana",
-    "province_code": "VI",
-    "province_name": "Vicenza",
-    "address": "via Lazzaretto,snc",
-    "postal_code": "36010",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Roma",
-    "province_code": "RM",
-    "province_name": "Roma",
-    "address": "Via Boccea via Boccea, 457-angolo Costanzo Guglielmi",
-    "postal_code": "00166",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Roma",
-    "province_code": "RM",
-    "province_name": "Roma",
-    "address": "via Carmine via CarmineCalo' nn4-6-10/ angolo di Selva Candida",
-    "postal_code": "00166",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Ronchi dei Legionari",
-    "province_code": "GO",
-    "province_name": "Gorizia",
-    "address": "Via Garibaldi, ang.Marconi",
-    "postal_code": "34077",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Rosate",
-    "province_code": "MI",
-    "province_name": "Milano",
-    "address": "via Silvio Pellico, 10",
-    "postal_code": "20088",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Roveleto di Cadeo",
-    "province_code": "PC",
-    "province_name": "Piacenza",
-    "address": "Via Emilia ,187",
-    "postal_code": "29010",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Russi",
-    "province_code": "RA",
-    "province_name": "Ravenna",
-    "address": "Via Renzi",
-    "postal_code": "48026",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Sacile",
-    "province_code": "PN",
-    "province_name": "Pordenone",
-    "address": "Viale Repubblica",
-    "postal_code": "33077",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Salzano",
-    "province_code": "VE",
-    "province_name": "Venezia",
-    "address": "Via Roma, 187",
-    "postal_code": "30030",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Samone",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "Via Provinciale, 3",
-    "postal_code": "10010",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "San Bonifacio",
-    "province_code": "VR",
-    "province_name": "Verona",
-    "address": "Via Libertà, 57",
-    "postal_code": "37047",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "San Giorgio in Bosco",
-    "province_code": "PD",
-    "province_name": "Padova",
-    "address": "Via del Donatore, 291",
-    "postal_code": "35010",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "San Giovanni al Natisone",
-    "province_code": "UD",
-    "province_name": "Udine",
-    "address": "Via Nazionale 80/81",
-    "postal_code": "33048",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "San Giuseppe",
-    "province_code": "FE",
-    "province_name": "Ferrara",
-    "address": "S.S. Romea, 72/A",
-    "postal_code": "44020",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "San Giustino",
-    "province_code": "PG",
-    "province_name": "Perugia",
-    "address": "Via Umbra snc",
-    "postal_code": "6016",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "San Giustino",
-    "province_code": "PG",
-    "province_name": "Perugia",
-    "address": "via Mirabello 2/a",
-    "postal_code": "06016",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "San Martino di Venezze",
-    "province_code": "RO",
-    "province_name": "Rovigo",
-    "address": "Via Cà Donà, 100/H",
-    "postal_code": "45030",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "San Mauro Pascoli",
-    "province_code": "FC",
-    "province_name": "Forlì Cesena",
-    "address": "Via Ionio, 15/17 angolo Via Adriatica",
-    "postal_code": "47030",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "San Nicolò",
-    "province_code": "PC",
-    "province_name": "Piacenza",
-    "address": "Via Emilia Pavese, 31/A",
-    "postal_code": "29010",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "San Pietro in Casale",
-    "province_code": "BO",
-    "province_name": "Bologna",
-    "address": "Via Galliera nord, 271",
-    "postal_code": "40018",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "San Vincenzo",
-    "province_code": "LI",
-    "province_name": "Livorno",
-    "address": "Via Pitagora, 1",
-    "postal_code": "57027",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "San Vito al Tagliamento",
-    "province_code": "PN",
-    "province_name": "Pordenone",
-    "address": "Viale Zuccherificio, 4",
-    "postal_code": "33078",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "San Zeno Naviglio",
-    "province_code": "BS",
-    "province_name": "Brescia",
-    "address": "Via Diaz, 13",
-    "postal_code": "25010",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "San Zenone degli Ezzelini",
-    "province_code": "TV",
-    "province_name": "Treviso",
-    "address": "Via San Martino",
-    "postal_code": "31020",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Sant'Agostino Terre di Reno",
-    "province_code": "FE",
-    "province_name": "Ferrara",
-    "address": "Via SS 221",
-    "postal_code": "44047",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Sarzana",
-    "province_code": "SP",
-    "province_name": "La Spezia",
-    "address": "Via Variante Aurelia,40",
-    "postal_code": "19038",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Savogna d'Isonzo",
-    "province_code": "GO",
-    "province_name": "Gorizia",
-    "address": "Via I° Maggio",
-    "postal_code": "34070",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Schiavon",
-    "province_code": "VI",
-    "province_name": "Vicenza",
-    "address": "via Guglielmo Marconi",
-    "postal_code": "36060",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Schio",
-    "province_code": "VI",
-    "province_name": "Vicenza",
-    "address": "Via Rovereto, 96",
-    "postal_code": "36015",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Sermoneta",
-    "province_code": "LT",
-    "province_name": "Latina",
-    "address": "Via delle Rose, 1",
-    "postal_code": "04013",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Serra dè Conti",
-    "province_code": "AN",
-    "province_name": "Ancona",
-    "address": "Via Severino Menè, 28",
-    "postal_code": "60030",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Signa",
-    "province_code": "FI",
-    "province_name": "Firenze",
-    "address": "Via dei Colli ang. Via Madre Teresa di Calcutta",
-    "postal_code": "50058",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Solesino",
-    "province_code": "PD",
-    "province_name": "Padova",
-    "address": "Via Papa Giovanni XXIII,123",
-    "postal_code": "35047",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Sommacampagna",
-    "province_code": "VR",
-    "province_name": "Verona",
-    "address": "Via delle Industrie, 31",
-    "postal_code": "37066",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Soriano nel Cimino",
-    "province_code": "VT",
-    "province_name": "Viterbo",
-    "address": "Via Madonna di Loreto, 26",
-    "postal_code": "01038",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Sovizzo",
-    "province_code": "VI",
-    "province_name": "Vicenza",
-    "address": "Via Risorgimento,24",
-    "postal_code": "36050",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Spresiano",
-    "province_code": "TV",
-    "province_name": "Treviso",
-    "address": "Via Dante Alighieri, 126",
-    "postal_code": "31027",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Staranzano",
-    "province_code": "GO",
-    "province_name": "Gorizia",
-    "address": "Via F.lli Fontanot, 10",
-    "postal_code": "34079",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Stezzano",
-    "province_code": "BG",
-    "province_name": "Bergamo",
-    "address": "Via Silvio Pellico",
-    "postal_code": "24040",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Supino",
-    "province_code": "FR",
-    "province_name": "Frosinone",
-    "address": "Via Morolense, km 6+300",
-    "postal_code": "03019",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Tarcento",
-    "province_code": "UD",
-    "province_name": "Udine",
-    "address": "Via Matteotti, 19",
-    "postal_code": "33017",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Terni",
-    "province_code": "TR",
-    "province_name": "Terni",
-    "address": "Via Alfonsine, snc",
-    "postal_code": "05100",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Torbole Casaglia",
-    "province_code": "BS",
-    "province_name": "Brescia",
-    "address": "P.zza Repubblica, 25/28",
-    "postal_code": "25030",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Torino",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "Via Passo Buole, 170",
-    "postal_code": "10135",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Torino",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "Via Negarville",
-    "postal_code": "10135",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Torino",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "Via Caraglio,21",
-    "postal_code": "10100",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Treviso",
-    "province_code": "TV",
-    "province_name": "Treviso",
-    "address": "Via San Pelajo, 126/h",
-    "postal_code": "31100",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Trezzo sull'Adda",
-    "province_code": "MI",
-    "province_name": "Milano",
-    "address": "Via mazzini,70",
-    "postal_code": "20056",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Trieste",
-    "province_code": "TS",
-    "province_name": "Trieste",
-    "address": "Via de Bachino Villan, 2",
-    "postal_code": "34135",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Trieste",
-    "province_code": "TS",
-    "province_name": "Trieste",
-    "address": "Via Del Destriero",
-    "postal_code": "34137",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Uboldo",
-    "province_code": "VA",
-    "province_name": "Varese",
-    "address": "Via IV Novembre",
-    "postal_code": "21040",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Udine",
-    "province_code": "UD",
-    "province_name": "Udine",
-    "address": "Via Mantova,91",
-    "postal_code": "33100",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Vaprio d'Adda",
-    "province_code": "MI",
-    "province_name": "Milano",
-    "address": "via Guglielmo Marconi",
-    "postal_code": "20069",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Vercelli",
-    "province_code": "VC",
-    "province_name": "Vercelli",
-    "address": "Corso Amedeo Avogadro di Quaregna, 1",
-    "postal_code": "13100",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Vergiate",
-    "province_code": "VA",
-    "province_name": "Varese",
-    "address": "Via Sempione, 41",
-    "postal_code": "21029",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Vercelli",
-    "province_code": "VC",
-    "province_name": "Vercelli",
-    "address": "Via Murari Bra, 49",
-    "postal_code": "37136",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Verona",
-    "province_code": "VR",
-    "province_name": "Verona",
-    "address": "Via Zeila, 12",
-    "postal_code": "37131",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Verona",
-    "province_code": "VR",
-    "province_name": "Verona",
-    "address": "piazza Vinco,1",
-    "postal_code": "37131",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Verona",
-    "province_code": "VR",
-    "province_name": "Verona",
-    "address": "Via Roveggia, 124",
-    "postal_code": "37136",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Vicchio",
-    "province_code": "FI",
-    "province_name": "Firenze",
-    "address": "Via Beato Angelico,5",
-    "postal_code": "50039",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Vicenza",
-    "province_code": "VI",
-    "province_name": "Vicenza",
-    "address": "Via Quadri, 77",
-    "postal_code": "36100",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Vicopisano",
-    "province_code": "PI",
-    "province_name": "Pisa",
-    "address": "Via Provinciale Vicarese, 189",
-    "postal_code": "56010",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Vignate",
-    "province_code": "MI",
-    "province_name": "Milano",
-    "address": "Via dell'Industria",
-    "postal_code": "20060",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Vignola",
-    "province_code": "MO",
-    "province_name": "Modena",
-    "address": "Via per Spilamberto, 1557",
-    "postal_code": "41058",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Villa Verucchio",
-    "province_code": "RN",
-    "province_name": "Rimini",
-    "address": "Strada Stratale Marecchia",
-    "postal_code": "47826",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Villafranca",
-    "province_code": "PD",
-    "province_name": "Padova",
-    "address": "Via Matteotti, 101",
-    "postal_code": "35010",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Villanova di Mondovì",
-    "province_code": "CN",
-    "province_name": "Cuneo",
-    "address": "Via Roccaforte",
-    "postal_code": "12089",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Villorba",
-    "province_code": "TV",
-    "province_name": "Treviso",
-    "address": "via POSTIOMA, 69",
-    "postal_code": "31020",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Vittorio Veneto",
-    "province_code": "TV",
-    "province_name": "Treviso",
-    "address": "Via Vallata, 9 - 31029 Vittorio Veneto (TV)",
-    "postal_code": "31029",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Volpiano",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "Via Verdi, 2",
-    "postal_code": "10088",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Volta Mantovana",
-    "province_code": "MN",
-    "province_name": "Mantova",
-    "address": "Via F. Gonzanga,73",
-    "postal_code": "46049",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Zanano",
-    "province_code": "BS",
-    "province_name": "Brescia",
-    "address": "Via Dante, 157",
-    "postal_code": "25068",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Zola Predosa",
-    "province_code": "BO",
-    "province_name": "Bologna",
-    "address": "Via Risorgimento,86",
-    "postal_code": "40069",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "CORDIGNANO",
-    "province_code": "TV",
-    "province_name": "Treviso",
-    "address": "Via piave, 3",
-    "postal_code": "31016",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "VERGATO",
-    "province_code": "BO",
-    "province_name": "Bologna",
-    "address": "Via Berlinguer, 102",
-    "postal_code": "40038",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "ROMANENGO",
-    "province_code": "CR",
-    "province_name": "Cremona",
-    "address": "via delle industrie, s/n",
-    "postal_code": "26014",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "VALBRENTA (Cismon del Grappa)",
-    "province_code": "VI",
-    "province_name": "Vicenza",
-    "address": "via Giarre di Sicilia, 2",
-    "postal_code": "36029",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Ponte della Venturina -GRANAGLIONE",
-    "province_code": "BO",
-    "province_name": "Bologna",
-    "address": "Via Nazionale, 153",
-    "postal_code": "40046",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "PROMANO di CITTA' DI CASTELLO",
-    "province_code": "PG",
-    "province_name": "Perugia",
-    "address": "Via Romana, 71",
-    "postal_code": "6012",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "ROMA",
-    "province_code": "RM",
-    "province_name": "Roma",
-    "address": "Via Frascineto, 2",
-    "postal_code": "00173",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "Promano di Città di Castello",
-    "province_code": "PG",
-    "province_name": "Perugia",
-    "address": "Via della Pisana, 475",
-    "postal_code": "06012",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "ROMA",
-    "province_code": "RM",
-    "province_name": "Roma",
-    "address": "Via Pietro Gasparri, 92",
-    "postal_code": "00168",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "ROMA",
-    "province_code": "RM",
-    "province_name": "Roma",
-    "address": "Via della Cecchignola, 159",
-    "postal_code": "00143",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "RONCIGLIONE (VT)",
-    "province_code": "VT",
-    "province_name": "Viterbo",
-    "address": "Via delle Vigne, 28",
-    "postal_code": "01037",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "COCQUIO-TREVISAGO",
-    "province_code": "VA",
-    "province_name": "Varese",
-    "address": "Contrada Tagliabò, 6/A",
-    "postal_code": "21034",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "LAVENO MOMBELLO",
-    "province_code": "VA",
-    "province_name": "Varese",
-    "address": "Via Molinetto, 1",
-    "postal_code": "21014",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "PIOBESI TORINESE",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "Via Galimberti, 20",
-    "postal_code": "10040",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "DRUENTO",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "Via Verdi,15",
-    "postal_code": "10040",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "ALBIATE",
-    "province_code": "MB",
-    "province_name": "Monza e Brianza",
-    "address": "Via M. L. King, 2",
-    "postal_code": "20847",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
-  },
-  {
-    "brand": "DPiù",
-    "store_name": "FIVIZZANO - Fraz. ROMETTA (MS)",
-    "province_code": "MS",
-    "province_name": "Massa Carrara",
-    "address": "Località Il Piano, 20",
-    "postal_code": "54013",
-    "source_url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    "status": "verificato_tabella_pubblica_dpiu"
+    "nome": "Di Più",
+    "indirizzo": "Via Lodi, 1",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Pavia",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "via Meer, 60",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Pertini,4A",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Casati,4 angolo via Papina",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Due Ponti, snc",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Nettunese ang.Via Colli San Paolo, 3 (Zona Colli)",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Milano,160",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Viale dell'industria, n° 54",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "via Castellana",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "via Della Repubblica,45",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Aviano",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Pordenone, 13",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Toscanini, 11/B",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Manin, 1",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via S. Pietro Marconi,18",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Serassi 5/11",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Sthendhal, 37",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via P. Caiani,60",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Ripalimosani, 2",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Peveragno, 105",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Verdi, 60",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Viale Europa, 28",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via A.Moro,72",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Magenta, snc",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Isorella, 12/a",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Perin, 20/24",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via della Fornace, 1",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Grisini",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Pavia",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Cacciatori delle Alpi, angolo Via Elvezia",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Bussandri angolo S.S. Padana Inferiore",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Baciocchi, 4",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "via XX Settembre, 80/D",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Torino, 48",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Viale Vittorio Venerto, snc",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Cimabue, 7",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Valcuvia,2",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "via IV Novembre angolo s.p. 209",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Pavia",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Torino, n. 123/A",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Pavia",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Damiano Chiesa, 24",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Martiri di Felisio n. 53",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Marconi",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Fratelli Bandiera, 48",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Piazza del Volontariato, 6",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Del Maniscalco, 30",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Borgo Treviso, 138",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "via P.zza franco romano,s/n",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via E. Fermi, 2",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Lambro, 17",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via della Croce, 18",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "via Parmiggiana, 9",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via E.Romagna",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Turati (Strada Statale 55 dei Giovi)",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Pavia",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Dante Alighieri, 40/B",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Roma,320",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Venezia,10",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via delle Acacie, 12",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Marzolino I, 265",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Negrelli,24",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Einaudi, snc",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Consorzio, 19",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Pescara, 223",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Gravellona, 2",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Pavia",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via G. di Vittorio, 1",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via S.Donato, 22/A",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via XXIX Ottobre ang.Div.Julia",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via G. Donizetti n. 3-5",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Ausa, 118/120",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Isonzo",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Battisti-Strada Prov., 82",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Paolo Borsellino, 20/22",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Cesare Battisti",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Padre Bevilacqua,3- angolo mini tangenziale",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via per Seregno,30",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Karl Marx, 10",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Diano Calderina - Loc. Fornace Chinni (no numero civico)",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via della Vittoria, 20",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Medaglie d'oro/via Laghi 86",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Spilimbergo, 210",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Busto Arsizio",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "via Galileo Galilei, 26",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Fiorentina, 96/A",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via C.Colombo, 9",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Enrico Fermi, 11",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Ex Tramvia",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Preite,21",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Mameli,2",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Piazza dei Pescatori,fraz.di Moconesi",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Qurena, 230",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Viale Ticino, 83",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via montesanto, 96",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Pavone, 53/a",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Udine, 24",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Gaetano Donizetti, 45",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via La Salle, 135",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "via Goito,38/b",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Pianette, 33",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "via Goito,snc",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Provinciale , 205",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "via Europa, 17",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Enrico Fermi, 519",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Crosere, 1",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Piazza Mateotti, 11",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Viale Piacenza",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Ragazzi del 99, 53/D",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "via Vallassina, 13/a",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via circonvallazione 28/C",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Pordenone ang. Via Cairoli, 2",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via C.A.Dalla Chiesa, 1",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Damiano Chiesa, snc",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "via F.lli Cairoli, 23/35",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Pavia",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Tempietto, Strada Provinciale 1",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Provinciale,55",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Miranese, 86",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Reale, 290",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Enrico Toti, 63",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Statale 16 Adriatica, 169",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Emilia Ovest, 386",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Piave, 98",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "via Bruno Buozzi",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "via Trieste 8,angolo via Langhe",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Pergola, S/n",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "via Ca' Oddo, 34 H",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "viale Santa Maria delleVertighe,2/d                                                                           Vertighe, snc",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Appennini, 32",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Asti Mare, 55",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Arti e Mestieri, 15",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "via S.S Adriatica ang. Via Honorati",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Cassia Sud, 336/B",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Meuccio Ruini,24",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via XXV Aprile, 20",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Valeriana, 127",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Momo,120",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Gramsci, 8",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "via Risorgimento,31",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Campoformido, 63",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Torino, 32",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Giardini Sud, 65",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Petrarca, 37",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Caravaggio, 277",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Rigopiano, 133",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Pietrasantina, 26",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via XX Settembre",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Camporcioni, snc",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "via Del Seminario",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Provinciale, 52",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Guazzi, 15/17",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Vallada, 8",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Viale Trieste, 49",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via per Iolo - Loc. Tobbiana",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Montalbano, 404/3",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Grandi, 30",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "via Dei Poggi,58",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via André Marie Ampére",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Bandini, 29",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Ex S.S.54,  53",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Lucio Lando,47",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Marte, 26",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "via Lazzaretto,snc",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Roma Via Boccea",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "via Boccea, 457-angolo Costanzo Guglielmi",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Roma via Carmine",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "via CarmineCalo' nn4-6-10/ angolo di Selva Candida",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Garibaldi, ang.Marconi",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "via Silvio Pellico, 10",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Emilia ,187",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Renzi",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Viale Repubblica",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Roma, 187",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Provinciale, 3",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Libertà, 57",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via del Donatore, 291",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Nazionale 80/81",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Umbra snc",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "via Mirabello 2/a",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Cà Donà, 100/H",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Ionio, 15/17 angolo Via Adriatica",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Emilia Pavese, 31/A",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Galliera nord, 271",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Pitagora, 1",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Viale Zuccherificio, 4",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Diaz, 13",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via San Martino",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via SS 221",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Variante Aurelia,40",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via I° Maggio",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "via Guglielmo Marconi",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Rovereto, 96",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via delle Rose, 1",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Severino Menè, 28",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via dei Colli ang. Via Madre Teresa di Calcutta",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Papa Giovanni XXIII,123",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via delle Industrie, 31",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Madonna di Loreto, 26",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Risorgimento,24",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Dante Alighieri, 126",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via F.lli Fontanot, 10",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Silvio Pellico",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Morolense, km 6+300",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Matteotti, 19",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Alfonsine, snc",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Passo Buole, 170",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Negarville",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Caraglio,21",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via San Pelajo, 126/h",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via mazzini,70",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via de Bachino Villan, 2",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Del Destriero",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via IV Novembre",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Mantova,91",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "via Guglielmo Marconi",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Corso Amedeo Avogadro di Quaregna, 1",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Sempione, 41",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Murari Bra, 49",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Zeila, 12",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "piazza  Vinco,1",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Roveggia, 124",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Beato Angelico,5",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Quadri, 77",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Provinciale Vicarese, 189",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via dell'Industria",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via per Spilamberto, 1557",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Matteotti, 101",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Roccaforte",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "via POSTIOMA, 69",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Vallata, 9 - 31029 Vittorio Veneto (TV)",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Verdi, 2",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via F. Gonzanga,73",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Dante, 157",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Risorgimento,86",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via piave, 3",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Berlinguer, 102",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "via delle industrie, s/n",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "via Giarre di Sicilia, 2",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Nazionale, 153",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Romana, 71",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Frascineto, 2",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via della Pisana, 475",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Pietro Gasparri, 92",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via della Cecchignola, 159",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via delle Vigne, 28",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Molinetto, 1",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Galimberti, 20",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Verdi,15",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via M. L. King, 2",
+    "azienda": "Di Più"
+  },
+  {
+    "nome": "Di Più",
+    "indirizzo": "Via Michelino da Besozzo,20",
+    "azienda": "Di Più"
   }
 ]
