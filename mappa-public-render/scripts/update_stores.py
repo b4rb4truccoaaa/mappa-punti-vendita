@@ -309,7 +309,8 @@ def main():
 
             print(f"Scarico {brand}: {url}")
 
-            page.goto(url, wait_until="networkidle", timeout=90000)
+            page.goto(url, wait_until="domcontentloaded", timeout=120000)
+            page.wait_for_timeout(5000)
             html = page.content()
 
             if brand == "Di Più":
