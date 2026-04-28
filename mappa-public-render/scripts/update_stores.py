@@ -1,39 +1,55 @@
 from playwright.sync_api import sync_playwright
 import json
-import requests
 from bs4 import BeautifulSoup
 from pathlib import Path
 
-URL = "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-
 OUTPUT_FILE = Path("mappa-public-render/seed_data.json")
 
-def scarica_pagina():
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        page = browser.new_page(
-            locale="it-IT",
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
-        )
+SOURCES = [
+    {
+        "brand": "Di Più",
+        "url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
+    },
+    {
+        "brand": "Bennet",
+        "url": "https://www.bennet.com/storefinder"
+    },
+    {
+        "brand": "Basko",
+        "url": "https://www.basko.it/supermercati"
+    }
+]
 
-        page.goto(URL, wait_until="networkidle", timeout=60000)
-        html = page.content()
 
-        browser.close()
-        return html
-    
-def estrai_punti_vendita(html):
-    soup = BeautifulSoup(html, "html.parser")
+def scarica_pagina(page, url):
+    page.goto(url, wait_until="networkidle", timeout=90000)
+    return page.content()
 
-    stores = []
-    testi = soup.get_text("\n", strip=True).split("\n")
-    testi = [" ".join(riga.strip().split()) for riga in testi if riga.strip()]
+
+def normalizza_spazi(testo):
+    return " ".join(str(testo or "").strip().split())
+
+
+def sembra_indirizzo(riga):
+    riga_lower = riga.lower()
 
     parole_indirizzo = [
         "via", "viale", "corso", "piazza", "piazzale",
         "strada", "ss", "s.s.", "statale", "provinciale",
-        "località", "loc.", "frazione", "fraz."
+        "località", "loc.", "frazione", "fraz.", "passo"
     ]
+
+    if len(riga) < 6:
+        return False
+
+    return any(
+        riga_lower.startswith(parola) or f" {parola} " in riga_lower
+        for parola in parole_indirizzo
+    )
+
+
+def pulisci_comune(riga):
+    riga = normalizza_spazi(riga)
 
     regioni = [
         "abruzzo", "basilicata", "calabria", "campania",
@@ -46,102 +62,128 @@ def estrai_punti_vendita(html):
 
     parole_da_escludere = [
         "home", "punti vendita", "contatti", "privacy",
-        "cookie", "newsletter", "volantino", "login"
+        "cookie", "newsletter", "volantino", "login",
+        "mostra", "filtri", "annulla", "cancella",
+        "servizi", "orari", "indicazioni"
     ]
 
-    def sembra_indirizzo(riga):
-        riga_lower = riga.lower()
+    if not riga:
+        return ""
 
-        if len(riga) < 8:
-            return False
+    if riga.lower() in regioni:
+        return ""
 
-        if riga_lower in regioni:
-            return False
+    if len(riga) > 40:
+        return ""
 
-        if any(blocco in riga_lower for blocco in parole_da_escludere):
-            return False
+    if any(char.isdigit() for char in riga):
+        return ""
 
-        return any(
-            riga_lower.startswith(parola) or f" {parola} " in riga_lower
-            for parola in parole_indirizzo
-        )
+    if any(blocco in riga.lower() for blocco in parole_da_escludere):
+        return ""
 
-    def pulisci_comune(riga):
-        riga = riga.strip()
+    if sembra_indirizzo(riga):
+        return ""
 
-        # Se è una regione, non usarla come comune
-        if riga.lower() in regioni:
-            return ""
+    return riga
 
-        # Se è troppo lunga, probabilmente non è un comune
-        if len(riga) > 35:
-            return ""
 
-        # Se contiene numeri, probabilmente non è un comune
-        if any(char.isdigit() for char in riga):
-            return ""
+def estrai_generico(html, brand, source_url):
+    soup = BeautifulSoup(html, "html.parser")
+    testi = soup.get_text("\n", strip=True).split("\n")
+    testi = [normalizza_spazi(riga) for riga in testi if normalizza_spazi(riga)]
 
-        # Se contiene parole da menu/sito, scartala
-        if any(blocco in riga.lower() for blocco in parole_da_escludere):
-            return ""
-
-        return riga
+    stores = []
 
     for i, riga in enumerate(testi):
-        riga_pulita = riga.strip()
-
-        if not sembra_indirizzo(riga_pulita):
+        if not sembra_indirizzo(riga):
             continue
 
         comune = ""
 
-        # Guarda solo le 2 righe dopo l'indirizzo
-        for prossima in testi[i + 1:i + 3]:
+        for prossima in testi[i + 1:i + 4]:
             possibile_comune = pulisci_comune(prossima)
-
-            if possibile_comune and not sembra_indirizzo(possibile_comune):
+            if possibile_comune:
                 comune = possibile_comune
                 break
 
-        indirizzo_completo = riga_pulita
-
-        if comune and comune.lower() not in riga_pulita.lower():
-            indirizzo_completo = f"{riga_pulita}, {comune}"
-
-        if any(store["indirizzo_completo"].lower() == indirizzo_completo.lower() for store in stores):
-            continue
+        indirizzo_completo = riga
+        if comune and comune.lower() not in riga.lower():
+            indirizzo_completo = f"{riga}, {comune}"
 
         stores.append({
-            "nome": "Di Più",
-            "indirizzo": riga_pulita,
+            "nome": brand,
+            "indirizzo": riga,
             "comune": comune,
             "provincia": "",
             "indirizzo_completo": indirizzo_completo,
-            "azienda": "Di Più"
+            "azienda": brand,
+            "source_url": source_url
         })
 
     return stores
-    return stores
+
+
+def rimuovi_duplicati(stores):
+    visti = set()
+    puliti = []
+
+    for store in stores:
+        chiave = (
+            normalizza_spazi(store.get("azienda")).lower(),
+            normalizza_spazi(store.get("indirizzo_completo")).lower()
+        )
+
+        if chiave in visti:
+            continue
+
+        visti.add(chiave)
+        puliti.append(store)
+
+    return puliti
+
+
 def salva_json(stores):
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as file:
         json.dump(stores, file, ensure_ascii=False, indent=2)
 
+
 def main():
-    html = scarica_pagina()
+    all_stores = []
 
-    soup = BeautifulSoup(html, "html.parser")
-    testi = soup.get_text("\n", strip=True).split("\n")
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page(
+            locale="it-IT",
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
+        )
 
-    print("=== PRIME 200 RIGHE LETTE DALLA PAGINA ===")
-    for i, riga in enumerate(testi[:200]):
-        print(i, repr(riga))
-    print("=== FINE RIGHE ===")
+        for source in SOURCES:
+            brand = source["brand"]
+            url = source["url"]
 
-    stores = estrai_punti_vendita(html)
-    salva_json(stores)
+            print(f"Scarico {brand}: {url}")
 
-    print(f"Aggiornati {len(stores)} punti vendita.")
+            try:
+                html = scarica_pagina(page, url)
+                stores = estrai_generico(html, brand, url)
+                stores = rimuovi_duplicati(stores)
+
+                print(f"{brand}: trovati {len(stores)} punti vendita")
+                all_stores.extend(stores)
+
+            except Exception as errore:
+                print(f"Errore durante aggiornamento {brand}: {errore}")
+
+        browser.close()
+
+    all_stores = rimuovi_duplicati(all_stores)
+    salva_json(all_stores)
+
+    print(f"Aggiornati {len(all_stores)} punti vendita totali.")
+
+
 if __name__ == "__main__":
     main()
