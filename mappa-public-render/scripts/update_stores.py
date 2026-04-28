@@ -1,153 +1,296 @@
 from playwright.sync_api import sync_playwright
-import json
 from bs4 import BeautifulSoup
 from pathlib import Path
+import json
+import re
 
-OUTPUT_FILE = Path("mappa-public-render/seed_data.json")
+OUTPUT_FILE = Path(__file__).resolve().parent.parent / "seed_data.json"
 
 SOURCES = [
     {
         "brand": "Di Più",
-        "url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21"
-    },
-    {
-        "brand": "Bennet",
-        "url": "https://www.bennet.com/storefinder"
+        "url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
     },
     {
         "brand": "Basko",
-        "url": "https://www.basko.it/supermercati"
-    }
+        "url": "https://www.basko.it/supermercati",
+    },
 ]
 
+PROVINCE_NAMES = {
+    "AL": "Alessandria",
+    "AN": "Ancona",
+    "AR": "Arezzo",
+    "AT": "Asti",
+    "BG": "Bergamo",
+    "BI": "Biella",
+    "BO": "Bologna",
+    "BS": "Brescia",
+    "CN": "Cuneo",
+    "CO": "Como",
+    "CR": "Cremona",
+    "FE": "Ferrara",
+    "FI": "Firenze",
+    "FC": "Forlì-Cesena",
+    "FR": "Frosinone",
+    "GE": "Genova",
+    "GO": "Gorizia",
+    "IM": "Imperia",
+    "LC": "Lecco",
+    "LI": "Livorno",
+    "LO": "Lodi",
+    "MB": "Monza e Brianza",
+    "MI": "Milano",
+    "MN": "Mantova",
+    "MO": "Modena",
+    "MS": "Massa-Carrara",
+    "NO": "Novara",
+    "PD": "Padova",
+    "PC": "Piacenza",
+    "PG": "Perugia",
+    "PI": "Pisa",
+    "PN": "Pordenone",
+    "PR": "Parma",
+    "PT": "Pistoia",
+    "PU": "Pesaro e Urbino",
+    "PV": "Pavia",
+    "RA": "Ravenna",
+    "RE": "Reggio Emilia",
+    "RM": "Roma",
+    "RO": "Rovigo",
+    "RN": "Rimini",
+    "SI": "Siena",
+    "SO": "Sondrio",
+    "SP": "La Spezia",
+    "SV": "Savona",
+    "TE": "Teramo",
+    "TO": "Torino",
+    "TR": "Terni",
+    "TS": "Trieste",
+    "TV": "Treviso",
+    "UD": "Udine",
+    "VA": "Varese",
+    "VC": "Vercelli",
+    "VE": "Venezia",
+    "VI": "Vicenza",
+    "VR": "Verona",
+    "VT": "Viterbo",
+}
 
-def scarica_pagina(page, url):
-    page.goto(url, wait_until="networkidle", timeout=90000)
-    return page.content()
+COMUNE_TO_PROVINCE = {
+    "Pavia": "PV",
+    "Bergamo": "BG",
+    "Venezia": "VE",
+    "Monza Brianza": "MB",
+    "Bologna": "BO",
+    "Roma": "RM",
+    "Novara": "NO",
+    "Vicenza": "VI",
+    "Treviso": "TV",
+    "Massa Carrara": "MS",
+    "Pordenone": "PN",
+    "Ravenna": "RA",
+    "Verona": "VR",
+    "Como": "CO",
+    "Firenze": "FI",
+    "Cuneo": "CN",
+    "Brescia": "BS",
+    "Milano": "MI",
+    "Padova": "PD",
+    "Varese": "VA",
+    "Teramo": "TE",
+    "Piacenza": "PC",
+    "Pisa": "PI",
+    "Ancona": "AN",
+    "Modena": "MO",
+    "Reggio Emilia": "RE",
+    "Regg. Emilia": "RE",
+    "Ferrara": "FE",
+    "Udine": "UD",
+    "Rimini": "RN",
+    "Imperia": "IM",
+    "Parma": "PR",
+    "Forlì": "FC",
+    "Forlì Cesena": "FC",
+    "Forlì/Cesena": "FC",
+    "Genova": "GE",
+    "Gorizia": "GO",
+    "Torino": "TO",
+    "Mantova": "MN",
+    "Lodi": "LO",
+    "Belluno": "BL",
+    "Arezzo": "AR",
+    "Fermo": "FM",
+    "Asti": "AT",
+    "Siena": "SI",
+    "Sondrio": "SO",
+    "Vercelli": "VC",
+    "Pesaro": "PU",
+    "pesaro": "PU",
+    "Pescara": "PE",
+    "pistoia": "PT",
+    "Pistoia": "PT",
+    "Biella": "BI",
+    "Prato": "PO",
+    "Trieste": "TS",
+    "Rovigo": "RO",
+    "Livorno": "LI",
+    "La Spezia": "SP",
+    "Latina": "LT",
+    "Viterbo": "VT",
+    "Terni": "TR",
+}
 
 
-def normalizza_spazi(testo):
+def normalizza(testo):
     return " ".join(str(testo or "").strip().split())
 
 
-def sembra_indirizzo(riga):
-    riga_lower = riga.lower()
+def sembra_indirizzo(testo):
+    testo = normalizza(testo)
+    basso = testo.lower()
 
-    parole_indirizzo = [
-        "via", "viale", "corso", "piazza", "piazzale",
-        "strada", "ss", "s.s.", "statale", "provinciale",
-        "località", "loc.", "frazione", "fraz.", "passo"
+    parole = [
+        "via ",
+        "viale ",
+        "corso ",
+        "piazza ",
+        "piazzale ",
+        "strada ",
+        "ss ",
+        "s.s.",
+        "statale ",
+        "provinciale ",
+        "località ",
+        "loc.",
+        "frazione ",
+        "fraz.",
+        "passo ",
     ]
 
-    if len(riga) < 6:
+    if len(testo) < 6:
         return False
 
-    return any(
-        riga_lower.startswith(parola) or f" {parola} " in riga_lower
-        for parola in parole_indirizzo
-    )
+    if basso.startswith("basko via") or basso.startswith("basko corso") or basso.startswith("basko piazza"):
+        return False
+
+    return any(basso.startswith(p) for p in parole)
 
 
-def pulisci_comune(riga):
-    riga = normalizza_spazi(riga)
-
-    regioni = [
-        "abruzzo", "basilicata", "calabria", "campania",
-        "emilia romagna", "friuli venezia giulia", "lazio",
-        "liguria", "lombardia", "marche", "molise", "piemonte",
-        "puglia", "sardegna", "sicilia", "toscana",
-        "trentino alto adige", "umbria", "valle d'aosta",
-        "veneto"
-    ]
-
-    parole_da_escludere = [
-        "home", "punti vendita", "contatti", "privacy",
-        "cookie", "newsletter", "volantino", "login",
-        "mostra", "filtri", "annulla", "cancella",
-        "servizi", "orari", "indicazioni"
-    ]
-
-    if not riga:
-        return ""
-
-    if riga.lower() in regioni:
-        return ""
-
-    if len(riga) > 40:
-        return ""
-
-    if any(char.isdigit() for char in riga):
-        return ""
-
-    if any(blocco in riga.lower() for blocco in parole_da_escludere):
-        return ""
-
-    if sembra_indirizzo(riga):
-        return ""
-
-    return riga
+def estrai_sigla_da_testo(testo):
+    testo = f" {normalizza(testo).upper()} "
+    match = re.search(r"\b([A-Z]{2})\b$", testo.strip())
+    if match:
+        sigla = match.group(1)
+        if sigla in PROVINCE_NAMES:
+            return sigla
+    return ""
 
 
-def estrai_generico(html, brand, source_url):
+def estrai_cap(testo):
+    match = re.search(r"\b\d{5}\b", testo)
+    return match.group(0) if match else ""
+
+
+def crea_record(brand, address, province_code, source_url):
+    province_code = province_code.upper().strip()
+    province_name = PROVINCE_NAMES.get(province_code, province_code)
+
+    return {
+        "brand": brand,
+        "store_name": brand,
+        "province_code": province_code,
+        "province_name": province_name,
+        "address": normalizza(address),
+        "postal_code": estrai_cap(address),
+        "source_url": source_url,
+        "status": "active",
+    }
+
+
+def estrai_dipiu(html, brand, source_url):
     soup = BeautifulSoup(html, "html.parser")
-    testi = soup.get_text("\n", strip=True).split("\n")
-    testi = [normalizza_spazi(riga) for riga in testi if normalizza_spazi(riga)]
+    righe = [normalizza(x) for x in soup.get_text("\n", strip=True).split("\n")]
+    righe = [x for x in righe if x]
 
     stores = []
 
-    for i, riga in enumerate(testi):
+    for i, riga in enumerate(righe):
         if not sembra_indirizzo(riga):
             continue
 
         comune = ""
+        province_code = ""
 
-        for prossima in testi[i + 1:i + 4]:
-            possibile_comune = pulisci_comune(prossima)
-            if possibile_comune:
-                comune = possibile_comune
+        for prossima in righe[i + 1:i + 5]:
+            prossima = normalizza(prossima)
+
+            if prossima in COMUNE_TO_PROVINCE:
+                comune = prossima
+                province_code = COMUNE_TO_PROVINCE[prossima]
                 break
 
-        indirizzo_completo = riga
-        if comune and comune.lower() not in riga.lower():
-            indirizzo_completo = f"{riga}, {comune}"
+            sigla = estrai_sigla_da_testo(prossima)
+            if sigla:
+                province_code = sigla
+                comune = sigla
+                break
 
-        stores.append({
-            "nome": brand,
-            "indirizzo": riga,
-            "comune": comune,
-            "provincia": "",
-            "indirizzo_completo": indirizzo_completo,
-            "azienda": brand,
-            "source_url": source_url
-        })
+        sigla_da_indirizzo = estrai_sigla_da_testo(riga)
+        if sigla_da_indirizzo:
+            province_code = sigla_da_indirizzo
+
+        if not province_code:
+            continue
+
+        address = riga
+        if comune and comune not in address:
+            address = f"{riga}, {comune}"
+
+        stores.append(crea_record(brand, address, province_code, source_url))
+
+    return stores
+
+
+def estrai_basko(html, brand, source_url):
+    soup = BeautifulSoup(html, "html.parser")
+    righe = [normalizza(x) for x in soup.get_text("\n", strip=True).split("\n")]
+    righe = [x for x in righe if x]
+
+    stores = []
+
+    for riga in righe:
+        if not sembra_indirizzo(riga):
+            continue
+
+        province_code = estrai_sigla_da_testo(riga)
+
+        if not province_code:
+            continue
+
+        stores.append(crea_record(brand, riga, province_code, source_url))
 
     return stores
 
 
 def rimuovi_duplicati(stores):
     visti = set()
-    puliti = []
+    risultato = []
 
     for store in stores:
         chiave = (
-            normalizza_spazi(store.get("azienda")).lower(),
-            normalizza_spazi(store.get("indirizzo_completo")).lower()
+            store["brand"].lower(),
+            store["province_code"].lower(),
+            store["address"].lower(),
         )
 
         if chiave in visti:
             continue
 
         visti.add(chiave)
-        puliti.append(store)
+        risultato.append(store)
 
-    return puliti
-
-
-def salva_json(stores):
-    OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
-
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as file:
-        json.dump(stores, file, ensure_ascii=False, indent=2)
+    return risultato
 
 
 def main():
@@ -157,7 +300,7 @@ def main():
         browser = p.chromium.launch(headless=True)
         page = browser.new_page(
             locale="it-IT",
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
+            user_agent="Mozilla/5.0"
         )
 
         for source in SOURCES:
@@ -166,23 +309,29 @@ def main():
 
             print(f"Scarico {brand}: {url}")
 
-            try:
-                html = scarica_pagina(page, url)
-                stores = estrai_generico(html, brand, url)
-                stores = rimuovi_duplicati(stores)
+            page.goto(url, wait_until="networkidle", timeout=90000)
+            html = page.content()
 
-                print(f"{brand}: trovati {len(stores)} punti vendita")
-                all_stores.extend(stores)
+            if brand == "Di Più":
+                stores = estrai_dipiu(html, brand, url)
+            elif brand == "Basko":
+                stores = estrai_basko(html, brand, url)
+            else:
+                stores = []
 
-            except Exception as errore:
-                print(f"Errore durante aggiornamento {brand}: {errore}")
+            stores = rimuovi_duplicati(stores)
+            print(f"{brand}: {len(stores)} punti vendita puliti")
+
+            all_stores.extend(stores)
 
         browser.close()
 
     all_stores = rimuovi_duplicati(all_stores)
-    salva_json(all_stores)
 
-    print(f"Aggiornati {len(all_stores)} punti vendita totali.")
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(all_stores, f, ensure_ascii=False, indent=2)
+
+    print(f"Totale punti vendita salvati: {len(all_stores)}")
 
 
 if __name__ == "__main__":
