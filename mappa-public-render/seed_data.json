@@ -2,9 +2,9 @@
   {
     "nome": "Di Più",
     "indirizzo": "Via Lodi, 1",
-    "comune": "Lombardia",
+    "comune": "Pavia",
     "provincia": "",
-    "indirizzo_completo": "Via Lodi, 1, Lombardia",
+    "indirizzo_completo": "Via Lodi, 1, Pavia",
     "azienda": "Di Più"
   },
   {
@@ -210,9 +210,9 @@
   {
     "nome": "Di Più",
     "indirizzo": "Campli - Fraz. Campovalano",
-    "comune": "Teramo",
+    "comune": "",
     "provincia": "",
-    "indirizzo_completo": "Campli - Fraz. Campovalano, Teramo",
+    "indirizzo_completo": "Campli - Fraz. Campovalano",
     "azienda": "Di Più"
   },
   {
@@ -226,9 +226,9 @@
   {
     "nome": "Di Più",
     "indirizzo": "Via Grisini",
-    "comune": "Lombardia",
+    "comune": "Pavia",
     "provincia": "",
-    "indirizzo_completo": "Via Grisini, Lombardia",
+    "indirizzo_completo": "Via Grisini, Pavia",
     "azienda": "Di Più"
   },
   {
@@ -298,17 +298,17 @@
   {
     "nome": "Di Più",
     "indirizzo": "via IV Novembre angolo s.p. 209",
-    "comune": "Lombardia",
+    "comune": "Pavia",
     "provincia": "",
-    "indirizzo_completo": "via IV Novembre angolo s.p. 209, Lombardia",
+    "indirizzo_completo": "via IV Novembre angolo s.p. 209, Pavia",
     "azienda": "Di Più"
   },
   {
     "nome": "Di Più",
     "indirizzo": "Via Torino, n. 123/A",
-    "comune": "Lombardia",
+    "comune": "Pavia",
     "provincia": "",
-    "indirizzo_completo": "Via Torino, n. 123/A, Lombardia",
+    "indirizzo_completo": "Via Torino, n. 123/A, Pavia",
     "azienda": "Di Più"
   },
   {
@@ -418,9 +418,9 @@
   {
     "nome": "Di Più",
     "indirizzo": "Via Turati (Strada Statale 55 dei Giovi)",
-    "comune": "Lombardia",
+    "comune": "Pavia",
     "provincia": "",
-    "indirizzo_completo": "Via Turati (Strada Statale 55 dei Giovi), Lombardia",
+    "indirizzo_completo": "Via Turati (Strada Statale 55 dei Giovi), Pavia",
     "azienda": "Di Più"
   },
   {
@@ -506,9 +506,9 @@
   {
     "nome": "Di Più",
     "indirizzo": "Via Gravellona, 2",
-    "comune": "Lombardia",
+    "comune": "Pavia",
     "provincia": "",
-    "indirizzo_completo": "Via Gravellona, 2, Lombardia",
+    "indirizzo_completo": "Via Gravellona, 2, Pavia",
     "azienda": "Di Più"
   },
   {
@@ -675,7 +675,7 @@
     "nome": "Di Più",
     "indirizzo": "via Galileo Galilei, 26",
     "comune": "(PU)Pesaro-Urbino",
-    "provincia": "PU",
+    "provincia": "",
     "indirizzo_completo": "via Galileo Galilei, 26, (PU)Pesaro-Urbino",
     "azienda": "Di Più"
   },
@@ -938,9 +938,9 @@
   {
     "nome": "Di Più",
     "indirizzo": "via F.lli Cairoli, 23/35",
-    "comune": "Lombardia",
+    "comune": "Pavia",
     "provincia": "",
-    "indirizzo_completo": "via F.lli Cairoli, 23/35, Lombardia",
+    "indirizzo_completo": "via F.lli Cairoli, 23/35, Pavia",
     "azienda": "Di Più"
   },
   {
@@ -1226,9 +1226,9 @@
   {
     "nome": "Di Più",
     "indirizzo": "VALDILANA, frazione Ponzone",
-    "comune": "Biella",
+    "comune": "",
     "provincia": "",
-    "indirizzo_completo": "VALDILANA, frazione Ponzone, Biella",
+    "indirizzo_completo": "VALDILANA, frazione Ponzone",
     "azienda": "Di Più"
   },
   {
@@ -1346,7 +1346,7 @@
   {
     "nome": "Di Più",
     "indirizzo": "Roma Via Boccea",
-    "comune": "Roma",
+    "comune": "",
     "provincia": "",
     "indirizzo_completo": "Roma Via Boccea",
     "azienda": "Di Più"
@@ -1362,7 +1362,7 @@
   {
     "nome": "Di Più",
     "indirizzo": "Roma via Carmine",
-    "comune": "Roma",
+    "comune": "",
     "provincia": "",
     "indirizzo_completo": "Roma via Carmine",
     "azienda": "Di Più"
@@ -1475,7 +1475,7 @@
     "nome": "Di Più",
     "indirizzo": "via Mirabello 2/a",
     "comune": "(PU)Pesaro-Urbino",
-    "provincia": "PU",
+    "provincia": "",
     "indirizzo_completo": "via Mirabello 2/a, (PU)Pesaro-Urbino",
     "azienda": "Di Più"
   },
@@ -1930,145 +1930,145 @@
   {
     "nome": "Di Più",
     "indirizzo": "Via piave, 3",
-    "comune": "VENETO",
+    "comune": "TV",
     "provincia": "",
-    "indirizzo_completo": "Via piave, 3, VENETO",
+    "indirizzo_completo": "Via piave, 3, TV",
     "azienda": "Di Più"
   },
   {
     "nome": "Di Più",
     "indirizzo": "Via Berlinguer, 102",
-    "comune": "EMILIA ROMAGNA",
+    "comune": "BO",
     "provincia": "",
-    "indirizzo_completo": "Via Berlinguer, 102, EMILIA ROMAGNA",
+    "indirizzo_completo": "Via Berlinguer, 102, BO",
     "azienda": "Di Più"
   },
   {
     "nome": "Di Più",
     "indirizzo": "via delle industrie, s/n",
-    "comune": "LOMBARDIA",
+    "comune": "CR",
     "provincia": "",
-    "indirizzo_completo": "via delle industrie, s/n, LOMBARDIA",
+    "indirizzo_completo": "via delle industrie, s/n, CR",
     "azienda": "Di Più"
   },
   {
     "nome": "Di Più",
     "indirizzo": "via Giarre di Sicilia, 2",
-    "comune": "VENETO",
+    "comune": "VI",
     "provincia": "",
-    "indirizzo_completo": "via Giarre di Sicilia, 2, VENETO",
+    "indirizzo_completo": "via Giarre di Sicilia, 2",
     "azienda": "Di Più"
   },
   {
     "nome": "Di Più",
     "indirizzo": "Via Nazionale, 153",
-    "comune": "EMILIA ROMAGNA",
+    "comune": "BO",
     "provincia": "",
-    "indirizzo_completo": "Via Nazionale, 153, EMILIA ROMAGNA",
+    "indirizzo_completo": "Via Nazionale, 153, BO",
     "azienda": "Di Più"
   },
   {
     "nome": "Di Più",
     "indirizzo": "Via Romana, 71",
-    "comune": "UMBRIA",
+    "comune": "PG",
     "provincia": "",
-    "indirizzo_completo": "Via Romana, 71, UMBRIA",
+    "indirizzo_completo": "Via Romana, 71, PG",
     "azienda": "Di Più"
   },
   {
     "nome": "Di Più",
     "indirizzo": "Via Frascineto, 2",
-    "comune": "LAZIO",
+    "comune": "RM",
     "provincia": "",
-    "indirizzo_completo": "Via Frascineto, 2, LAZIO",
+    "indirizzo_completo": "Via Frascineto, 2, RM",
     "azienda": "Di Più"
   },
   {
     "nome": "Di Più",
     "indirizzo": "Via della Pisana, 475",
-    "comune": "LAZIO",
+    "comune": "RM",
     "provincia": "",
-    "indirizzo_completo": "Via della Pisana, 475, LAZIO",
+    "indirizzo_completo": "Via della Pisana, 475, RM",
     "azienda": "Di Più"
   },
   {
     "nome": "Di Più",
     "indirizzo": "Via Pietro Gasparri, 92",
-    "comune": "LAZIO",
+    "comune": "RM",
     "provincia": "",
-    "indirizzo_completo": "Via Pietro Gasparri, 92, LAZIO",
+    "indirizzo_completo": "Via Pietro Gasparri, 92, RM",
     "azienda": "Di Più"
   },
   {
     "nome": "Di Più",
     "indirizzo": "Via della Cecchignola, 159",
-    "comune": "LAZIO",
+    "comune": "RM",
     "provincia": "",
-    "indirizzo_completo": "Via della Cecchignola, 159, LAZIO",
+    "indirizzo_completo": "Via della Cecchignola, 159, RM",
     "azienda": "Di Più"
   },
   {
     "nome": "Di Più",
     "indirizzo": "Via delle Vigne, 28",
-    "comune": "LAZIO",
-    "provincia": "VT",
-    "indirizzo_completo": "Via delle Vigne, 28, LAZIO",
+    "comune": "VT",
+    "provincia": "",
+    "indirizzo_completo": "Via delle Vigne, 28, VT",
     "azienda": "Di Più"
   },
   {
     "nome": "Di Più",
     "indirizzo": "Via Molinetto, 1",
-    "comune": "LOMBARDIA",
+    "comune": "VA",
     "provincia": "",
-    "indirizzo_completo": "Via Molinetto, 1, LOMBARDIA",
+    "indirizzo_completo": "Via Molinetto, 1, VA",
     "azienda": "Di Più"
   },
   {
     "nome": "Di Più",
     "indirizzo": "Via Galimberti, 20",
-    "comune": "PIEMONTE",
+    "comune": "TO",
     "provincia": "",
-    "indirizzo_completo": "Via Galimberti, 20, PIEMONTE",
+    "indirizzo_completo": "Via Galimberti, 20, TO",
     "azienda": "Di Più"
   },
   {
     "nome": "Di Più",
     "indirizzo": "Via Verdi,15",
-    "comune": "PIEMONTE",
+    "comune": "TO",
     "provincia": "",
-    "indirizzo_completo": "Via Verdi,15, PIEMONTE",
+    "indirizzo_completo": "Via Verdi,15, TO",
     "azienda": "Di Più"
   },
   {
     "nome": "Di Più",
     "indirizzo": "Via M. L. King, 2",
-    "comune": "LOMBARDIA",
+    "comune": "MB",
     "provincia": "",
-    "indirizzo_completo": "Via M. L. King, 2, LOMBARDIA",
+    "indirizzo_completo": "Via M. L. King, 2, MB",
     "azienda": "Di Più"
   },
   {
     "nome": "Di Più",
     "indirizzo": "FIVIZZANO - Fraz. ROMETTA (MS)",
-    "comune": "LOMBARDIA",
+    "comune": "",
     "provincia": "",
-    "indirizzo_completo": "FIVIZZANO - Fraz. ROMETTA (MS), LOMBARDIA",
+    "indirizzo_completo": "FIVIZZANO - Fraz. ROMETTA (MS)",
     "azienda": "Di Più"
   },
   {
     "nome": "Di Più",
     "indirizzo": "Località Il Piano, 20",
-    "comune": "TOSCANA",
+    "comune": "MS",
     "provincia": "",
-    "indirizzo_completo": "Località Il Piano, 20, TOSCANA",
+    "indirizzo_completo": "Località Il Piano, 20, MS",
     "azienda": "Di Più"
   },
   {
     "nome": "Di Più",
     "indirizzo": "Via Michelino da Besozzo,20",
-    "comune": "LOMBARDIA",
+    "comune": "VA",
     "provincia": "",
-    "indirizzo_completo": "Via Michelino da Besozzo,20, LOMBARDIA",
+    "indirizzo_completo": "Via Michelino da Besozzo,20, VA",
     "azienda": "Di Più"
   }
 ]
