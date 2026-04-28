@@ -26,26 +26,47 @@ def estrai_punti_vendita(html):
     soup = BeautifulSoup(html, "html.parser")
 
     stores = []
-
-    # ATTENZIONE:
-    # Questa parte va adattata alla struttura reale della pagina.
-    # Per ora cerca blocchi di testo generici.
     testi = soup.get_text("\n", strip=True).split("\n")
 
+    parole_indirizzo = [
+        "via", "viale", "corso", "piazza", "piazzale",
+        "strada", "ss", "s.s.", "statale", "provinciale",
+        "località", "loc.", "frazione", "fraz."
+    ]
+
+    parole_da_escludere = [
+        "pavia", "aviano"
+    ]
+
     for riga in testi:
-        riga = riga.strip()
+        riga = " ".join(riga.strip().split())
 
         if not riga:
             continue
 
-        # Esempio molto semplice:
-        # qui poi possiamo migliorarlo in base a come sono scritti i punti vendita
-        if any(parola in riga.lower() for parola in ["via", "corso", "piazza", "viale"]):
-            stores.append({
-                "nome": "Di Più",
-                "indirizzo": riga,
-                "azienda": "Di Più"
-            })
+        riga_lower = riga.lower()
+
+        # Esclude righe troppo corte o città isolate tipo "Pavia"
+        if len(riga) < 8:
+            continue
+
+        # Esclude parole/città che non sono indirizzi
+        if riga_lower in parole_da_escludere:
+            continue
+
+        # Tiene solo righe che sembrano indirizzi
+        if not any(riga_lower.startswith(parola) or f" {parola} " in riga_lower for parola in parole_indirizzo):
+            continue
+
+        # Evita duplicati
+        if any(store["indirizzo"].lower() == riga_lower for store in stores):
+            continue
+
+        stores.append({
+            "nome": "Di Più",
+            "indirizzo": riga,
+            "azienda": "Di Più"
+        })
 
     return stores
 
