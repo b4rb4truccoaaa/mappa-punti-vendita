@@ -11,10 +11,25 @@ DATABASE_URL = os.environ.get("DATABASE_URL")
 if not DATABASE_URL:
     raise RuntimeError("DATABASE_URL non impostata")
 
+
+def normalize_row(row):
+    return {
+        "brand": row.get("brand") or row.get("azienda") or "Di Più",
+        "store_name": row.get("store_name") or row.get("nome") or "Di Più",
+        "province_code": row.get("province_code") or row.get("provincia") or "",
+        "province_name": row.get("province_name") or row.get("comune") or "",
+        "address": row.get("address") or row.get("indirizzo_completo") or row.get("indirizzo") or "",
+        "postal_code": row.get("postal_code") or "",
+        "source_url": row.get("source_url") or "",
+        "status": row.get("status") or "active"
+    }
+
+
 with psycopg.connect(DATABASE_URL) as conn:
     with conn.cursor() as cur:
         cur.execute(SCHEMA_PATH.read_text(encoding="utf-8"))
-        data = json.loads(SEED_PATH.read_text(encoding="utf-8"))
+        raw_data = json.loads(SEED_PATH.read_text(encoding="utf-8"))
+        data = [normalize_row(row) for row in raw_data]
 
         for row in data:
             cur.execute(
@@ -34,8 +49,14 @@ with psycopg.connect(DATABASE_URL) as conn:
                     updated_at = NOW()
                 ''',
                 (
-                    row["brand"], row["store_name"], row["province_code"], row["province_name"],
-                    row["address"], row["postal_code"], row["source_url"], row["status"]
+                    row["brand"],
+                    row["store_name"],
+                    row["province_code"],
+                    row["province_name"],
+                    row["address"],
+                    row["postal_code"],
+                    row["source_url"],
+                    row["status"]
                 )
             )
 
@@ -59,6 +80,7 @@ with psycopg.connect(DATABASE_URL) as conn:
             ''',
             (json.dumps(data, ensure_ascii=False),)
         )
+
     conn.commit()
 
 print(f"Seed completato. Record attivi: {len(data)}")
