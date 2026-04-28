@@ -24,6 +24,9 @@ jobs:
       - name: Installa librerie
         run: pip install -r mappa-public-render/requirements.txt
 
+      - name: Installa browser Playwright
+        run: playwright install chromium
+      
       - name: Esegui aggiornamento punti vendita
         run: python mappa-public-render/scripts/update_stores.py
 
