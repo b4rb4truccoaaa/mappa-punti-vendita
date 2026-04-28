@@ -1,0 +1,36 @@
+name: Aggiorna punti vendita
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-stores:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Scarica repository
+        uses: actions/checkout@v4
+
+      - name: Installa Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Installa librerie
+        run: pip install -r mappa-public-render/requirements.txt
+
+      - name: Esegui aggiornamento punti vendita
+        run: python mappa-public-render/scripts/update_stores.py
+
+      - name: Salva modifiche su GitHub
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add mappa-public-render/seed_data.json
+          git commit -m "Aggiorna punti vendita" || echo "Nessuna modifica da salvare"
+          git push
