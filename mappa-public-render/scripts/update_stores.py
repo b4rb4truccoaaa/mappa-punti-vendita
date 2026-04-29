@@ -1,338 +1,492 @@
-from playwright.sync_api import sync_playwright
-from bs4 import BeautifulSoup
-from pathlib import Path
 import json
+import os
 import re
+import time
+from pathlib import Path
+from urllib.request import Request, urlopen
+from urllib.error import URLError, HTTPError
 
-OUTPUT_FILE = Path(__file__).resolve().parent.parent / "seed_data.json"
+# Script per aggiornare automaticamente seed_data.json.
+# Obiettivo:
+# - aprire i locator ufficiali delle catene
+# - intercettare JSON/API/caricamenti pagina
+# - estrarre record negozi con brand, indirizzo, provincia, cap
+# - NON bloccare tutto se un brand fallisce
+#
+# Nota importante:
+# alcuni siti cambiano spesso struttura o bloccano scraping automatico.
+# Se un brand restituisce pochi risultati, lo script continua comunque
+# e ti segnala il problema nei log.
 
-SOURCES = [
-    {
-        "brand": "Di Più",
-        "url": "https://www.dipiuperlascuola.it/it/seopagemenulabel/punti-vendita/pm-13-21",
-    },
-    {
-        "brand": "Basko",
-        "url": "https://www.basko.it/supermercati",
-    },
+BASE_DIR = Path(__file__).resolve().parents[1]
+OUT_PATH = BASE_DIR / "seed_data.json"
+MANUAL_PATH = BASE_DIR / "manual_seed.json"
+
+TIMEOUT_MS = int(os.environ.get("SCRAPER_TIMEOUT_MS", "45000"))
+HEADLESS = os.environ.get("HEADLESS", "true").lower() != "false"
+
+PROVINCES = {
+    "AG": "Agrigento", "AL": "Alessandria", "AN": "Ancona", "AO": "Aosta", "AR": "Arezzo",
+    "AP": "Ascoli Piceno", "AT": "Asti", "AV": "Avellino", "BA": "Bari", "BT": "Barletta-Andria-Trani",
+    "BL": "Belluno", "BN": "Benevento", "BG": "Bergamo", "BI": "Biella", "BO": "Bologna",
+    "BZ": "Bolzano", "BS": "Brescia", "BR": "Brindisi", "CA": "Cagliari", "CL": "Caltanissetta",
+    "CB": "Campobasso", "CI": "Carbonia-Iglesias", "CE": "Caserta", "CT": "Catania", "CZ": "Catanzaro",
+    "CH": "Chieti", "CO": "Como", "CS": "Cosenza", "CR": "Cremona", "KR": "Crotone",
+    "CN": "Cuneo", "EN": "Enna", "FM": "Fermo", "FE": "Ferrara", "FI": "Firenze",
+    "FG": "Foggia", "FC": "Forlì-Cesena", "FR": "Frosinone", "GE": "Genova", "GO": "Gorizia",
+    "GR": "Grosseto", "IM": "Imperia", "IS": "Isernia", "SP": "La Spezia", "AQ": "L'Aquila",
+    "LT": "Latina", "LE": "Lecce", "LC": "Lecco", "LI": "Livorno", "LO": "Lodi",
+    "LU": "Lucca", "MC": "Macerata", "MN": "Mantova", "MS": "Massa-Carrara", "MT": "Matera",
+    "ME": "Messina", "MI": "Milano", "MO": "Modena", "MB": "Monza e Brianza", "NA": "Napoli",
+    "NO": "Novara", "NU": "Nuoro", "OR": "Oristano", "PD": "Padova", "PA": "Palermo",
+    "PR": "Parma", "PV": "Pavia", "PG": "Perugia", "PU": "Pesaro e Urbino", "PE": "Pescara",
+    "PC": "Piacenza", "PI": "Pisa", "PT": "Pistoia", "PN": "Pordenone", "PZ": "Potenza",
+    "PO": "Prato", "RG": "Ragusa", "RA": "Ravenna", "RC": "Reggio Calabria", "RE": "Reggio Emilia",
+    "RI": "Rieti", "RN": "Rimini", "RM": "Roma", "RO": "Rovigo", "SA": "Salerno",
+    "SS": "Sassari", "SV": "Savona", "SI": "Siena", "SR": "Siracusa", "SO": "Sondrio",
+    "SU": "Sud Sardegna", "TA": "Taranto", "TE": "Teramo", "TR": "Terni", "TO": "Torino",
+    "TP": "Trapani", "TN": "Trento", "TV": "Treviso", "TS": "Trieste", "UD": "Udine",
+    "VA": "Varese", "VE": "Venezia", "VB": "Verbano-Cusio-Ossola", "VC": "Vercelli",
+    "VR": "Verona", "VV": "Vibo Valentia", "VI": "Vicenza", "VT": "Viterbo"
+}
+
+# Città/province usate per stimolare i locator con barra ricerca.
+# Non serve che siano tutte: servono come "sonde" per far partire API e risultati.
+SEARCH_PROBES = [
+    "Torino", "Milano", "Bergamo", "Brescia", "Varese", "Como", "Pavia", "Monza", "Novara",
+    "Alessandria", "Genova", "Imperia", "Savona", "La Spezia",
+    "Verona", "Vicenza", "Padova", "Venezia", "Treviso", "Rovigo", "Belluno",
+    "Bologna", "Modena", "Parma", "Reggio Emilia", "Piacenza", "Ferrara", "Ravenna", "Forlì", "Rimini",
+    "Firenze", "Prato", "Pistoia", "Pisa", "Livorno", "Lucca", "Arezzo", "Siena", "Massa",
+    "Roma", "Latina", "Frosinone", "Viterbo", "Rieti",
+    "Napoli", "Caserta", "Salerno", "Bari", "Lecce", "Taranto", "Palermo", "Catania", "Cagliari"
 ]
 
-PROVINCE_NAMES = {
-    "AL": "Alessandria",
-    "AN": "Ancona",
-    "AR": "Arezzo",
-    "AT": "Asti",
-    "BG": "Bergamo",
-    "BI": "Biella",
-    "BO": "Bologna",
-    "BS": "Brescia",
-    "CN": "Cuneo",
-    "CO": "Como",
-    "CR": "Cremona",
-    "FE": "Ferrara",
-    "FI": "Firenze",
-    "FC": "Forlì-Cesena",
-    "FR": "Frosinone",
-    "GE": "Genova",
-    "GO": "Gorizia",
-    "IM": "Imperia",
-    "LC": "Lecco",
-    "LI": "Livorno",
-    "LO": "Lodi",
-    "MB": "Monza e Brianza",
-    "MI": "Milano",
-    "MN": "Mantova",
-    "MO": "Modena",
-    "MS": "Massa-Carrara",
-    "NO": "Novara",
-    "PD": "Padova",
-    "PC": "Piacenza",
-    "PG": "Perugia",
-    "PI": "Pisa",
-    "PN": "Pordenone",
-    "PR": "Parma",
-    "PT": "Pistoia",
-    "PU": "Pesaro e Urbino",
-    "PV": "Pavia",
-    "RA": "Ravenna",
-    "RE": "Reggio Emilia",
-    "RM": "Roma",
-    "RO": "Rovigo",
-    "RN": "Rimini",
-    "SI": "Siena",
-    "SO": "Sondrio",
-    "SP": "La Spezia",
-    "SV": "Savona",
-    "TE": "Teramo",
-    "TO": "Torino",
-    "TR": "Terni",
-    "TS": "Trieste",
-    "TV": "Treviso",
-    "UD": "Udine",
-    "VA": "Varese",
-    "VC": "Vercelli",
-    "VE": "Venezia",
-    "VI": "Vicenza",
-    "VR": "Verona",
-    "VT": "Viterbo",
+BRANDS = {
+    "Bennet": "https://www.bennet.com/storefinder",
+    "Basko": "https://www.basko.it/supermercati",
+    "Coop": "https://www.coop.it/negozi",
+    "Conad": "https://www.conad.it/negozi-e-volantini",
+    "Esselunga": "https://www.esselunga.it/statics/geocms/store_locator/",
+    "Eurospin": "https://www.eurospin.it/punti-vendita/",
+    "Lidl": "https://www.lidl.it/c/punti-vendita-e-orari/s10019838",
+    "MD": "https://www.mdspa.it/punti-vendita",
+    "Tigros": "https://www.tigros.it/negozi",
+    "Carrefour": "https://www.carrefour.it/punti-vendita"
 }
 
-COMUNE_TO_PROVINCE = {
-    "Pavia": "PV",
-    "Bergamo": "BG",
-    "Venezia": "VE",
-    "Monza Brianza": "MB",
-    "Bologna": "BO",
-    "Roma": "RM",
-    "Novara": "NO",
-    "Vicenza": "VI",
-    "Treviso": "TV",
-    "Massa Carrara": "MS",
-    "Pordenone": "PN",
-    "Ravenna": "RA",
-    "Verona": "VR",
-    "Como": "CO",
-    "Firenze": "FI",
-    "Cuneo": "CN",
-    "Brescia": "BS",
-    "Milano": "MI",
-    "Padova": "PD",
-    "Varese": "VA",
-    "Teramo": "TE",
-    "Piacenza": "PC",
-    "Pisa": "PI",
-    "Ancona": "AN",
-    "Modena": "MO",
-    "Reggio Emilia": "RE",
-    "Regg. Emilia": "RE",
-    "Ferrara": "FE",
-    "Udine": "UD",
-    "Rimini": "RN",
-    "Imperia": "IM",
-    "Parma": "PR",
-    "Forlì": "FC",
-    "Forlì Cesena": "FC",
-    "Forlì/Cesena": "FC",
-    "Genova": "GE",
-    "Gorizia": "GO",
-    "Torino": "TO",
-    "Mantova": "MN",
-    "Lodi": "LO",
-    "Belluno": "BL",
-    "Arezzo": "AR",
-    "Fermo": "FM",
-    "Asti": "AT",
-    "Siena": "SI",
-    "Sondrio": "SO",
-    "Vercelli": "VC",
-    "Pesaro": "PU",
-    "pesaro": "PU",
-    "Pescara": "PE",
-    "pistoia": "PT",
-    "Pistoia": "PT",
-    "Biella": "BI",
-    "Prato": "PO",
-    "Trieste": "TS",
-    "Rovigo": "RO",
-    "Livorno": "LI",
-    "La Spezia": "SP",
-    "Latina": "LT",
-    "Viterbo": "VT",
-    "Terni": "TR",
+ADDRESS_KEYS = {
+    "address", "indirizzo", "indirizzoCompleto", "fullAddress", "formattedAddress",
+    "streetAddress", "address1", "addressLine1", "line1", "via", "street", "locationAddress"
 }
+NAME_KEYS = {"name", "nome", "title", "storeName", "store_name", "label", "denomination", "ragioneSociale"}
+ZIP_KEYS = {"postalCode", "cap", "zip", "zipcode", "postCode"}
+PROV_KEYS = {"province", "provincia", "provinceCode", "province_code", "siglaProvincia", "prov_sigla", "prov_acr", "county"}
+CITY_KEYS = {"city", "comune", "locality", "town", "municipality"}
+
+PROVINCE_RE = re.compile(r"(?<![A-Z])(" + "|".join(sorted(PROVINCES.keys(), key=len, reverse=True)) + r")(?![A-Z])")
+ZIP_RE = re.compile(r"\b([0-9]{5})\b")
 
 
-def normalizza(testo):
-    return " ".join(str(testo or "").strip().split())
+def clean_text(value):
+    if value is None:
+        return ""
+    return re.sub(r"\s+", " ", str(value).replace("\xa0", " ")).strip()
 
 
-def sembra_indirizzo(testo):
-    testo = normalizza(testo)
-    basso = testo.lower()
-
-    parole = [
-        "via ",
-        "viale ",
-        "corso ",
-        "piazza ",
-        "piazzale ",
-        "strada ",
-        "ss ",
-        "s.s.",
-        "statale ",
-        "provinciale ",
-        "località ",
-        "loc.",
-        "frazione ",
-        "fraz.",
-        "passo ",
-    ]
-
-    if len(testo) < 6:
-        return False
-
-    if basso.startswith("basko via") or basso.startswith("basko corso") or basso.startswith("basko piazza"):
-        return False
-
-    return any(basso.startswith(p) for p in parole)
+def get_any(d, keys):
+    for k in keys:
+        if isinstance(d, dict) and k in d and d[k] not in (None, ""):
+            return d[k]
+    return None
 
 
-def estrai_sigla_da_testo(testo):
-    testo = f" {normalizza(testo).upper()} "
-    match = re.search(r"\b([A-Z]{2})\b$", testo.strip())
-    if match:
-        sigla = match.group(1)
-        if sigla in PROVINCE_NAMES:
-            return sigla
+def flatten_strings(obj):
+    out = []
+    if isinstance(obj, dict):
+        for v in obj.values():
+            out.extend(flatten_strings(v))
+    elif isinstance(obj, list):
+        for v in obj:
+            out.extend(flatten_strings(v))
+    elif isinstance(obj, str):
+        s = clean_text(obj)
+        if s:
+            out.append(s)
+    return out
+
+
+def infer_postal_code(*values):
+    joined = " ".join(clean_text(v) for v in values if v)
+    m = ZIP_RE.search(joined)
+    return m.group(1) if m else ""
+
+
+def infer_province_code(*values):
+    joined = " ".join(clean_text(v).upper() for v in values if v)
+    m = PROVINCE_RE.search(joined)
+    if m:
+        return m.group(1)
     return ""
 
 
-def estrai_cap(testo):
-    match = re.search(r"\b\d{5}\b", testo)
-    return match.group(0) if match else ""
+def dict_to_store(brand, d):
+    """Prova a trasformare un dizionario qualsiasi in record store."""
+    if not isinstance(d, dict):
+        return None
 
+    raw_addr = get_any(d, ADDRESS_KEYS)
+    raw_name = get_any(d, NAME_KEYS)
+    raw_zip = get_any(d, ZIP_KEYS)
+    raw_prov = get_any(d, PROV_KEYS)
+    raw_city = get_any(d, CITY_KEYS)
 
-def crea_record(brand, address, province_code, source_url):
-    province_code = province_code.upper().strip()
-    province_name = PROVINCE_NAMES.get(province_code, province_code)
+    strings = flatten_strings(d)
+    joined = " | ".join(strings)
+
+    address = clean_text(raw_addr)
+    if not address:
+        # fallback: prendi la stringa più probabile come indirizzo
+        candidates = [
+            s for s in strings
+            if (
+                re.search(r"\b(via|viale|corso|piazza|strada|ss|s\.s\.|localit[aà]|largo)\b", s, re.I)
+                or ZIP_RE.search(s)
+            )
+        ]
+        if candidates:
+            address = max(candidates, key=len)
+
+    if not address:
+        return None
+
+    # Evita testi troppo generici/pagine legali.
+    bad_words = ["privacy", "cookie", "newsletter", "lavora con noi", "termini", "condizioni"]
+    if any(w in address.lower() for w in bad_words):
+        return None
+
+    name = clean_text(raw_name) or brand
+    if len(name) > 90:
+        name = brand
+
+    postal_code = clean_text(raw_zip) or infer_postal_code(address, joined)
+    province_code = clean_text(raw_prov).upper()
+    if province_code not in PROVINCES:
+        province_code = infer_province_code(address, joined)
+
+    if province_code not in PROVINCES:
+        return None
+
+    province_name = PROVINCES[province_code]
 
     return {
         "brand": brand,
-        "store_name": brand,
+        "store_name": name,
         "province_code": province_code,
         "province_name": province_name,
-        "address": normalizza(address),
-        "postal_code": estrai_cap(address),
-        "source_url": source_url,
-        "status": "active",
+        "address": address,
+        "postal_code": postal_code,
+        "source_url": BRANDS.get(brand, ""),
+        "status": "active"
     }
 
 
-def estrai_dipiu(html, brand, source_url):
-    soup = BeautifulSoup(html, "html.parser")
-    righe = [normalizza(x) for x in soup.get_text("\n", strip=True).split("\n")]
-    righe = [x for x in righe if x]
+def walk_json_for_stores(brand, obj, found):
+    if isinstance(obj, dict):
+        store = dict_to_store(brand, obj)
+        if store:
+            found.append(store)
+        for v in obj.values():
+            walk_json_for_stores(brand, v, found)
+    elif isinstance(obj, list):
+        for item in obj:
+            walk_json_for_stores(brand, item, found)
 
-    stores = []
 
-    for i, riga in enumerate(righe):
-        if not sembra_indirizzo(riga):
+def parse_json_text(brand, text):
+    found = []
+    if not text:
+        return found
+    text = text.strip()
+    try:
+        obj = json.loads(text)
+        walk_json_for_stores(brand, obj, found)
+    except Exception:
+        return found
+    return found
+
+
+def extract_json_from_html(brand, html):
+    found = []
+
+    # JSON-LD e blob JSON nei tag script
+    for m in re.finditer(r"<script[^>]*>(.*?)</script>", html, flags=re.I | re.S):
+        body = m.group(1).strip()
+        if not body:
             continue
 
-        comune = ""
-        province_code = ""
+        # JSON puro
+        if body.startswith("{") or body.startswith("["):
+            found.extend(parse_json_text(brand, body))
 
-        for prossima in righe[i + 1:i + 5]:
-            prossima = normalizza(prossima)
+        # __NEXT_DATA__ / window.__data = {...}
+        for jm in re.finditer(r"(\{.{200,}\})", body, flags=re.S):
+            candidate = jm.group(1)
+            if len(candidate) > 2_000_000:
+                continue
+            found.extend(parse_json_text(brand, candidate))
 
-            if prossima in COMUNE_TO_PROVINCE:
-                comune = prossima
-                province_code = COMUNE_TO_PROVINCE[prossima]
-                break
-
-            sigla = estrai_sigla_da_testo(prossima)
-            if sigla:
-                province_code = sigla
-                comune = sigla
-                break
-
-        sigla_da_indirizzo = estrai_sigla_da_testo(riga)
-        if sigla_da_indirizzo:
-            province_code = sigla_da_indirizzo
-
-        if not province_code:
-            continue
-
-        address = riga
-        if comune and comune not in address:
-            address = f"{riga}, {comune}"
-
-        stores.append(crea_record(brand, address, province_code, source_url))
-
-    return stores
+    return found
 
 
-def estrai_basko(html, brand, source_url):
-    soup = BeautifulSoup(html, "html.parser")
-    righe = [normalizza(x) for x in soup.get_text("\n", strip=True).split("\n")]
-    righe = [x for x in righe if x]
-
-    stores = []
-
-    for riga in righe:
-        if not sembra_indirizzo(riga):
-            continue
-
-        province_code = estrai_sigla_da_testo(riga)
-
-        if not province_code:
-            continue
-
-        stores.append(crea_record(brand, riga, province_code, source_url))
-
-    return stores
+def static_fetch(brand, url):
+    try:
+        req = Request(url, headers={
+            "User-Agent": "Mozilla/5.0 store-updater",
+            "Accept": "text/html,application/xhtml+xml,application/json"
+        })
+        with urlopen(req, timeout=30) as resp:
+            content_type = resp.headers.get("content-type", "")
+            body = resp.read().decode("utf-8", errors="ignore")
+            if "json" in content_type:
+                return parse_json_text(brand, body)
+            return extract_json_from_html(brand, body)
+    except (HTTPError, URLError, TimeoutError, Exception) as e:
+        print(f"[{brand}] static fetch non riuscito: {e}")
+        return []
 
 
-def rimuovi_duplicati(stores):
-    visti = set()
-    risultato = []
+def scrape_with_playwright(brand, url):
+    found = []
+    seen_responses = set()
 
-    for store in stores:
-        chiave = (
-            store["brand"].lower(),
-            store["province_code"].lower(),
-            store["address"].lower(),
+    try:
+        from playwright.sync_api import sync_playwright
+    except Exception as e:
+        print(f"[{brand}] Playwright non disponibile: {e}")
+        return found
+
+    def handle_response(response):
+        try:
+            rurl = response.url
+            if rurl in seen_responses:
+                return
+            seen_responses.add(rurl)
+
+            ctype = response.headers.get("content-type", "")
+            if "json" not in ctype and not any(x in rurl.lower() for x in ["store", "stores", "negoz", "punti", "locator", "api"]):
+                return
+
+            txt = response.text()
+            if not txt or len(txt) > 8_000_000:
+                return
+
+            batch = parse_json_text(brand, txt)
+            if batch:
+                print(f"[{brand}] +{len(batch)} da risposta: {rurl[:120]}")
+                found.extend(batch)
+        except Exception:
+            pass
+
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=HEADLESS)
+        context = browser.new_context(
+            locale="it-IT",
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36",
+            viewport={"width": 1440, "height": 1200}
         )
+        page = context.new_page()
+        page.on("response", handle_response)
 
-        if chiave in visti:
+        try:
+            print(f"[{brand}] apro {url}")
+            page.goto(url, wait_until="domcontentloaded", timeout=TIMEOUT_MS)
+        except Exception as e:
+            print(f"[{brand}] goto fallito ma continuo: {e}")
+
+        # Accetta cookie se presenti
+        for selector in [
+            "button:has-text('Accetta')",
+            "button:has-text('Accetto')",
+            "button:has-text('OK')",
+            "button:has-text('Consenti')",
+            "#onetrust-accept-btn-handler"
+        ]:
+            try:
+                page.locator(selector).first.click(timeout=2000)
+                time.sleep(1)
+                break
+            except Exception:
+                pass
+
+        # Scroll per far caricare liste lazy
+        for _ in range(5):
+            try:
+                page.mouse.wheel(0, 2500)
+                time.sleep(1)
+            except Exception:
+                pass
+
+        # Estrai JSON presente nel DOM
+        try:
+            html = page.content()
+            found.extend(extract_json_from_html(brand, html))
+        except Exception:
+            pass
+
+        # Prova a usare la prima barra ricerca visibile.
+        # Questo serve per locator che caricano risultati solo dopo una città.
+        try:
+            inputs = page.locator("input[type='search'], input[type='text'], input:not([type])")
+            count = min(inputs.count(), 3)
+            for i in range(count):
+                inp = inputs.nth(i)
+                if not inp.is_visible(timeout=1000):
+                    continue
+                for probe in SEARCH_PROBES:
+                    try:
+                        inp.fill(probe, timeout=3000)
+                        inp.press("Enter", timeout=3000)
+                        time.sleep(2)
+                        try:
+                            page.keyboard.press("Enter")
+                        except Exception:
+                            pass
+                        time.sleep(2)
+                        for _ in range(2):
+                            page.mouse.wheel(0, 1500)
+                            time.sleep(0.5)
+                    except Exception:
+                        continue
+                break
+        except Exception as e:
+            print(f"[{brand}] ricerca automatica saltata: {e}")
+
+        try:
+            html = page.content()
+            found.extend(extract_json_from_html(brand, html))
+        except Exception:
+            pass
+
+        context.close()
+        browser.close()
+
+    return found
+
+
+def normalize_manual_row(row):
+    """Accetta sia il vecchio formato italiano sia il nuovo formato seed_data."""
+    brand = row.get("brand") or row.get("azienda") or row.get("nome")
+    address = row.get("address") or row.get("indirizzo") or row.get("indirizzo_completo")
+    province_code = (row.get("province_code") or row.get("provincia") or "").upper().strip()
+    province_name = row.get("province_name") or row.get("comune") or ""
+
+    if province_code not in PROVINCES:
+        province_code = infer_province_code(address, province_code, province_name)
+
+    if province_code not in PROVINCES:
+        return None
+
+    postal_code = row.get("postal_code") or infer_postal_code(address)
+    return {
+        "brand": clean_text(brand),
+        "store_name": clean_text(row.get("store_name") or row.get("nome") or brand),
+        "province_code": province_code,
+        "province_name": PROVINCES[province_code],
+        "address": clean_text(address),
+        "postal_code": clean_text(postal_code),
+        "source_url": clean_text(row.get("source_url") or BRANDS.get(clean_text(brand), "")),
+        "status": clean_text(row.get("status") or "active")
+    }
+
+
+def load_manual_seed():
+    if not MANUAL_PATH.exists():
+        return []
+    try:
+        data = json.loads(MANUAL_PATH.read_text(encoding="utf-8"))
+        rows = []
+        for row in data:
+            fixed = normalize_manual_row(row)
+            if fixed:
+                rows.append(fixed)
+        print(f"[manual_seed] caricati {len(rows)} record")
+        return rows
+    except Exception as e:
+        print(f"[manual_seed] errore lettura: {e}")
+        return []
+
+
+def dedupe(rows):
+    out = {}
+    for r in rows:
+        if not r:
+            continue
+        brand = clean_text(r.get("brand"))
+        address = clean_text(r.get("address"))
+        province_code = clean_text(r.get("province_code")).upper()
+        if not brand or not address or province_code not in PROVINCES:
             continue
 
-        visti.add(chiave)
-        risultato.append(store)
+        r["brand"] = brand
+        r["store_name"] = clean_text(r.get("store_name") or brand)
+        r["province_code"] = province_code
+        r["province_name"] = PROVINCES[province_code]
+        r["address"] = address
+        r["postal_code"] = clean_text(r.get("postal_code") or infer_postal_code(address))
+        r["source_url"] = clean_text(r.get("source_url") or BRANDS.get(brand, ""))
+        r["status"] = clean_text(r.get("status") or "active")
 
-    return risultato
+        key = (
+            r["brand"].lower(),
+            re.sub(r"[^a-z0-9]", "", r["address"].lower()),
+            r["province_code"]
+        )
+        out[key] = r
+
+    return sorted(out.values(), key=lambda x: (x["brand"], x["province_code"], x["address"]))
 
 
 def main():
-    all_stores = []
+    all_rows = []
 
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        page = browser.new_page(
-            locale="it-IT",
-            user_agent="Mozilla/5.0"
-        )
+    wanted = os.environ.get("ONLY_BRANDS", "").strip()
+    if wanted:
+        brand_items = [(b, BRANDS[b]) for b in BRANDS if b.lower() in {x.strip().lower() for x in wanted.split(",")}]
+    else:
+        brand_items = list(BRANDS.items())
 
-        for source in SOURCES:
-            brand = source["brand"]
-            url = source["url"]
+    for brand, url in brand_items:
+        print("=" * 80)
+        print(f"Brand: {brand}")
 
-            print(f"Scarico {brand}: {url}")
+        rows = []
+        rows.extend(static_fetch(brand, url))
+        rows.extend(scrape_with_playwright(brand, url))
 
-            page.goto(url, wait_until="domcontentloaded", timeout=120000)
-            page.wait_for_timeout(5000)
-            html = page.content()
+        rows = dedupe(rows)
+        print(f"[{brand}] totale estratto: {len(rows)}")
 
-            if brand == "Di Più":
-                stores = estrai_dipiu(html, brand, url)
-            elif brand == "Basko":
-                stores = estrai_basko(html, brand, url)
-            else:
-                stores = []
+        if len(rows) == 0:
+            print(f"[{brand}] ATTENZIONE: nessun punto vendita estratto. Il sito potrebbe bloccare lo scraping o richiedere adapter dedicato.")
 
-            stores = rimuovi_duplicati(stores)
-            print(f"{brand}: {len(stores)} punti vendita puliti")
+        all_rows.extend(rows)
 
-            all_stores.extend(stores)
+    all_rows.extend(load_manual_seed())
+    final_rows = dedupe(all_rows)
 
-        browser.close()
+    OUT_PATH.write_text(
+        json.dumps(final_rows, ensure_ascii=False, indent=2),
+        encoding="utf-8"
+    )
 
-    all_stores = rimuovi_duplicati(all_stores)
-
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(all_stores, f, ensure_ascii=False, indent=2)
-
-    print(f"Totale punti vendita salvati: {len(all_stores)}")
+    print("=" * 80)
+    print(f"Creato {OUT_PATH}")
+    print(f"Totale record: {len(final_rows)}")
+    by_brand = {}
+    for r in final_rows:
+        by_brand[r["brand"]] = by_brand.get(r["brand"], 0) + 1
+    print(json.dumps(by_brand, ensure_ascii=False, indent=2))
 
 
 if __name__ == "__main__":
