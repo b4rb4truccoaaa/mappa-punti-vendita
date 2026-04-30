@@ -121,7 +121,7 @@
   },
   {
     "brand": "Basko",
-    "store_name": "OrarioBaskoSpesaOnline",
+    "store_name": "Default",
     "province_code": "BR",
     "province_name": "Brindisi",
     "address": "28800;72000;",
@@ -154,7 +154,7 @@
     "store_name": "Basko",
     "province_code": "FC",
     "province_name": "Forlì-Cesena",
-    "address": "28800;61200;",
+    "address": "28800;72000;",
     "postal_code": "28800",
     "source_url": "https://www.basko.it/supermercati",
     "status": "active"
@@ -1294,16 +1294,6 @@
     "store_name": "Carrefour",
     "province_code": "AL",
     "province_name": "Alessandria",
-    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
-    "postal_code": "15067",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "AL",
-    "province_name": "Alessandria",
     "address": "/volantino/supermercato-carrefour-express-ticineto-via-cesare-battisti-11/5145",
     "postal_code": "15040",
     "source_url": "https://www.carrefour.it/punti-vendita",
@@ -1806,6 +1796,16 @@
     "province_name": "Asti",
     "address": "14100",
     "postal_code": "14100",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
+    "province_code": "BA",
+    "province_name": "Bari",
+    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
+    "postal_code": "15067",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
