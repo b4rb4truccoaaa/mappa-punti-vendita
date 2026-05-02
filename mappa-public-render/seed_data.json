@@ -2332,6 +2332,16 @@
   {
     "brand": "Carrefour",
     "store_name": "Carrefour",
+    "province_code": "CA",
+    "province_name": "Cagliari",
+    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
+    "postal_code": "15067",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
     "province_code": "CE",
     "province_name": "Caserta",
     "address": "10361",
@@ -2356,16 +2366,6 @@
     "province_name": "Chieti",
     "address": "/volantino/supermercato-carrefour-express-atessa-via-saletti-32/4569",
     "postal_code": "66041",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "CH",
-    "province_name": "Chieti",
-    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
-    "postal_code": "66100",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
