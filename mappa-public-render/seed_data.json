@@ -121,7 +121,7 @@
   },
   {
     "brand": "Basko",
-    "store_name": "Default Business Hour",
+    "store_name": "Orario di Lavoro BASKO",
     "province_code": "BR",
     "province_name": "Brindisi",
     "address": "28800;72000;",
@@ -154,7 +154,7 @@
     "store_name": "Basko",
     "province_code": "FC",
     "province_name": "Forlì-Cesena",
-    "address": "28800;72000;",
+    "address": "28800;61200;",
     "postal_code": "28800",
     "source_url": "https://www.basko.it/supermercati",
     "status": "active"
