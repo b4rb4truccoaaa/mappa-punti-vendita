@@ -121,7 +121,7 @@
   },
   {
     "brand": "Basko",
-    "store_name": "Orario di Lavoro BASKO",
+    "store_name": "Default",
     "province_code": "BR",
     "province_name": "Brindisi",
     "address": "28800;72000;",
@@ -1286,16 +1286,6 @@
     "province_name": "Alessandria",
     "address": "/volantino/supermercato-carrefour-express-rivalta-bormida-corso-vittorio-emanuele-ii-n-12/3958",
     "postal_code": "15010",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "AL",
-    "province_name": "Alessandria",
-    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
-    "postal_code": "15067",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
@@ -2656,6 +2646,16 @@
     "province_name": "Ferrara",
     "address": "/volantino/supermercato-carrefour-express-porto-garibaldi-piazza-3-agosto-15/4230",
     "postal_code": "44029",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
+    "province_code": "FE",
+    "province_name": "Ferrara",
+    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
+    "postal_code": "15067",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
@@ -10937,6 +10937,26 @@
     "address": "ss",
     "postal_code": "",
     "source_url": "https://www.conad.it/negozi-e-volantini",
+    "status": "active"
+  },
+  {
+    "brand": "Lidl",
+    "store_name": "Lidl",
+    "province_code": "AL",
+    "province_name": "Alessandria",
+    "address": "Prova un prodotto o una località diversi",
+    "postal_code": "",
+    "source_url": "https://www.lidl.it/c/punti-vendita-e-orari/s10019838",
+    "status": "active"
+  },
+  {
+    "brand": "Lidl",
+    "store_name": "Lidl",
+    "province_code": "AR",
+    "province_name": "Arezzo",
+    "address": "{'abbr': 'st', 'l': 680}",
+    "postal_code": "",
+    "source_url": "https://www.lidl.it/c/punti-vendita-e-orari/s10019838",
     "status": "active"
   },
   {
