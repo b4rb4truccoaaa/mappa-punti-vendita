@@ -121,7 +121,7 @@
   },
   {
     "brand": "Basko",
-    "store_name": "Default",
+    "store_name": "Orario di Lavoro BASKO",
     "province_code": "BR",
     "province_name": "Brindisi",
     "address": "28800;72000;",
@@ -2606,6 +2606,16 @@
     "province_name": "Cremona",
     "address": "/volantino/supermercato-carrefour-express-scannabue-via-cristoforo-colombo-11/3844",
     "postal_code": "26020",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
+    "province_code": "CR",
+    "province_name": "Cremona",
+    "address": "/volantino/supermercato-carrefour-market-cremona-via-san-tommaso-11/5179",
+    "postal_code": "26100",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
