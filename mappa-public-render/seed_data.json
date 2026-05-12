@@ -121,7 +121,7 @@
   },
   {
     "brand": "Basko",
-    "store_name": "Orario di Lavoro BASKO",
+    "store_name": "Default Business Hour",
     "province_code": "BR",
     "province_name": "Brindisi",
     "address": "28800;72000;",
@@ -154,7 +154,7 @@
     "store_name": "Basko",
     "province_code": "FC",
     "province_name": "Forlì-Cesena",
-    "address": "28800;72000;",
+    "address": "28800;61200;",
     "postal_code": "28800",
     "source_url": "https://www.basko.it/supermercati",
     "status": "active"
@@ -1224,16 +1224,6 @@
     "store_name": "Carrefour",
     "province_code": "AL",
     "province_name": "Alessandria",
-    "address": "/distributori/carrefour-alessandria-via-postumia-4027.html",
-    "postal_code": "",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "AL",
-    "province_name": "Alessandria",
     "address": "/volantino/supermercato-carrefour-express-acqui-terme-via-garibaldi50/1099",
     "postal_code": "15011",
     "source_url": "https://www.carrefour.it/punti-vendita",
@@ -1286,16 +1276,6 @@
     "province_name": "Alessandria",
     "address": "/volantino/supermercato-carrefour-express-rivalta-bormida-corso-vittorio-emanuele-ii-n-12/3958",
     "postal_code": "15010",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "AL",
-    "province_name": "Alessandria",
-    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
-    "postal_code": "15067",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
@@ -2374,6 +2354,16 @@
     "store_name": "Carrefour",
     "province_code": "CH",
     "province_name": "Chieti",
+    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
+    "postal_code": "66100",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
+    "province_code": "CH",
+    "province_name": "Chieti",
     "address": "/volantino/supermercato-carrefour-market-chieti-via-masci-snc/0232",
     "postal_code": "66100",
     "source_url": "https://www.carrefour.it/punti-vendita",
@@ -2416,16 +2406,6 @@
     "province_name": "Cuneo",
     "address": "https://www.google.com/maps/dir/?api=1&destination=44.690427,8.01991",
     "postal_code": "01991",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "CO",
-    "province_name": "Como",
-    "address": "/distributori/carrefour-como-via-cristoforo-colombo-4026.html",
-    "postal_code": "",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
@@ -2666,16 +2646,6 @@
     "province_name": "Ferrara",
     "address": "/volantino/supermercato-carrefour-express-porto-garibaldi-piazza-3-agosto-15/4230",
     "postal_code": "44029",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "FI",
-    "province_name": "Firenze",
-    "address": "/distributori/carrefour-calenzano-via-dino-ciolli-18-4002.html",
-    "postal_code": "",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
@@ -4744,16 +4714,6 @@
     "store_name": "Carrefour",
     "province_code": "MB",
     "province_name": "Monza e Brianza",
-    "address": "/distributori/totalerg-giussano-via-prealpi-4010.html",
-    "postal_code": "",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "MB",
-    "province_name": "Monza e Brianza",
     "address": "/volantino/ipermercato-carrefour-iper-giussano-via-prealpi/0571",
     "postal_code": "20833",
     "source_url": "https://www.carrefour.it/punti-vendita",
@@ -4924,38 +4884,8 @@
     "store_name": "Carrefour",
     "province_code": "MC",
     "province_name": "Macerata",
-    "address": "/distributori/carrefour-massa-carrara-via-dorsale-4006.html",
-    "postal_code": "",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "MC",
-    "province_name": "Macerata",
     "address": "/volantino/supermercato-carrefour-market-rieti-via-mc-dentato-n9/0888",
     "postal_code": "02100",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "MI",
-    "province_name": "Milano",
-    "address": "/distributori/q8-assago-viale-milanofiori-4020.html",
-    "postal_code": "",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "MI",
-    "province_name": "Milano",
-    "address": "/distributori/q8-carugate-strada-provinciale-208-km-2-4015.html",
-    "postal_code": "",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
@@ -7294,16 +7224,6 @@
     "store_name": "Carrefour",
     "province_code": "RM",
     "province_name": "Roma",
-    "address": "/distributori/carrefour-laurentina-via-laurentina-51-roma-rm-4031.html",
-    "postal_code": "",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "RM",
-    "province_name": "Roma",
     "address": "/volantino/ipermercato-carrefour-iper-roma-via-bufalotta/0555",
     "postal_code": "00139",
     "source_url": "https://www.carrefour.it/punti-vendita",
@@ -8394,16 +8314,6 @@
     "store_name": "Carrefour",
     "province_code": "RM",
     "province_name": "Roma",
-    "address": "Località Valle dell'Aniene-Setteville Guidonia (Roma) - RM",
-    "postal_code": "",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "RM",
-    "province_name": "Roma",
     "address": "https://www.google.com/maps/dir/?api=1&destination=41.73227,12.282268",
     "postal_code": "73227",
     "source_url": "https://www.carrefour.it/punti-vendita",
@@ -8864,16 +8774,6 @@
     "store_name": "Carrefour",
     "province_code": "SS",
     "province_name": "Sassari",
-    "address": "/distributori/q8-paderno-dugnano-ss-35-dei-giovi-km-4784-lato-est-4016.html",
-    "postal_code": "",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "SS",
-    "province_name": "Sassari",
     "address": "/volantino/ipermercato-carrefour-iper-lucca-via-ss-annunziata-n-278/5042",
     "postal_code": "55100",
     "source_url": "https://www.carrefour.it/punti-vendita",
@@ -9066,16 +8966,6 @@
     "province_name": "Sud Sardegna",
     "address": "/volantino/ipermercato-carrefour-iper-san-sperate-strada-statale-131-km-15600/1571",
     "postal_code": "15600",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "SU",
-    "province_name": "Sud Sardegna",
-    "address": "Località Su Idanu, Quartucciu - CA",
-    "postal_code": "",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
@@ -9306,56 +9196,6 @@
     "province_name": "Savona",
     "address": "17040",
     "postal_code": "17040",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "/distributori/carrefour-leini-strada-caselle-4005.html",
-    "postal_code": "",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "/distributori/carrefour-nichelino-via-cesana-4023.html",
-    "postal_code": "",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "/distributori/carrefour-torino-piazza-san-gabriele-di-gorizia-4001.html",
-    "postal_code": "",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "/distributori/q8-grugliasco-via-crea-10-4018.html",
-    "postal_code": "",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "/distributori/tamoil-burolo-via-friuli-4009.html",
-    "postal_code": "",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
@@ -10406,36 +10246,6 @@
     "province_name": "Udine",
     "address": "/volantino/ipermercato-carrefour-iper-udine-viale-tricesimo-snc/2118",
     "postal_code": "33100",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "VA",
-    "province_name": "Varese",
-    "address": "/distributori/carrefour-gavirate-viale-ticino-gavirate-va-4038.html",
-    "postal_code": "",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "VA",
-    "province_name": "Varese",
-    "address": "/distributori/tamoil-busto-arsizio-corso-xx-settembre-91-2436.html",
-    "postal_code": "",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "VA",
-    "province_name": "Varese",
-    "address": "/distributori/tamoil-verbania-intra-corso-benedetto-cairoli-68-2435.html",
-    "postal_code": "",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
