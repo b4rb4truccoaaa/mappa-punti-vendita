@@ -121,7 +121,7 @@
   },
   {
     "brand": "Basko",
-    "store_name": "Default Business Hour",
+    "store_name": "Orario di Lavoro BASKO",
     "province_code": "BR",
     "province_name": "Brindisi",
     "address": "28800;72000;",
@@ -154,7 +154,7 @@
     "store_name": "Basko",
     "province_code": "FC",
     "province_name": "Forlì-Cesena",
-    "address": "28800;61200;",
+    "address": "28800;72000;",
     "postal_code": "28800",
     "source_url": "https://www.basko.it/supermercati",
     "status": "active"
@@ -2354,16 +2354,6 @@
     "store_name": "Carrefour",
     "province_code": "CH",
     "province_name": "Chieti",
-    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
-    "postal_code": "66100",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "CH",
-    "province_name": "Chieti",
     "address": "/volantino/supermercato-carrefour-market-chieti-via-masci-snc/0232",
     "postal_code": "66100",
     "source_url": "https://www.carrefour.it/punti-vendita",
@@ -2616,6 +2606,16 @@
     "province_name": "Forlì-Cesena",
     "address": "/volantino/supermercato-carrefour-express-cesena-piazza-liberta-20-angolo-corso-garibaldi/4532",
     "postal_code": "47521",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
+    "province_code": "FC",
+    "province_name": "Forlì-Cesena",
+    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
+    "postal_code": "66100",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
@@ -10766,6 +10766,16 @@
     "province_name": "Brindisi",
     "address": "Mit Ihrer Einwilligung werden wir die sogenannte EUID verwenden, die von TTD zur Verfügung gestellt wird, um Sie als denselben Webseiten-Besucher/App-Nutzer zu erkennen und Erkenntnisse über Ihr Nutzungsverhalten auf den Lidl-Diensten zu erfassen. <br /> <br /> Voraussetzung hierfür ist, dass Sie, nachdem Sie der Nutzung der genannten Technologie zugestimmt haben, entweder ein Lidl Plus-Konto eröffnen oder sich in ein bestehendes Lidl-Konto einloggen. In diesem Fall erhalten wir aus Ihrem Konto, das von der Lidl Stiftung & Co. KG (Stiftsbergstraße 1, 74167 Neckarsulm, Deutschland) betrieben wird, Ihre E-Mailadresse. Diese stellen wir sodann TTD zur Verfügung, die aus Ihrer E-Mailadresse eine spezielle Online-Kennung erstellt, die sogenannte EUID. Diese EUID stellt TTD uns dann zur Verfügung. Wir verwenden die EUID sodann, um Sie als denselben Webseiten-Besucher/App-Nutzer zu erkennen und Erkenntnisse über Ihr Nutzungsverhalten in den Lidl-Diensten zu erfassen. Wenn Sie Drittmedien besuchen, kann der jeweilige Betreiber, sofern er ebenfalls das EUID-Verfahren einsetzt und über eine E-Mailadresse von Ihnen verfügt, - Ihre Einwilligung vorausgesetzt – ebenfalls von TTD eine spezielle Online-Kennung berechnen lassen, das sogenannte EUID-Token. Mittels eines Abgleichs dieser Online-Kennungen können Sie auf dem Drittmedium wiedererkannt werden und wir können Ihnen dort personalisiert Werbung ausspielen. <br /> Sie können Ihre Einwilligung zur Verarbeitung der Sie betreffenden EUID auch über das nachfolgende Portal widerrufen: https://www.transparentadvertising.eu/.",
     "postal_code": "74167",
+    "source_url": "https://www.lidl.it/c/punti-vendita-e-orari/s10019838",
+    "status": "active"
+  },
+  {
+    "brand": "Lidl",
+    "store_name": "Lidl",
+    "province_code": "LE",
+    "province_name": "Lecce",
+    "address": "Il est défini lorsque l'utilisateur commence le processus de connexion et nous aide à identifier si l'utilisateur consulte le site web via une web view ou un navigateur normal, afin que nous puissions afficher certains éléments et améliorer l'expérience utilisateur lorsqu'il vient de l'application.",
+    "postal_code": "",
     "source_url": "https://www.lidl.it/c/punti-vendita-e-orari/s10019838",
     "status": "active"
   },
