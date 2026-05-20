@@ -121,7 +121,7 @@
   },
   {
     "brand": "Basko",
-    "store_name": "Orario di Lavoro BASKO",
+    "store_name": "OrarioBaskoSpesaOnline",
     "province_code": "BR",
     "province_name": "Brindisi",
     "address": "28800;72000;",
@@ -154,7 +154,7 @@
     "store_name": "Basko",
     "province_code": "FC",
     "province_name": "Forlì-Cesena",
-    "address": "28800;61200;",
+    "address": "28800;72000;",
     "postal_code": "28800",
     "source_url": "https://www.basko.it/supermercati",
     "status": "active"
@@ -1284,16 +1284,6 @@
     "store_name": "Carrefour",
     "province_code": "AL",
     "province_name": "Alessandria",
-    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
-    "postal_code": "15067",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "AL",
-    "province_name": "Alessandria",
     "address": "/volantino/supermercato-carrefour-express-ticineto-via-cesare-battisti-11/5145",
     "postal_code": "15040",
     "source_url": "https://www.carrefour.it/punti-vendita",
@@ -2326,6 +2316,16 @@
     "province_name": "Cagliari",
     "address": "/volantino/supermercato-carrefour-express-cagliari-via-manno-10/4997",
     "postal_code": "09124",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
+    "province_code": "CE",
+    "province_name": "Caserta",
+    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
+    "postal_code": "15067",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
@@ -10737,6 +10737,16 @@
     "address": "ss",
     "postal_code": "",
     "source_url": "https://www.conad.it/negozi-e-volantini",
+    "status": "active"
+  },
+  {
+    "brand": "Lidl",
+    "store_name": "Sulla via del domani",
+    "province_code": "AR",
+    "province_name": "Arezzo",
+    "address": "https://www.lidl.it/l/it/volantini/sulla-via-del-domani-scopri-limpegno-di-lidl/ar/0",
+    "postal_code": "",
+    "source_url": "https://www.lidl.it/c/punti-vendita-e-orari/s10019838",
     "status": "active"
   },
   {
