@@ -121,7 +121,7 @@
   },
   {
     "brand": "Basko",
-    "store_name": "OrarioBaskoSpesaOnline",
+    "store_name": "Default Business Hour",
     "province_code": "BR",
     "province_name": "Brindisi",
     "address": "28800;72000;",
@@ -1284,6 +1284,16 @@
     "store_name": "Carrefour",
     "province_code": "AL",
     "province_name": "Alessandria",
+    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
+    "postal_code": "15067",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
+    "province_code": "AL",
+    "province_name": "Alessandria",
     "address": "/volantino/supermercato-carrefour-express-ticineto-via-cesare-battisti-11/5145",
     "postal_code": "15040",
     "source_url": "https://www.carrefour.it/punti-vendita",
@@ -2316,16 +2326,6 @@
     "province_name": "Cagliari",
     "address": "/volantino/supermercato-carrefour-express-cagliari-via-manno-10/4997",
     "postal_code": "09124",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "CE",
-    "province_name": "Caserta",
-    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
-    "postal_code": "15067",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
@@ -10741,16 +10741,6 @@
   },
   {
     "brand": "Lidl",
-    "store_name": "Sulla via del domani",
-    "province_code": "AR",
-    "province_name": "Arezzo",
-    "address": "https://www.lidl.it/l/it/volantini/sulla-via-del-domani-scopri-limpegno-di-lidl/ar/0",
-    "postal_code": "",
-    "source_url": "https://www.lidl.it/c/punti-vendita-e-orari/s10019838",
-    "status": "active"
-  },
-  {
-    "brand": "Lidl",
     "store_name": "Lidl",
     "province_code": "BR",
     "province_name": "Brindisi",
@@ -11311,6 +11301,16 @@
   },
   {
     "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "19032, La Serra, Italia",
+    "postal_code": "19032",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
     "store_name": "La Spezia",
     "province_code": "BG",
     "province_name": "Bergamo",
@@ -11474,16 +11474,6 @@
     "store_name": "MD",
     "province_code": "BG",
     "province_name": "Bergamo",
-    "address": "23828, Bologna, Italia",
-    "postal_code": "23828",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
-    "province_code": "BG",
-    "province_name": "Bergamo",
     "address": "24030, Caprino Bergamasco, Italia",
     "postal_code": "24030",
     "source_url": "https://www.mdspa.it/punti-vendita",
@@ -11626,16 +11616,6 @@
     "province_name": "Bergamo",
     "address": "27010, Baselica Bologna, Italia",
     "postal_code": "27010",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
-    "province_code": "BG",
-    "province_name": "Bergamo",
-    "address": "27012, Certosa di Pavia, Italia",
-    "postal_code": "27012",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -12134,16 +12114,6 @@
     "store_name": "MD",
     "province_code": "BG",
     "province_name": "Bergamo",
-    "address": "41013, Castelfranco Emilia, Italia",
-    "postal_code": "41013",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
-    "province_code": "BG",
-    "province_name": "Bergamo",
     "address": "41014, Castelvetro di Modena, Italia",
     "postal_code": "41014",
     "source_url": "https://www.mdspa.it/punti-vendita",
@@ -12156,6 +12126,16 @@
     "province_name": "Bergamo",
     "address": "41016, Novi di Modena, Italia",
     "postal_code": "41016",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "41030, Staggia Modenese, Italia",
+    "postal_code": "41030",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -12774,6 +12754,16 @@
     "store_name": "MD",
     "province_code": "BG",
     "province_name": "Bergamo",
+    "address": "65020, Bolognano, Italia",
+    "postal_code": "65020",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
     "address": "66018, Taranta Peligna, Italia",
     "postal_code": "66018",
     "source_url": "https://www.mdspa.it/punti-vendita",
@@ -13064,16 +13054,6 @@
     "store_name": "MD",
     "province_code": "BG",
     "province_name": "Bergamo",
-    "address": "82030, Massa, Italia",
-    "postal_code": "82030",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
-    "province_code": "BG",
-    "province_name": "Bergamo",
     "address": "83058, Trevico, Italia",
     "postal_code": "83058",
     "source_url": "https://www.mdspa.it/punti-vendita",
@@ -13336,16 +13316,6 @@
     "province_name": "Bergamo",
     "address": "98058, Novara di Sicilia, Italia",
     "postal_code": "98058",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
-    "province_code": "BG",
-    "province_name": "Bergamo",
-    "address": "La Via, Borghetto di Vara, La Spezia, Italia",
-    "postal_code": "19020",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -13756,6 +13726,16 @@
     "province_name": "Reggio Calabria",
     "address": "35122, Padova, Italia",
     "postal_code": "35122",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "RM",
+    "province_name": "Roma",
+    "address": "65020, Bolognano, Italia",
+    "postal_code": "65020",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
