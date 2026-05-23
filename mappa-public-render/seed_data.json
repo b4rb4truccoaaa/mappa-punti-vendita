@@ -121,7 +121,7 @@
   },
   {
     "brand": "Basko",
-    "store_name": "Orario di Lavoro BASKO",
+    "store_name": "Default Business Hour",
     "province_code": "BR",
     "province_name": "Brindisi",
     "address": "28800;72000;",
@@ -1284,6 +1284,16 @@
     "store_name": "Carrefour",
     "province_code": "AL",
     "province_name": "Alessandria",
+    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
+    "postal_code": "15067",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
+    "province_code": "AL",
+    "province_name": "Alessandria",
     "address": "/volantino/supermercato-carrefour-express-ticineto-via-cesare-battisti-11/5145",
     "postal_code": "15040",
     "source_url": "https://www.carrefour.it/punti-vendita",
@@ -1786,46 +1796,6 @@
     "province_name": "Asti",
     "address": "14100",
     "postal_code": "14100",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "BA",
-    "province_name": "Bari",
-    "address": "<div class=\"aid-block-img aid-block-img-074c\"> <div class=\"aid-block-img__content aid-block-img-074c__content\" > <img class=\"aid-block-img__img aid-block-img-074c__img\" src=\"https://image.zenclerk.com/23187/1-d.jpg/original?1694777270\" width=\"800\" height=\"400\" data-aid-close-modal /> </div> </div> <div class=\"aid-block-btn aid-block-btn-ba8b\"> <button class=\"aid-block-btn__content aid-block-btn-ba8b__content\" target=\"_blank\" rel=\"noopener noreferrer\" data-aid-close-modal > Continua a fare acquisti </button> </div>",
-    "postal_code": "23187",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "BA",
-    "province_name": "Bari",
-    "address": "<div class=\"aid-block-img aid-block-img-074c\"> <div class=\"aid-block-img__content aid-block-img-074c__content\" > <img class=\"aid-block-img__img aid-block-img-074c__img\" src=\"https://image.zenclerk.com/23188/1-d_mobile.jpg/original?1694777274\" width=\"560\" height=\"400\" data-aid-close-modal /> </div> </div> <div class=\"aid-block-btn aid-block-btn-ba8b\"> <button class=\"aid-block-btn__content aid-block-btn-ba8b__content\" target=\"_blank\" rel=\"noopener noreferrer\" data-aid-close-modal > Continua a fare acquisti </button> </div>",
-    "postal_code": "23188",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "BA",
-    "province_name": "Bari",
-    "address": "<div class=\"aid-block-img aid-block-img-074c\"> <div class=\"aid-block-img__content aid-block-img-074c__content\" > <img class=\"aid-block-img__img aid-block-img-074c__img\" src=\"https://image.zenclerk.com/23854/1-d.jpg/original?1700652205\" width=\"800\" height=\"400\" data-aid-close-modal /> </div> </div> <div class=\"aid-block-btn aid-block-btn-ba8b\"> <button class=\"aid-block-btn__content aid-block-btn-ba8b__content\" target=\"_blank\" rel=\"noopener noreferrer\" data-aid-close-modal > Continua a fare acquisti </button> </div>",
-    "postal_code": "23854",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "BA",
-    "province_name": "Bari",
-    "address": "<div class=\"aid-block-img aid-block-img-074c\"> <div class=\"aid-block-img__content aid-block-img-074c__content\" > <img class=\"aid-block-img__img aid-block-img-074c__img\" src=\"https://image.zenclerk.com/23855/1-d_mobile.jpg/original?1700652293\" width=\"560\" height=\"400\" data-aid-close-modal /> </div> </div> <div class=\"aid-block-btn aid-block-btn-ba8b\"> <button class=\"aid-block-btn__content aid-block-btn-ba8b__content\" target=\"_blank\" rel=\"noopener noreferrer\" data-aid-close-modal > Continua a fare acquisti </button> </div>",
-    "postal_code": "23855",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
@@ -2356,16 +2326,6 @@
     "province_name": "Cagliari",
     "address": "/volantino/supermercato-carrefour-express-cagliari-via-manno-10/4997",
     "postal_code": "09124",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "CA",
-    "province_name": "Cagliari",
-    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
-    "postal_code": "15067",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
