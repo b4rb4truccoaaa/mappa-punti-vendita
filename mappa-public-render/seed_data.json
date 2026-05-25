@@ -121,7 +121,7 @@
   },
   {
     "brand": "Basko",
-    "store_name": "Default",
+    "store_name": "Orario di Lavoro BASKO",
     "province_code": "BR",
     "province_name": "Brindisi",
     "address": "28800;72000;",
@@ -7924,6 +7924,16 @@
     "store_name": "Carrefour",
     "province_code": "RM",
     "province_name": "Roma",
+    "address": "/volantino/supermercato-carrefour-market-anguillara-sabazia-largo-dello-zodiaco-3/5211",
+    "postal_code": "00061",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
+    "province_code": "RM",
+    "province_name": "Roma",
     "address": "/volantino/supermercato-carrefour-market-ardea-via-reggio-emilia88/3946",
     "postal_code": "00040",
     "source_url": "https://www.carrefour.it/punti-vendita",
@@ -10737,6 +10747,16 @@
     "address": "ss",
     "postal_code": "",
     "source_url": "https://www.conad.it/negozi-e-volantini",
+    "status": "active"
+  },
+  {
+    "brand": "Lidl",
+    "store_name": "Scopri l'impegno di Lidl",
+    "province_code": "AR",
+    "province_name": "Arezzo",
+    "address": "https://www.lidl.it/l/it/volantini/sulla-via-del-domani-scopri-limpegno-di-lidl/ar/0",
+    "postal_code": "",
+    "source_url": "https://www.lidl.it/c/punti-vendita-e-orari/s10019838",
     "status": "active"
   },
   {
