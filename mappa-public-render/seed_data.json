@@ -121,7 +121,7 @@
   },
   {
     "brand": "Basko",
-    "store_name": "Orario di Lavoro BASKO",
+    "store_name": "OrarioBaskoSpesaOnline",
     "province_code": "BR",
     "province_name": "Brindisi",
     "address": "28800;72000;",
@@ -6622,16 +6622,6 @@
   {
     "brand": "Carrefour",
     "store_name": "Carrefour",
-    "province_code": "PC",
-    "province_name": "Piacenza",
-    "address": "/volantino/supermercato-carrefour-express-nibbiano-via-manin-19/3291",
-    "postal_code": "29010",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
     "province_code": "PE",
     "province_name": "Pescara",
     "address": "/volantino/supermercato-carrefour-express-citta-sant-angelo-strada-giardino-5/5064",
@@ -7076,16 +7066,6 @@
     "province_name": "Pavia",
     "address": "/volantino/supermercato-carrefour-express-vigevano-via-gravellona-30/1120",
     "postal_code": "27029",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "PV",
-    "province_name": "Pavia",
-    "address": "/volantino/supermercato-carrefour-express-zavattarello-via-vittorio-emanuele-42/2281",
-    "postal_code": "27059",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
@@ -10644,6 +10624,16 @@
     "store_name": "Carrefour",
     "province_code": "VB",
     "province_name": "Verbano-Cusio-Ossola",
+    "address": "/volantino/supermercato-carrefour-market-verbania-via-quattrini-via-muller/5224",
+    "postal_code": "28922",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
+    "province_code": "VB",
+    "province_name": "Verbano-Cusio-Ossola",
     "address": "https://www.google.com/maps/dir/?api=1&destination=45.96818,7.9683",
     "postal_code": "96818",
     "source_url": "https://www.carrefour.it/punti-vendita",
@@ -10747,16 +10737,6 @@
     "address": "ss",
     "postal_code": "",
     "source_url": "https://www.conad.it/negozi-e-volantini",
-    "status": "active"
-  },
-  {
-    "brand": "Lidl",
-    "store_name": "Scopri l'impegno di Lidl",
-    "province_code": "AR",
-    "province_name": "Arezzo",
-    "address": "https://www.lidl.it/l/it/volantini/sulla-via-del-domani-scopri-limpegno-di-lidl/ar/0",
-    "postal_code": "",
-    "source_url": "https://www.lidl.it/c/punti-vendita-e-orari/s10019838",
     "status": "active"
   },
   {
