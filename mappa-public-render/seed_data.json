@@ -121,7 +121,7 @@
   },
   {
     "brand": "Basko",
-    "store_name": "Orario di Lavoro BASKO",
+    "store_name": "Default Business Hour",
     "province_code": "BR",
     "province_name": "Brindisi",
     "address": "28800;72000;",
@@ -2322,8 +2322,8 @@
   {
     "brand": "Carrefour",
     "store_name": "Carrefour",
-    "province_code": "CE",
-    "province_name": "Caserta",
+    "province_code": "CB",
+    "province_name": "Campobasso",
     "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
     "postal_code": "15067",
     "source_url": "https://www.carrefour.it/punti-vendita",
