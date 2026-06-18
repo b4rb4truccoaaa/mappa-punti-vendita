@@ -1794,16 +1794,6 @@
     "store_name": "Carrefour",
     "province_code": "BA",
     "province_name": "Bari",
-    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
-    "postal_code": "15067",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "BA",
-    "province_name": "Bari",
     "address": "Clarity est un outil d'analyse comportementale qui permet de comprendre l'interaction des utilisateurs avec un site Web ou une application, notamment via l'utilisation de Session Replay.",
     "postal_code": "",
     "source_url": "https://www.carrefour.it/punti-vendita",
@@ -2616,6 +2606,16 @@
     "province_name": "Forlì-Cesena",
     "address": "/volantino/supermercato-carrefour-express-cesena-piazza-liberta-20-angolo-corso-garibaldi/4532",
     "postal_code": "47521",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
+    "province_code": "FC",
+    "province_name": "Forlì-Cesena",
+    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
+    "postal_code": "15067",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
