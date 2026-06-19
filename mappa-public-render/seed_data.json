@@ -121,7 +121,7 @@
   },
   {
     "brand": "Basko",
-    "store_name": "Default",
+    "store_name": "Default Business Hour",
     "province_code": "BR",
     "province_name": "Brindisi",
     "address": "28800;72000;",
@@ -1276,6 +1276,16 @@
     "province_name": "Alessandria",
     "address": "/volantino/supermercato-carrefour-express-rivalta-bormida-corso-vittorio-emanuele-ii-n-12/3958",
     "postal_code": "15010",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
+    "province_code": "AL",
+    "province_name": "Alessandria",
+    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
+    "postal_code": "15067",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
@@ -2606,16 +2616,6 @@
     "province_name": "Forlì-Cesena",
     "address": "/volantino/supermercato-carrefour-express-cesena-piazza-liberta-20-angolo-corso-garibaldi/4532",
     "postal_code": "47521",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "FC",
-    "province_name": "Forlì-Cesena",
-    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
-    "postal_code": "15067",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
@@ -4764,16 +4764,6 @@
     "store_name": "Carrefour",
     "province_code": "MB",
     "province_name": "Monza e Brianza",
-    "address": "/volantino/supermercato-carrefour-express-misinto-via-per-rovellasca-25/2792",
-    "postal_code": "20020",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "MB",
-    "province_name": "Monza e Brianza",
     "address": "/volantino/supermercato-carrefour-express-monza-via-carlo-prina-30/4406",
     "postal_code": "20900",
     "source_url": "https://www.carrefour.it/punti-vendita",
@@ -4816,16 +4806,6 @@
     "province_name": "Monza e Brianza",
     "address": "/volantino/supermercato-carrefour-express-monza-via-pretorio-4/4537",
     "postal_code": "20900",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "MB",
-    "province_name": "Monza e Brianza",
-    "address": "/volantino/supermercato-carrefour-express-seveso-via-cacciatori-delle-alpi-41/4930",
-    "postal_code": "20822",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
@@ -5676,16 +5656,6 @@
     "province_name": "Milano",
     "address": "/volantino/supermercato-carrefour-express-milano-via-porro-lambertenghi-luigi-n-21/4801",
     "postal_code": "20159",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "MI",
-    "province_name": "Milano",
-    "address": "/volantino/supermercato-carrefour-express-milano-via-privata-dei-martinitt-3/4828",
-    "postal_code": "20146",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
@@ -9444,16 +9414,6 @@
     "store_name": "Carrefour",
     "province_code": "TO",
     "province_name": "Torino",
-    "address": "/volantino/supermercato-carrefour-express-ivrea-via-pavetti-1/1134",
-    "postal_code": "10015",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "TO",
-    "province_name": "Torino",
     "address": "/volantino/supermercato-carrefour-express-lanzo-torinese-via-martiri-della-liberta-4/1004",
     "postal_code": "10074",
     "source_url": "https://www.carrefour.it/punti-vendita",
@@ -9636,6 +9596,26 @@
     "province_name": "Torino",
     "address": "/volantino/supermercato-carrefour-express-santena-via-cavour-n-45/1236",
     "postal_code": "10020",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
+    "province_code": "TO",
+    "province_name": "Torino",
+    "address": "/volantino/supermercato-carrefour-express-sauze-d-oulx-via-clotes-14/1715",
+    "postal_code": "10050",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
+    "province_code": "TO",
+    "province_name": "Torino",
+    "address": "/volantino/supermercato-carrefour-express-sestriere-via-pinerolo-n-14/4766",
+    "postal_code": "10058",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
@@ -10156,16 +10136,6 @@
     "province_name": "Torino",
     "address": "10092",
     "postal_code": "10092",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "10147",
-    "postal_code": "10147",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
@@ -10716,6 +10686,16 @@
     "province_name": "Viterbo",
     "address": "/volantino/supermercato-carrefour-express-capranica-via-giacomo-matteotti18-a/3426",
     "postal_code": "01012",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
+    "province_code": "VT",
+    "province_name": "Viterbo",
+    "address": "/volantino/supermercato-carrefour-market-tarquinia-via-aldo-moro-snc/5098",
+    "postal_code": "01016",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
