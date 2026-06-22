@@ -121,7 +121,7 @@
   },
   {
     "brand": "Basko",
-    "store_name": "Orario di Lavoro BASKO",
+    "store_name": "Default",
     "province_code": "BR",
     "province_name": "Brindisi",
     "address": "28800;72000;",
@@ -10717,6 +10717,16 @@
     "address": "ss",
     "postal_code": "",
     "source_url": "https://www.conad.it/negozi-e-volantini",
+    "status": "active"
+  },
+  {
+    "brand": "Lidl",
+    "store_name": "Scopri l'impegno di Lidl",
+    "province_code": "AR",
+    "province_name": "Arezzo",
+    "address": "https://www.lidl.it/l/it/volantini/sulla-via-del-domani-scopri-limpegno-di-lidl/ar/0",
+    "postal_code": "",
+    "source_url": "https://www.lidl.it/c/punti-vendita-e-orari/s10019838",
     "status": "active"
   },
   {
