@@ -121,7 +121,7 @@
   },
   {
     "brand": "Basko",
-    "store_name": "Orario di Lavoro BASKO",
+    "store_name": "Default Business Hour",
     "province_code": "BR",
     "province_name": "Brindisi",
     "address": "28800;72000;",
@@ -2354,16 +2354,6 @@
     "store_name": "Carrefour",
     "province_code": "CH",
     "province_name": "Chieti",
-    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
-    "postal_code": "66100",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "CH",
-    "province_name": "Chieti",
     "address": "/volantino/supermercato-carrefour-market-chieti-via-masci-snc/0232",
     "postal_code": "66100",
     "source_url": "https://www.carrefour.it/punti-vendita",
@@ -2616,6 +2606,16 @@
     "province_name": "Forlì-Cesena",
     "address": "/volantino/supermercato-carrefour-express-cesena-piazza-liberta-20-angolo-corso-garibaldi/4532",
     "postal_code": "47521",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
+    "province_code": "FC",
+    "province_name": "Forlì-Cesena",
+    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
+    "postal_code": "66100",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
