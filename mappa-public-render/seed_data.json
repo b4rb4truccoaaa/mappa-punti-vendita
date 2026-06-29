@@ -121,7 +121,7 @@
   },
   {
     "brand": "Basko",
-    "store_name": "OrarioBaskoSpesaOnline",
+    "store_name": "Default",
     "province_code": "BR",
     "province_name": "Brindisi",
     "address": "28800;72000;",
@@ -1276,6 +1276,16 @@
     "province_name": "Alessandria",
     "address": "/volantino/supermercato-carrefour-express-rivalta-bormida-corso-vittorio-emanuele-ii-n-12/3958",
     "postal_code": "15010",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
+    "province_code": "AL",
+    "province_name": "Alessandria",
+    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
+    "postal_code": "15067",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
@@ -2636,16 +2646,6 @@
     "province_name": "Ferrara",
     "address": "/volantino/supermercato-carrefour-express-porto-garibaldi-piazza-3-agosto-15/4230",
     "postal_code": "44029",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "FE",
-    "province_name": "Ferrara",
-    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
-    "postal_code": "15067",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
