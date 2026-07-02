@@ -3334,6 +3334,16 @@
     "store_name": "Carrefour",
     "province_code": "GE",
     "province_name": "Genova",
+    "address": "/volantino/supermercato-carrefour-express-genova-via-cesarea-12r-14r-16r/5257",
+    "postal_code": "16121",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
+    "province_code": "GE",
+    "province_name": "Genova",
     "address": "/volantino/supermercato-carrefour-express-genova-via-chighizzola-n40r/1614",
     "postal_code": "16147",
     "source_url": "https://www.carrefour.it/punti-vendita",
@@ -3916,16 +3926,6 @@
     "province_name": "Genova",
     "address": "/volantino/supermercato-carrefour-express-torriglia-via-della-nostra-s-prov-n-26d/1352",
     "postal_code": "16029",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "GE",
-    "province_name": "Genova",
-    "address": "/volantino/supermercato-carrefour-market-genova-via-cesarea-12r-14r-16r/4390",
-    "postal_code": "16121",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
@@ -10245,16 +10245,6 @@
     "province_code": "VA",
     "province_name": "Varese",
     "address": "/volantino/supermercato-carrefour-express-busto-arsizio-via-crespi-3/4840",
-    "postal_code": "21052",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "VA",
-    "province_name": "Varese",
-    "address": "/volantino/supermercato-carrefour-express-busto-arsizio-via-duca-d-aosta-19/4817",
     "postal_code": "21052",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
