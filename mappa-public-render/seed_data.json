@@ -121,7 +121,7 @@
   },
   {
     "brand": "Basko",
-    "store_name": "Default",
+    "store_name": "Orario di Lavoro BASKO",
     "province_code": "BR",
     "province_name": "Brindisi",
     "address": "28800;72000;",
@@ -10702,6 +10702,16 @@
   {
     "brand": "Lidl",
     "store_name": "Lidl",
+    "province_code": "AL",
+    "province_name": "Alessandria",
+    "address": "Prova un prodotto o una località diversi",
+    "postal_code": "",
+    "source_url": "https://www.lidl.it/c/punti-vendita-e-orari/s10019838",
+    "status": "active"
+  },
+  {
+    "brand": "Lidl",
+    "store_name": "Lidl",
     "province_code": "BR",
     "province_name": "Brindisi",
     "address": "Mit Ihrer Einwilligung werden wir die sogenannte EUID verwenden, die von TTD zur Verfügung gestellt wird, um Sie als denselben Webseiten-Besucher/App-Nutzer zu erkennen und Erkenntnisse über Ihr Nutzungsverhalten auf den Lidl-Diensten zu erfassen. <br /> <br /> Voraussetzung hierfür ist, dass Sie, nachdem Sie der Nutzung der genannten Technologie zugestimmt haben, entweder ein Lidl Plus-Konto eröffnen oder sich in ein bestehendes Lidl-Konto einloggen. In diesem Fall erhalten wir aus Ihrem Konto, das von der Lidl Stiftung & Co. KG (Stiftsbergstraße 1, 74167 Neckarsulm, Deutschland) betrieben wird, Ihre E-Mailadresse. Diese stellen wir sodann TTD zur Verfügung, die aus Ihrer E-Mailadresse eine spezielle Online-Kennung erstellt, die sogenannte EUID. Diese EUID stellt TTD uns dann zur Verfügung. Wir verwenden die EUID sodann, um Sie als denselben Webseiten-Besucher/App-Nutzer zu erkennen und Erkenntnisse über Ihr Nutzungsverhalten in den Lidl-Diensten zu erfassen. Wenn Sie Drittmedien besuchen, kann der jeweilige Betreiber, sofern er ebenfalls das EUID-Verfahren einsetzt und über eine E-Mailadresse von Ihnen verfügt, - Ihre Einwilligung vorausgesetzt – ebenfalls von TTD eine spezielle Online-Kennung berechnen lassen, das sogenannte EUID-Token. Mittels eines Abgleichs dieser Online-Kennungen können Sie auf dem Drittmedium wiedererkannt werden und wir können Ihnen dort personalisiert Werbung ausspielen. <br /> Sie können Ihre Einwilligung zur Verarbeitung der Sie betreffenden EUID auch über das nachfolgende Portal widerrufen: https://www.transparentadvertising.eu/.",
@@ -10717,16 +10727,6 @@
     "address": "ss",
     "postal_code": "",
     "source_url": "https://www.lidl.it/c/punti-vendita-e-orari/s10019838",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
-    "province_code": "AG",
-    "province_name": "Agrigento",
-    "address": "00183, Ponte Galeria-La Pisana, Italia",
-    "postal_code": "00183",
-    "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
   {
@@ -10794,26 +10794,6 @@
     "store_name": "MD",
     "province_code": "BG",
     "province_name": "Bergamo",
-    "address": "00045, Genzano di Roma, Italia",
-    "postal_code": "00045",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
-    "province_code": "BG",
-    "province_name": "Bergamo",
-    "address": "00065, Fiano Romano, Italia",
-    "postal_code": "00065",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
-    "province_code": "BG",
-    "province_name": "Bergamo",
     "address": "00077, Monte Compatri, Italia",
     "postal_code": "00077",
     "source_url": "https://www.mdspa.it/punti-vendita",
@@ -10825,16 +10805,6 @@
     "province_code": "BG",
     "province_name": "Bergamo",
     "address": "00118",
-    "postal_code": "00118",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
-    "province_code": "BG",
-    "province_name": "Bergamo",
-    "address": "00118, Ponte Galeria-La Pisana, Italia",
     "postal_code": "00118",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
@@ -10901,16 +10871,6 @@
   },
   {
     "brand": "MD",
-    "store_name": "MD",
-    "province_code": "BG",
-    "province_name": "Bergamo",
-    "address": "03040, Villa Latina, Italia",
-    "postal_code": "03040",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
     "store_name": "Frosinone",
     "province_code": "BG",
     "province_name": "Bergamo",
@@ -10941,10 +10901,40 @@
   },
   {
     "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "04023, Formia, Italia",
+    "postal_code": "04023",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
     "store_name": "Latina",
     "province_code": "BG",
     "province_name": "Bergamo",
     "address": "04100",
+    "postal_code": "04100",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "04100, Borgo Sabotino, Italia",
+    "postal_code": "04100",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "04100, Latina Scalo, Italia",
     "postal_code": "04100",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
@@ -10964,8 +10954,8 @@
     "store_name": "MD",
     "province_code": "BG",
     "province_name": "Bergamo",
-    "address": "06019, Verna, Italia",
-    "postal_code": "06019",
+    "address": "08042, Bari Sardo, Italia",
+    "postal_code": "08042",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -11004,8 +10994,28 @@
     "store_name": "MD",
     "province_code": "BG",
     "province_name": "Bergamo",
-    "address": "10020, Mombello di Torino, Italia",
+    "address": "10020, Pavarolo, Italia",
     "postal_code": "10020",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "10024, Moncalieri, Italia",
+    "postal_code": "10024",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "10036, Settimo Torinese, Italia",
+    "postal_code": "10036",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -11024,8 +11034,18 @@
     "store_name": "MD",
     "province_code": "BG",
     "province_name": "Bergamo",
-    "address": "10057, Sant'Ambrogio di Torino, Italia",
-    "postal_code": "10057",
+    "address": "10070, Varisella, Italia",
+    "postal_code": "10070",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "10099, San Mauro Torinese, Italia",
+    "postal_code": "10099",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -11074,8 +11094,8 @@
     "store_name": "MD",
     "province_code": "BG",
     "province_name": "Bergamo",
-    "address": "12046, Montà, Italia",
-    "postal_code": "12046",
+    "address": "13030, Formigliana, Italia",
+    "postal_code": "13030",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -11126,6 +11146,16 @@
     "province_name": "Bergamo",
     "address": "15100, Alessandria, Italia",
     "postal_code": "15100",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "16044, Prato, Italia",
+    "postal_code": "16044",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -11284,6 +11314,26 @@
     "store_name": "MD",
     "province_code": "BG",
     "province_name": "Bergamo",
+    "address": "20047, Monzoro, Italia",
+    "postal_code": "20047",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "20054, San Felice, Italia",
+    "postal_code": "20054",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
     "address": "20079, Milano 3, Italia",
     "postal_code": "20079",
     "source_url": "https://www.mdspa.it/punti-vendita",
@@ -11306,16 +11356,6 @@
     "province_name": "Bergamo",
     "address": "20900, Monza, Italia",
     "postal_code": "20900",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
-    "province_code": "BG",
-    "province_name": "Bergamo",
-    "address": "21030, Ferrera di Varese, Italia",
-    "postal_code": "21030",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -11361,6 +11401,16 @@
   },
   {
     "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "22070, Locate Varesino, Italia",
+    "postal_code": "22070",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
     "store_name": "Como",
     "province_code": "BG",
     "province_name": "Bergamo",
@@ -11386,6 +11436,26 @@
     "province_name": "Bergamo",
     "address": "23822, Bellano, Italia",
     "postal_code": "23822",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "23846, Garbagnate Monastero, Italia",
+    "postal_code": "23846",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "23900, Lecco, Italia",
+    "postal_code": "23900",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -11426,6 +11496,26 @@
     "province_name": "Bergamo",
     "address": "24044, Sabbio Bergamasco, Italia",
     "postal_code": "24044",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "24048, Treviolo, Italia",
+    "postal_code": "24048",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "24050, Bariano, Italia",
+    "postal_code": "24050",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -11476,6 +11566,16 @@
     "province_name": "Bergamo",
     "address": "25020, San Gervasio Bresciano, Italia",
     "postal_code": "25020",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "25028, Verolanuova, Italia",
+    "postal_code": "25028",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -11554,8 +11654,8 @@
     "store_name": "MD",
     "province_code": "BG",
     "province_name": "Bergamo",
-    "address": "27020, San Varese, Italia",
-    "postal_code": "27020",
+    "address": "27012, Torre del Mangano, Italia",
+    "postal_code": "27012",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -11624,8 +11724,18 @@
     "store_name": "MD",
     "province_code": "BG",
     "province_name": "Bergamo",
-    "address": "28060, Casaleggio Novara, Italia",
-    "postal_code": "28060",
+    "address": "28073, Fara Novarese, Italia",
+    "postal_code": "28073",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "28078, Romagnano Sesia, Italia",
+    "postal_code": "28078",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -11674,8 +11784,8 @@
     "store_name": "MD",
     "province_code": "BG",
     "province_name": "Bergamo",
-    "address": "30030, Pava, Italia",
-    "postal_code": "30030",
+    "address": "30013, Lido, Italia",
+    "postal_code": "30013",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -11764,28 +11874,18 @@
     "store_name": "MD",
     "province_code": "BG",
     "province_name": "Bergamo",
+    "address": "32100, Bolzano Bellunese, Italia",
+    "postal_code": "32100",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
     "address": "33010, Prato, Italia",
     "postal_code": "33010",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
-    "province_code": "BG",
-    "province_name": "Bergamo",
-    "address": "33020, Forni Avoltri, Italia",
-    "postal_code": "33020",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
-    "province_code": "BG",
-    "province_name": "Bergamo",
-    "address": "33024, Forni di Sopra, Italia",
-    "postal_code": "33024",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -11804,6 +11904,16 @@
     "store_name": "MD",
     "province_code": "BG",
     "province_name": "Bergamo",
+    "address": "33053, Latisana, Italia",
+    "postal_code": "33053",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
     "address": "34070, Savogna d'Isonzo, Italia",
     "postal_code": "34070",
     "source_url": "https://www.mdspa.it/punti-vendita",
@@ -11814,7 +11924,17 @@
     "store_name": "MD",
     "province_code": "BG",
     "province_name": "Bergamo",
-    "address": "35010, Abbazia Pisani, Italia",
+    "address": "34076, Romans d'Isonzo, Italia",
+    "postal_code": "34076",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "35010, Gazzo, Italia",
     "postal_code": "35010",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
@@ -11846,16 +11966,6 @@
     "province_name": "Bergamo",
     "address": "35027, Noventa Padovana, Italia",
     "postal_code": "35027",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
-    "province_code": "BG",
-    "province_name": "Bergamo",
-    "address": "35040, Boara Pisani, Italia",
-    "postal_code": "35040",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -11901,6 +12011,16 @@
   },
   {
     "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "36060, Romano d'Ezzelino, Italia",
+    "postal_code": "36060",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
     "store_name": "Vicenza",
     "province_code": "BG",
     "province_name": "Bergamo",
@@ -11916,6 +12036,16 @@
     "province_name": "Bergamo",
     "address": "36100, Vicenza, Italia",
     "postal_code": "36100",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "37013, Caprino Veronese, Italia",
+    "postal_code": "37013",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -11946,6 +12076,16 @@
     "province_name": "Bergamo",
     "address": "37062, Villafranca di Verona, Italia",
     "postal_code": "37062",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "37064, Povegliano Veronese, Italia",
+    "postal_code": "37064",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -11994,8 +12134,18 @@
     "store_name": "MD",
     "province_code": "BG",
     "province_name": "Bergamo",
-    "address": "40023, Castel Guelfo di Bologna, Italia",
-    "postal_code": "40023",
+    "address": "40050, Venezzano Mascarino, Italia",
+    "postal_code": "40050",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "40052, Baricella, Italia",
+    "postal_code": "40052",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -12026,6 +12176,16 @@
     "province_name": "Bergamo",
     "address": "40121, Bologna, Italia",
     "postal_code": "40121",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "41013, Castelfranco Emilia, Italia",
+    "postal_code": "41013",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -12071,6 +12231,16 @@
   },
   {
     "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "41042, Spezzano, Italia",
+    "postal_code": "41042",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
     "store_name": "Modena",
     "province_code": "BG",
     "province_name": "Bergamo",
@@ -12104,6 +12274,16 @@
     "store_name": "MD",
     "province_code": "BG",
     "province_name": "Bergamo",
+    "address": "42012, Campagnola Emilia, Italia",
+    "postal_code": "42012",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
     "address": "42015, Prato, Italia",
     "postal_code": "42015",
     "source_url": "https://www.mdspa.it/punti-vendita",
@@ -12114,8 +12294,8 @@
     "store_name": "MD",
     "province_code": "BG",
     "province_name": "Bergamo",
-    "address": "42046, Reggiolo, Italia",
-    "postal_code": "42046",
+    "address": "42027, Montecchio Emilia, Italia",
+    "postal_code": "42027",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -12144,8 +12324,8 @@
     "store_name": "MD",
     "province_code": "BG",
     "province_name": "Bergamo",
-    "address": "43028, Tizzano Val Parma, Italia",
-    "postal_code": "43028",
+    "address": "43017, San Secondo Parmense, Italia",
+    "postal_code": "43017",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -12264,16 +12444,6 @@
     "store_name": "MD",
     "province_code": "BG",
     "province_name": "Bergamo",
-    "address": "47020, Massa, Italia",
-    "postal_code": "47020",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
-    "province_code": "BG",
-    "province_name": "Bergamo",
     "address": "47034, Forlimpopoli, Italia",
     "postal_code": "47034",
     "source_url": "https://www.mdspa.it/punti-vendita",
@@ -12301,16 +12471,6 @@
   },
   {
     "brand": "MD",
-    "store_name": "MD",
-    "province_code": "BG",
-    "province_name": "Bergamo",
-    "address": "47822, Santarcangelo di Romagna, Italia",
-    "postal_code": "47822",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
     "store_name": "Rimini",
     "province_code": "BG",
     "province_name": "Bergamo",
@@ -12326,6 +12486,16 @@
     "province_name": "Bergamo",
     "address": "47921, Rimini, Italia",
     "postal_code": "47921",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "48014, Castel Bolognese, Italia",
+    "postal_code": "48014",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -12434,6 +12604,26 @@
     "store_name": "MD",
     "province_code": "BG",
     "province_name": "Bergamo",
+    "address": "51010, Serra Pistoiese, Italia",
+    "postal_code": "51010",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "51028, Lizzano Pistoiese, Italia",
+    "postal_code": "51028",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
     "address": "51028, San Marcello Pistoiese, Italia",
     "postal_code": "51028",
     "source_url": "https://www.mdspa.it/punti-vendita",
@@ -12466,16 +12656,6 @@
     "province_name": "Bergamo",
     "address": "51100, Pistoia, Italia",
     "postal_code": "51100",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
-    "province_code": "BG",
-    "province_name": "Bergamo",
-    "address": "52010, Chiusi della Verna, Italia",
-    "postal_code": "52010",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -12664,6 +12844,26 @@
     "store_name": "MD",
     "province_code": "BG",
     "province_name": "Bergamo",
+    "address": "62025, Fiuminata, Italia",
+    "postal_code": "62025",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "63100, Brecciarolo, Italia",
+    "postal_code": "63100",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
     "address": "65020, Bolognano, Italia",
     "postal_code": "65020",
     "source_url": "https://www.mdspa.it/punti-vendita",
@@ -12694,28 +12894,8 @@
     "store_name": "MD",
     "province_code": "BG",
     "province_name": "Bergamo",
-    "address": "70010, Sammichele di Bari, Italia",
-    "postal_code": "70010",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
-    "province_code": "BG",
-    "province_name": "Bergamo",
-    "address": "70028, Sannicandro di Bari, Italia",
-    "postal_code": "70028",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
-    "province_code": "BG",
-    "province_name": "Bergamo",
-    "address": "70042, Mola di Bari, Italia",
-    "postal_code": "70042",
+    "address": "67050, Lecce nei Marsi, Italia",
+    "postal_code": "67050",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -12754,16 +12934,6 @@
     "store_name": "MD",
     "province_code": "BG",
     "province_name": "Bergamo",
-    "address": "73010, San Donato di Lecce, Italia",
-    "postal_code": "73010",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
-    "province_code": "BG",
-    "province_name": "Bergamo",
     "address": "73016, San Cesario di Lecce, Italia",
     "postal_code": "73016",
     "source_url": "https://www.mdspa.it/punti-vendita",
@@ -12786,16 +12956,6 @@
     "province_name": "Bergamo",
     "address": "73018, Lecce, Italia",
     "postal_code": "73018",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
-    "province_code": "BG",
-    "province_name": "Bergamo",
-    "address": "73036, Muro Leccese, Italia",
-    "postal_code": "73036",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -12914,8 +13074,8 @@
     "store_name": "MD",
     "province_code": "BG",
     "province_name": "Bergamo",
-    "address": "81010, Latina, Italia",
-    "postal_code": "81010",
+    "address": "80046, Pisani, Italia",
+    "postal_code": "80046",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -12924,8 +13084,18 @@
     "store_name": "MD",
     "province_code": "BG",
     "province_name": "Bergamo",
-    "address": "81013, Piana di Monte Verna, Italia",
-    "postal_code": "81013",
+    "address": "80058, Rovigliano, Italia",
+    "postal_code": "80058",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "81010, Latina, Italia",
+    "postal_code": "81010",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -12974,8 +13144,18 @@
     "store_name": "MD",
     "province_code": "BG",
     "province_name": "Bergamo",
-    "address": "83058, Trevico, Italia",
-    "postal_code": "83058",
+    "address": "82030, Massa, Italia",
+    "postal_code": "82030",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "84078, Vallo della Lucania, Italia",
+    "postal_code": "84078",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -13016,16 +13196,6 @@
     "province_name": "Bergamo",
     "address": "86084, Forlì del Sannio, Italia",
     "postal_code": "86084",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
-    "province_code": "BG",
-    "province_name": "Bergamo",
-    "address": "87050, Bosco di Rovito, Italia",
-    "postal_code": "87050",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -13094,7 +13264,7 @@
     "store_name": "MD",
     "province_code": "BG",
     "province_name": "Bergamo",
-    "address": "88100, Catanzaro, Italia",
+    "address": "88100, Catanzaro Lido, Italia",
     "postal_code": "88100",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
@@ -13104,18 +13274,8 @@
     "store_name": "MD",
     "province_code": "BG",
     "province_name": "Bergamo",
-    "address": "89015, Prato, Italia",
-    "postal_code": "89015",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
-    "province_code": "BG",
-    "province_name": "Bergamo",
-    "address": "89121, Reggio Calabria, Italia",
-    "postal_code": "89121",
+    "address": "88100, Catanzaro, Italia",
+    "postal_code": "88100",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -13184,6 +13344,16 @@
     "store_name": "MD",
     "province_code": "BG",
     "province_name": "Bergamo",
+    "address": "95019, Pisano, Italia",
+    "postal_code": "95019",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
     "address": "95027, San Gregorio di Catania, Italia",
     "postal_code": "95027",
     "source_url": "https://www.mdspa.it/punti-vendita",
@@ -13196,16 +13366,6 @@
     "province_name": "Bergamo",
     "address": "95030, Gravina di Catania, Italia",
     "postal_code": "95030",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
-    "province_code": "BG",
-    "province_name": "Bergamo",
-    "address": "95043, Militello in Val di Catania, Italia",
-    "postal_code": "95043",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -13384,16 +13544,6 @@
     "store_name": "MD",
     "province_code": "CZ",
     "province_name": "Catanzaro",
-    "address": "00118, Ponte Galeria-La Pisana, Italia",
-    "postal_code": "00118",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
-    "province_code": "CZ",
-    "province_name": "Catanzaro",
     "address": "00118, Roma, Italia",
     "postal_code": "00118",
     "source_url": "https://www.mdspa.it/punti-vendita",
@@ -13404,28 +13554,8 @@
     "store_name": "MD",
     "province_code": "CZ",
     "province_name": "Catanzaro",
-    "address": "00123, Ponte Galeria-La Pisana, Italia",
-    "postal_code": "00123",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
-    "province_code": "CZ",
-    "province_name": "Catanzaro",
     "address": "00123, Roma, Italia",
     "postal_code": "00123",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
-    "province_code": "CZ",
-    "province_name": "Catanzaro",
-    "address": "00169, Ponte Galeria-La Pisana, Italia",
-    "postal_code": "00169",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -13504,16 +13634,6 @@
     "store_name": "MD",
     "province_code": "CZ",
     "province_name": "Catanzaro",
-    "address": "89015, Prato, Italia",
-    "postal_code": "89015",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
-    "province_code": "CZ",
-    "province_name": "Catanzaro",
     "address": "90121, Palermo, Italia",
     "postal_code": "90121",
     "source_url": "https://www.mdspa.it/punti-vendita",
@@ -13545,6 +13665,16 @@
     "province_code": "IS",
     "province_name": "Isernia",
     "address": "51010, Massa, Italia",
+    "postal_code": "51010",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "IS",
+    "province_name": "Isernia",
+    "address": "51010, Serra Pistoiese, Italia",
     "postal_code": "51010",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
@@ -13604,6 +13734,16 @@
     "store_name": "MD",
     "province_code": "ME",
     "province_name": "Messina",
+    "address": "25028, Verolanuova, Italia",
+    "postal_code": "25028",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "ME",
+    "province_name": "Messina",
     "address": "80046, Napoli, Italia",
     "postal_code": "80046",
     "source_url": "https://www.mdspa.it/punti-vendita",
@@ -13614,7 +13754,27 @@
     "store_name": "MD",
     "province_code": "ME",
     "province_name": "Messina",
+    "address": "80046, Pisani, Italia",
+    "postal_code": "80046",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "ME",
+    "province_name": "Messina",
     "address": "80133, Napoli, Italia",
+    "postal_code": "80133",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "ME",
+    "province_name": "Messina",
+    "address": "80133, Pisani, Italia",
     "postal_code": "80133",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
@@ -13635,6 +13795,16 @@
     "province_code": "NA",
     "province_name": "Napoli",
     "address": "80146, Napoli, Italia",
+    "postal_code": "80146",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "NA",
+    "province_name": "Napoli",
+    "address": "80146, Pisani, Italia",
     "postal_code": "80146",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
@@ -13822,50 +13992,10 @@
   {
     "brand": "MD",
     "store_name": "MD",
-    "province_code": "VI",
-    "province_name": "Vicenza",
-    "address": "89121, Reggio Calabria, Italia",
-    "postal_code": "89121",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
-    "province_code": "VI",
-    "province_name": "Vicenza",
-    "address": "89122, Reggio Calabria, Italia",
-    "postal_code": "89122",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
-    "province_code": "VT",
-    "province_name": "Viterbo",
-    "address": "00137, Ponte Galeria-La Pisana, Italia",
-    "postal_code": "00137",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
     "province_code": "VT",
     "province_name": "Viterbo",
     "address": "00137, Roma, Italia",
     "postal_code": "00137",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
-    "province_code": "VT",
-    "province_name": "Viterbo",
-    "address": "00146, Ponte Galeria-La Pisana, Italia",
-    "postal_code": "00146",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -13916,6 +14046,46 @@
     "province_name": "Viterbo",
     "address": "24127, Bergamo, Italia",
     "postal_code": "24127",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "VT",
+    "province_name": "Viterbo",
+    "address": "30013, Lido, Italia",
+    "postal_code": "30013",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "VT",
+    "province_name": "Viterbo",
+    "address": "30124, Lido, Italia",
+    "postal_code": "30124",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "VT",
+    "province_name": "Viterbo",
+    "address": "30141, Lido, Italia",
+    "postal_code": "30141",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "VT",
+    "province_name": "Viterbo",
+    "address": "37064, Povegliano Veronese, Italia",
+    "postal_code": "37064",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
