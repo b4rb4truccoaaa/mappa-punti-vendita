@@ -121,7 +121,7 @@
   },
   {
     "brand": "Basko",
-    "store_name": "Default Business Hour",
+    "store_name": "OrarioBaskoSpesaOnline",
     "province_code": "BR",
     "province_name": "Brindisi",
     "address": "28800;72000;",
@@ -154,7 +154,7 @@
     "store_name": "Basko",
     "province_code": "FC",
     "province_name": "Forlì-Cesena",
-    "address": "28800;72000;",
+    "address": "28800;61200;",
     "postal_code": "28800",
     "source_url": "https://www.basko.it/supermercati",
     "status": "active"
@@ -1284,16 +1284,6 @@
     "store_name": "Carrefour",
     "province_code": "AL",
     "province_name": "Alessandria",
-    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
-    "postal_code": "15067",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "AL",
-    "province_name": "Alessandria",
     "address": "/volantino/supermercato-carrefour-express-ticineto-via-cesare-battisti-11/5145",
     "postal_code": "15040",
     "source_url": "https://www.carrefour.it/punti-vendita",
@@ -2374,6 +2364,16 @@
     "store_name": "Carrefour",
     "province_code": "CH",
     "province_name": "Chieti",
+    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
+    "postal_code": "66100",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
+    "province_code": "CH",
+    "province_name": "Chieti",
     "address": "/volantino/supermercato-carrefour-market-chieti-via-masci-snc/0232",
     "postal_code": "66100",
     "source_url": "https://www.carrefour.it/punti-vendita",
@@ -3356,6 +3356,16 @@
     "province_name": "Genova",
     "address": "/volantino/supermercato-carrefour-express-genova-via-de-gaspari-n-21r/0144",
     "postal_code": "16146",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
+    "province_code": "GE",
+    "province_name": "Genova",
+    "address": "/volantino/supermercato-carrefour-express-genova-via-del-lagaccio-64-r/4341",
+    "postal_code": "16134",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
@@ -5054,7 +5064,27 @@
     "store_name": "Carrefour",
     "province_code": "MI",
     "province_name": "Milano",
+    "address": "/volantino/supermercato-carrefour-express-locate-di-triulzi-via-salazar-12/2791",
+    "postal_code": "20085",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
+    "province_code": "MI",
+    "province_name": "Milano",
     "address": "/volantino/supermercato-carrefour-express-melegnano-via-emilia-2/4971",
+    "postal_code": "20077",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
+    "province_code": "MI",
+    "province_name": "Milano",
+    "address": "/volantino/supermercato-carrefour-express-melegnano-via-martiri-della-liberta-n8/4530",
     "postal_code": "20077",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
@@ -9484,6 +9514,16 @@
     "store_name": "Carrefour",
     "province_code": "TO",
     "province_name": "Torino",
+    "address": "/volantino/supermercato-carrefour-express-poirino-via-colombo-2/2366",
+    "postal_code": "10046",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
+    "province_code": "TO",
+    "province_name": "Torino",
     "address": "/volantino/supermercato-carrefour-express-riva-presso-chieri-via-canta-5-7/1011",
     "postal_code": "10020",
     "source_url": "https://www.carrefour.it/punti-vendita",
@@ -9854,8 +9894,28 @@
     "store_name": "Carrefour",
     "province_code": "TO",
     "province_name": "Torino",
+    "address": "/volantino/supermercato-carrefour-express-torino-via-san-massimo-n43/1569",
+    "postal_code": "10100",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
+    "province_code": "TO",
+    "province_name": "Torino",
     "address": "/volantino/supermercato-carrefour-express-torino-via-santa-teresa-n19/2765",
     "postal_code": "10121",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
+    "province_code": "TO",
+    "province_name": "Torino",
+    "address": "/volantino/supermercato-carrefour-express-torino-via-santorre-di-santarosa/1221",
+    "postal_code": "10131",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
@@ -9896,6 +9956,16 @@
     "province_name": "Torino",
     "address": "/volantino/supermercato-carrefour-market-chieri-viale-fasano-8-bis/5168",
     "postal_code": "10023",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
+    "province_code": "TO",
+    "province_name": "Torino",
+    "address": "/volantino/supermercato-carrefour-market-giaveno-via-canonico-pio-rolla-51-a/2837",
+    "postal_code": "10094",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
