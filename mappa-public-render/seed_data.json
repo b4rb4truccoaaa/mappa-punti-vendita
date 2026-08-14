@@ -1284,6 +1284,16 @@
     "store_name": "Carrefour",
     "province_code": "AL",
     "province_name": "Alessandria",
+    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
+    "postal_code": "15067",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
+    "province_code": "AL",
+    "province_name": "Alessandria",
     "address": "/volantino/supermercato-carrefour-express-ticineto-via-cesare-battisti-11/5145",
     "postal_code": "15040",
     "source_url": "https://www.carrefour.it/punti-vendita",
@@ -2646,16 +2656,6 @@
     "province_name": "Ferrara",
     "address": "/volantino/supermercato-carrefour-express-porto-garibaldi-piazza-3-agosto-15/4230",
     "postal_code": "44029",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "FE",
-    "province_name": "Ferrara",
-    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
-    "postal_code": "15067",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
