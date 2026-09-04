@@ -121,7 +121,7 @@
   },
   {
     "brand": "Basko",
-    "store_name": "OrarioBaskoSpesaOnline",
+    "store_name": "Orario di Lavoro BASKO",
     "province_code": "BR",
     "province_name": "Brindisi",
     "address": "28800;72000;",
@@ -1276,16 +1276,6 @@
     "province_name": "Alessandria",
     "address": "/volantino/supermercato-carrefour-express-rivalta-bormida-corso-vittorio-emanuele-ii-n-12/3958",
     "postal_code": "15010",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "AL",
-    "province_name": "Alessandria",
-    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
-    "postal_code": "15067",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
@@ -2616,6 +2606,16 @@
     "province_name": "Forlì-Cesena",
     "address": "/volantino/supermercato-carrefour-express-cesena-piazza-liberta-20-angolo-corso-garibaldi/4532",
     "postal_code": "47521",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
+    "province_code": "FC",
+    "province_name": "Forlì-Cesena",
+    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
+    "postal_code": "15067",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
@@ -10771,6 +10771,16 @@
   },
   {
     "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "00148, Casetta Mattei, Italia",
+    "postal_code": "00148",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
     "store_name": "Viterbo",
     "province_code": "BG",
     "province_name": "Bergamo",
@@ -11091,6 +11101,16 @@
   },
   {
     "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "16044, Prato, Italia",
+    "postal_code": "16044",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
     "store_name": "Genova",
     "province_code": "BG",
     "province_name": "Bergamo",
@@ -11186,6 +11206,16 @@
     "province_name": "Bergamo",
     "address": "19028, Varese Ligure, Italia",
     "postal_code": "19028",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "19032, La Serra, Italia",
+    "postal_code": "19032",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -12624,6 +12654,16 @@
     "store_name": "MD",
     "province_code": "BG",
     "province_name": "Bergamo",
+    "address": "51010, Serra Pistoiese, Italia",
+    "postal_code": "51010",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
     "address": "51020, Pavana, Italia",
     "postal_code": "51020",
     "source_url": "https://www.mdspa.it/punti-vendita",
@@ -12636,16 +12676,6 @@
     "province_name": "Bergamo",
     "address": "51020, Sambuca Pistoiese, Italia",
     "postal_code": "51020",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
-    "province_code": "BG",
-    "province_name": "Bergamo",
-    "address": "51028, Lizzano Pistoiese, Italia",
-    "postal_code": "51028",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -12756,16 +12786,6 @@
     "province_name": "Bergamo",
     "address": "53100, Siena, Italia",
     "postal_code": "53100",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
-    "province_code": "BG",
-    "province_name": "Bergamo",
-    "address": "54038, Prato, Italia",
-    "postal_code": "54038",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -12885,16 +12905,6 @@
     "province_code": "BG",
     "province_name": "Bergamo",
     "address": "59100",
-    "postal_code": "59100",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
-    "province_code": "BG",
-    "province_name": "Bergamo",
-    "address": "59100, Ponte alla Caserana, Italia",
     "postal_code": "59100",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
@@ -13512,16 +13522,6 @@
   {
     "brand": "MD",
     "store_name": "MD",
-    "province_code": "BG",
-    "province_name": "Bergamo",
-    "address": "La Via, Borghetto di Vara, La Spezia, Italia",
-    "postal_code": "19020",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
     "province_code": "BZ",
     "province_name": "Bolzano",
     "address": "03100, Frosinone, Italia",
@@ -13805,6 +13805,16 @@
     "province_code": "IS",
     "province_name": "Isernia",
     "address": "51010, Massa, Italia",
+    "postal_code": "51010",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "IS",
+    "province_name": "Isernia",
+    "address": "51010, Serra Pistoiese, Italia",
     "postal_code": "51010",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
