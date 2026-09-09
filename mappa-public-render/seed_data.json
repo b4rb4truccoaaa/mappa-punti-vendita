@@ -121,7 +121,7 @@
   },
   {
     "brand": "Basko",
-    "store_name": "Orario di Lavoro BASKO",
+    "store_name": "Default Business Hour",
     "province_code": "BR",
     "province_name": "Brindisi",
     "address": "28800;72000;",
@@ -424,7 +424,7 @@
     "store_name": "Basko Via Barchetta, Genova Bolzaneto",
     "province_code": "GE",
     "province_name": "Genova",
-    "address": "{'addressId': 138, 'addressTypeId': 3, 'addressType': 'drive', 'deliveryServiceId': 1, 'zoneId': 10138, 'zone': {'zoneId': 10138, 'zoneGroupId': 10022}, 'active': 1, 'deliveryAddressId': 138, 'shippingAddressId': 138, 'addressName': 'Basko Via Barchetta, Genova Bolzaneto', 'address1': 'Via Barchetta, 15-17', 'address2': '', 'addressNumber': '', 'city': 'GENOVA', 'postalcode': '16162', 'floor': '', 'doorbellName': '', 'province': 'GE', 'apartmentNumber': '', 'maxDistance': 0.4, 'codInt': '138', 'latitude': 44.4562582, 'longitude': 8.8994102, 'country': {'countryId': 1, 'name': 'Italia', 'iso': 'IT', 'codInt': ''}, 'doorbellNumber': '', 'referencePhoneNumber': '010 717 3138', 'referenceMobileNumber': '', 'referenceEMail': '', 'addressNote': '', 'ztl': None, 'elevator': None, 'countryId': '1'}",
+    "address": "{'addressId': 138, 'addressTypeId': 3, 'addressType': 'drive', 'deliveryServiceId': 1, 'zoneId': 10138, 'zone': {'zoneId': 10138, 'zoneGroupId': 10022}, 'active': 1, 'deliveryAddressId': 138, 'shippingAddressId': 138, 'addressName': 'Basko Via Barchetta, Genova Bolzaneto', 'address1': 'Via Barchetta, 15-17', 'address2': '', 'addressNumber': '', 'city': 'GENOVA', 'postalcode': '16162', 'floor': '', 'doorbellName': '', 'province': 'GE', 'apartmentNumber': '', 'maxDistance': 0.4, 'codInt': '138', 'latitude': 44.45695877075195, 'longitude': 8.899541854858398, 'country': {'countryId': 1, 'name': 'Italia', 'iso': 'IT', 'codInt': ''}, 'doorbellNumber': '', 'referencePhoneNumber': '010 717 3138', 'referenceMobileNumber': '', 'referenceEMail': '', 'addressNote': '', 'ztl': None, 'elevator': None, 'countryId': '1'}",
     "postal_code": "10138",
     "source_url": "https://www.basko.it/supermercati",
     "status": "active"
@@ -464,7 +464,7 @@
     "store_name": "Basko Via Bertolotti, Genova Cornigliano",
     "province_code": "GE",
     "province_name": "Genova",
-    "address": "{'addressId': 213, 'addressTypeId': 3, 'addressType': 'drive', 'deliveryServiceId': 1, 'zoneId': 10213, 'zone': {'zoneId': 10213, 'zoneGroupId': 10022}, 'active': 1, 'deliveryAddressId': 213, 'shippingAddressId': 213, 'addressName': 'Basko Via Bertolotti, Genova Cornigliano', 'address1': 'Via Bertolotti, 1 D 1 E/r', 'address2': '', 'addressNumber': '', 'city': 'GENOVA', 'postalcode': '16153', 'floor': '', 'doorbellName': '', 'province': 'GE', 'apartmentNumber': '', 'maxDistance': 0.4, 'codInt': '213', 'latitude': 44.414701, 'longitude': 8.8674834, 'country': {'countryId': 1, 'name': 'Italia', 'iso': 'IT', 'codInt': ''}, 'doorbellNumber': '', 'referencePhoneNumber': '0107173213', 'referenceMobileNumber': '0107173213', 'referenceEMail': '', 'addressNote': '', 'ztl': None, 'elevator': None, 'countryId': '1'}",
+    "address": "{'addressId': 213, 'addressTypeId': 3, 'addressType': 'drive', 'deliveryServiceId': 1, 'zoneId': 10213, 'zone': {'zoneId': 10213, 'zoneGroupId': 10022}, 'active': 1, 'deliveryAddressId': 213, 'shippingAddressId': 213, 'addressName': 'Basko Via Bertolotti, Genova Cornigliano', 'address1': 'Via Bertolotti, 1 D 1 E/r', 'address2': '', 'addressNumber': '', 'city': 'GENOVA', 'postalcode': '16153', 'floor': '', 'doorbellName': '', 'province': 'GE', 'apartmentNumber': '', 'maxDistance': 0.4, 'codInt': '213', 'latitude': 44.414974212646484, 'longitude': 8.86688232421875, 'country': {'countryId': 1, 'name': 'Italia', 'iso': 'IT', 'codInt': ''}, 'doorbellNumber': '', 'referencePhoneNumber': '0107173213', 'referenceMobileNumber': '0107173213', 'referenceEMail': '', 'addressNote': '', 'ztl': None, 'elevator': None, 'countryId': '1'}",
     "postal_code": "10213",
     "source_url": "https://www.basko.it/supermercati",
     "status": "active"
@@ -524,7 +524,7 @@
     "store_name": "Basko Via Cavallotti, Genova Albaro",
     "province_code": "GE",
     "province_name": "Genova",
-    "address": "{'addressId': 54, 'addressTypeId': 3, 'addressType': 'drive', 'deliveryServiceId': 1, 'zoneId': 10054, 'zone': {'zoneId': 10054, 'zoneGroupId': 10000}, 'active': 1, 'deliveryAddressId': 54, 'shippingAddressId': 54, 'addressName': 'Basko Via Cavallotti, Genova Albaro', 'address1': 'Via Felice Cavallotti, 56/r', 'address2': '', 'addressNumber': '', 'city': 'GENOVA', 'postalcode': '16146', 'floor': '', 'doorbellName': '', 'province': 'GE', 'apartmentNumber': '', 'maxDistance': 0.4, 'codInt': '54', 'latitude': 44.3934783, 'longitude': 8.9751006, 'country': {'countryId': 1, 'name': 'Italia', 'iso': 'IT', 'codInt': ''}, 'doorbellNumber': '', 'referencePhoneNumber': '010 717 3054', 'referenceMobileNumber': '', 'referenceEMail': '', 'addressNote': '', 'ztl': None, 'elevator': None, 'countryId': '1'}",
+    "address": "{'addressId': 54, 'addressTypeId': 3, 'addressType': 'drive', 'deliveryServiceId': 1, 'zoneId': 10054, 'zone': {'zoneId': 10054, 'zoneGroupId': 10000}, 'active': 1, 'deliveryAddressId': 54, 'shippingAddressId': 54, 'addressName': 'Basko Via Cavallotti, Genova Albaro', 'address1': 'Via Felice Cavallotti, 56/r', 'address2': '', 'addressNumber': '', 'city': 'GENOVA', 'postalcode': '16146', 'floor': '', 'doorbellName': '', 'province': 'GE', 'apartmentNumber': '', 'maxDistance': 0.4, 'codInt': '54', 'latitude': 44.393699645996094, 'longitude': 8.975032806396484, 'country': {'countryId': 1, 'name': 'Italia', 'iso': 'IT', 'codInt': ''}, 'doorbellNumber': '', 'referencePhoneNumber': '010 717 3054', 'referenceMobileNumber': '', 'referenceEMail': '', 'addressNote': '', 'ztl': None, 'elevator': None, 'countryId': '1'}",
     "postal_code": "10054",
     "source_url": "https://www.basko.it/supermercati",
     "status": "active"
@@ -544,7 +544,7 @@
     "store_name": "Basko Via Piacenza, Genova San Gottardo",
     "province_code": "GE",
     "province_name": "Genova",
-    "address": "{'addressId': 59, 'addressTypeId': 3, 'addressType': 'drive', 'deliveryServiceId': 1, 'zoneId': 10059, 'zone': {'zoneId': 10059, 'zoneGroupId': 10000}, 'active': 1, 'deliveryAddressId': 59, 'shippingAddressId': 59, 'addressName': 'Basko Via Piacenza, Genova San Gottardo', 'address1': 'Via Emilia, 30/r', 'address2': '', 'addressNumber': '', 'city': 'GENOVA', 'postalcode': '16138', 'floor': '', 'doorbellName': '', 'province': 'GE', 'apartmentNumber': '', 'maxDistance': 0.4, 'codInt': '59', 'latitude': 44.4498, 'longitude': 8.97289, 'country': {'countryId': 1, 'name': 'Italia', 'iso': 'IT', 'codInt': ''}, 'doorbellNumber': '', 'referencePhoneNumber': '010 717 3059', 'referenceMobileNumber': '', 'referenceEMail': '', 'addressNote': '', 'ztl': None, 'elevator': None, 'countryId': '1'}",
+    "address": "{'addressId': 59, 'addressTypeId': 3, 'addressType': 'drive', 'deliveryServiceId': 1, 'zoneId': 10059, 'zone': {'zoneId': 10059, 'zoneGroupId': 10000}, 'active': 1, 'deliveryAddressId': 59, 'shippingAddressId': 59, 'addressName': 'Basko Via Piacenza, Genova San Gottardo', 'address1': 'Via Emilia, 30/r', 'address2': '', 'addressNumber': '', 'city': 'GENOVA', 'postalcode': '16138', 'floor': '', 'doorbellName': '', 'province': 'GE', 'apartmentNumber': '', 'maxDistance': 0.4, 'codInt': '59', 'latitude': 44.44588088989258, 'longitude': 8.967663764953613, 'country': {'countryId': 1, 'name': 'Italia', 'iso': 'IT', 'codInt': ''}, 'doorbellNumber': '', 'referencePhoneNumber': '010 717 3059', 'referenceMobileNumber': '', 'referenceEMail': '', 'addressNote': '', 'ztl': None, 'elevator': None, 'countryId': '1'}",
     "postal_code": "10059",
     "source_url": "https://www.basko.it/supermercati",
     "status": "active"
@@ -624,7 +624,7 @@
     "store_name": "Basko Via Martiri Libertà, Genova Pegli",
     "province_code": "GE",
     "province_name": "Genova",
-    "address": "{'addressId': 99, 'addressTypeId': 3, 'addressType': 'drive', 'deliveryServiceId': 1, 'zoneId': 10099, 'zone': {'zoneId': 10099, 'zoneGroupId': 10022}, 'active': 1, 'deliveryAddressId': 99, 'shippingAddressId': 99, 'addressName': 'Basko Via Martiri Libertà, Genova Pegli', 'address1': 'Via Martiri della Libertà, 15/r', 'address2': '', 'addressNumber': '', 'city': 'GENOVA', 'postalcode': '16010', 'floor': '', 'doorbellName': '', 'province': 'GE', 'apartmentNumber': '', 'maxDistance': 0.4, 'codInt': '99', 'latitude': 44.4269829, 'longitude': 8.8148723, 'country': {'countryId': 1, 'name': 'Italia', 'iso': 'IT', 'codInt': ''}, 'doorbellNumber': '', 'referencePhoneNumber': '010 717 3099', 'referenceMobileNumber': '', 'referenceEMail': '', 'addressNote': '', 'ztl': None, 'elevator': None, 'countryId': '1'}",
+    "address": "{'addressId': 99, 'addressTypeId': 3, 'addressType': 'drive', 'deliveryServiceId': 1, 'zoneId': 10099, 'zone': {'zoneId': 10099, 'zoneGroupId': 10022}, 'active': 1, 'deliveryAddressId': 99, 'shippingAddressId': 99, 'addressName': 'Basko Via Martiri Libertà, Genova Pegli', 'address1': 'Via Martiri della Libertà, 15/r', 'address2': '', 'addressNumber': '', 'city': 'GENOVA', 'postalcode': '16010', 'floor': '', 'doorbellName': '', 'province': 'GE', 'apartmentNumber': '', 'maxDistance': 0.4, 'codInt': '99', 'latitude': 44.42690658569336, 'longitude': 8.814863204956055, 'country': {'countryId': 1, 'name': 'Italia', 'iso': 'IT', 'codInt': ''}, 'doorbellNumber': '', 'referencePhoneNumber': '010 717 3099', 'referenceMobileNumber': '', 'referenceEMail': '', 'addressNote': '', 'ztl': None, 'elevator': None, 'countryId': '1'}",
     "postal_code": "10099",
     "source_url": "https://www.basko.it/supermercati",
     "status": "active"
