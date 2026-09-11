@@ -121,7 +121,7 @@
   },
   {
     "brand": "Basko",
-    "store_name": "Default Business Hour",
+    "store_name": "Orario di Lavoro BASKO",
     "province_code": "BR",
     "province_name": "Brindisi",
     "address": "28800;72000;",
@@ -7446,6 +7446,16 @@
     "province_name": "Roma",
     "address": "/volantino/supermercato-carrefour-express-roma-piazza-vescovio-n-3a-3b/4842",
     "postal_code": "00199",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
+    "province_code": "RM",
+    "province_name": "Roma",
+    "address": "/volantino/supermercato-carrefour-express-roma-via-arturo-graf-3-5/4926",
+    "postal_code": "00137",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
