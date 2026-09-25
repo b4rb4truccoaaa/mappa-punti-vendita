@@ -121,7 +121,7 @@
   },
   {
     "brand": "Basko",
-    "store_name": "OrarioBaskoSpesaOnline",
+    "store_name": "Default Business Hour",
     "province_code": "BR",
     "province_name": "Brindisi",
     "address": "28800;72000;",
@@ -154,7 +154,7 @@
     "store_name": "Basko",
     "province_code": "FC",
     "province_name": "Forlì-Cesena",
-    "address": "28800;72000;",
+    "address": "28800;61200;",
     "postal_code": "28800",
     "source_url": "https://www.basko.it/supermercati",
     "status": "active"
@@ -1084,16 +1084,6 @@
     "store_name": "Basko",
     "province_code": "TO",
     "province_name": "Torino",
-    "address": "Via Asti, 45",
-    "postal_code": "10026",
-    "source_url": "https://www.basko.it/supermercati",
-    "status": "active"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Basko",
-    "province_code": "TO",
-    "province_name": "Torino",
     "address": "Via I Maggio, 219",
     "postal_code": "10062",
     "source_url": "https://www.basko.it/supermercati",
@@ -1175,16 +1165,6 @@
     "province_code": "TO",
     "province_name": "Torino",
     "address": "{'addressId': 154, 'addressTypeId': 9, 'addressType': '', 'deliveryServiceId': 1, 'zoneId': 10057, 'zone': {'zoneId': 10057, 'zoneGroupId': 10022}, 'active': 1, 'deliveryAddressId': 154, 'shippingAddressId': 154, 'addressName': 'Basko Via Piscina, Frossasco', 'address1': 'Via Piscina, 1', 'address2': '', 'addressNumber': '', 'city': 'Frossasco', 'postalcode': '10060', 'floor': '', 'doorbellName': '', 'province': 'TO', 'apartmentNumber': '', 'maxDistance': 0.4, 'codInt': '154', 'latitude': 44.923857, 'longitude': 7.367696, 'country': {'countryId': 1, 'name': 'Italia', 'iso': 'IT', 'codInt': ''}, 'doorbellNumber': '', 'referencePhoneNumber': '010 717 3154', 'referenceMobileNumber': '', 'referenceEMail': '', 'addressNote': '', 'ztl': None, 'elevator': None, 'countryId': '1'}",
-    "postal_code": "10057",
-    "source_url": "https://www.basko.it/supermercati",
-    "status": "active"
-  },
-  {
-    "brand": "Basko",
-    "store_name": "Basko Via Asti, Santena",
-    "province_code": "TO",
-    "province_name": "Torino",
-    "address": "{'addressId': 205, 'addressTypeId': 9, 'addressType': '', 'deliveryServiceId': 1, 'zoneId': 10057, 'zone': {'zoneId': 10057, 'zoneGroupId': 10022}, 'active': 1, 'deliveryAddressId': 205, 'shippingAddressId': 205, 'addressName': 'Basko Via Asti, Santena', 'address1': 'Via Asti, 45', 'address2': '', 'addressNumber': '', 'city': 'Santena', 'postalcode': '10026', 'floor': '', 'doorbellName': '', 'province': 'TO', 'apartmentNumber': '', 'maxDistance': 0.4, 'codInt': '205', 'latitude': 44.962378, 'longitude': 7.777982, 'country': {'countryId': 1, 'name': 'Italia', 'iso': 'IT', 'codInt': ''}, 'doorbellNumber': '', 'referencePhoneNumber': '010 717 3205', 'referenceMobileNumber': '', 'referenceEMail': '', 'addressNote': '', 'ztl': None, 'elevator': None, 'countryId': '1'}",
     "postal_code": "10057",
     "source_url": "https://www.basko.it/supermercati",
     "status": "active"
