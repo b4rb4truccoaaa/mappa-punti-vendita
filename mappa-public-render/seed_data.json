@@ -121,7 +121,7 @@
   },
   {
     "brand": "Basko",
-    "store_name": "OrarioBaskoSpesaOnline",
+    "store_name": "Default Business Hour",
     "province_code": "BR",
     "province_name": "Brindisi",
     "address": "28800;72000;",
@@ -154,7 +154,7 @@
     "store_name": "Basko",
     "province_code": "FC",
     "province_name": "Forlì-Cesena",
-    "address": "28800;61200;",
+    "address": "28800;72000;",
     "postal_code": "28800",
     "source_url": "https://www.basko.it/supermercati",
     "status": "active"
@@ -1256,6 +1256,16 @@
     "province_name": "Alessandria",
     "address": "/volantino/supermercato-carrefour-express-rivalta-bormida-corso-vittorio-emanuele-ii-n-12/3958",
     "postal_code": "15010",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
+    "province_code": "AL",
+    "province_name": "Alessandria",
+    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
+    "postal_code": "15067",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
@@ -2596,16 +2606,6 @@
     "province_name": "Ferrara",
     "address": "/volantino/supermercato-carrefour-express-porto-garibaldi-piazza-3-agosto-15/4230",
     "postal_code": "44029",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "FE",
-    "province_name": "Ferrara",
-    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
-    "postal_code": "15067",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
@@ -4874,6 +4874,16 @@
     "store_name": "Carrefour",
     "province_code": "MI",
     "province_name": "Milano",
+    "address": "/volantino/supermercato-carrefour-express-abbiategrasso-largo-charlie-chaplin/5282",
+    "postal_code": "20081",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
+    "province_code": "MI",
+    "province_name": "Milano",
     "address": "/volantino/supermercato-carrefour-express-baranzate-via-nazario-sauro-18/4746",
     "postal_code": "20021",
     "source_url": "https://www.carrefour.it/punti-vendita",
@@ -5346,6 +5356,16 @@
     "province_name": "Milano",
     "address": "/volantino/supermercato-carrefour-express-milano-via-giovanni-da-milano-7/5070",
     "postal_code": "20133",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
+    "province_code": "MI",
+    "province_name": "Milano",
+    "address": "/volantino/supermercato-carrefour-express-milano-via-giovanni-da-procida-n18/5283",
+    "postal_code": "20149",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
