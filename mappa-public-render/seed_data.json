@@ -121,7 +121,7 @@
   },
   {
     "brand": "Basko",
-    "store_name": "Default Business Hour",
+    "store_name": "OrarioBaskoSpesaOnline",
     "province_code": "BR",
     "province_name": "Brindisi",
     "address": "28800;72000;",
@@ -1264,16 +1264,6 @@
     "store_name": "Carrefour",
     "province_code": "AL",
     "province_name": "Alessandria",
-    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
-    "postal_code": "15067",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "AL",
-    "province_name": "Alessandria",
     "address": "/volantino/supermercato-carrefour-express-ticineto-via-cesare-battisti-11/5145",
     "postal_code": "15040",
     "source_url": "https://www.carrefour.it/punti-vendita",
@@ -2316,6 +2306,16 @@
     "province_name": "Chieti",
     "address": "/volantino/supermercato-carrefour-express-atessa-via-saletti-32/4569",
     "postal_code": "66041",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
+    "province_code": "CH",
+    "province_name": "Chieti",
+    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
+    "postal_code": "66100",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
@@ -10981,16 +10981,6 @@
   },
   {
     "brand": "MD",
-    "store_name": "MD",
-    "province_code": "BG",
-    "province_name": "Bergamo",
-    "address": "16044, Prato, Italia",
-    "postal_code": "16044",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
     "store_name": "Genova",
     "province_code": "BG",
     "province_name": "Bergamo",
@@ -11064,16 +11054,6 @@
     "store_name": "MD",
     "province_code": "BG",
     "province_name": "Bergamo",
-    "address": "19020, La Chiesa, Italia",
-    "postal_code": "19020",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
-    "province_code": "BG",
-    "province_name": "Bergamo",
     "address": "19020, La Serra, Italia",
     "postal_code": "19020",
     "source_url": "https://www.mdspa.it/punti-vendita",
@@ -11086,6 +11066,16 @@
     "province_name": "Bergamo",
     "address": "19028, Varese Ligure, Italia",
     "postal_code": "19028",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "19032, La Serra, Italia",
+    "postal_code": "19032",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -11516,16 +11506,6 @@
     "province_name": "Bergamo",
     "address": "27032, Ferrera Erbognone, Italia",
     "postal_code": "27032",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
-    "province_code": "BG",
-    "province_name": "Bergamo",
-    "address": "27058, Ex Caserma della Cavalleria, Italia",
-    "postal_code": "27058",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -12671,6 +12651,16 @@
   },
   {
     "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "54038, Prato, Italia",
+    "postal_code": "54038",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
     "store_name": "Massa",
     "province_code": "BG",
     "province_name": "Bergamo",
@@ -12785,6 +12775,16 @@
     "province_code": "BG",
     "province_name": "Bergamo",
     "address": "59100",
+    "postal_code": "59100",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "59100, Ponte alla Caserana, Italia",
     "postal_code": "59100",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
