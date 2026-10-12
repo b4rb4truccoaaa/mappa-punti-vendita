@@ -131,7 +131,7 @@
   },
   {
     "brand": "Basko",
-    "store_name": "OrarioBaskoSpesaOnline",
+    "store_name": "Default",
     "province_code": "BR",
     "province_name": "Brindisi",
     "address": "28800;72000;",
@@ -164,7 +164,7 @@
     "store_name": "Basko",
     "province_code": "FC",
     "province_name": "Forlì-Cesena",
-    "address": "28800;72000;",
+    "address": "28800;61200;",
     "postal_code": "28800",
     "source_url": "https://www.basko.it/supermercati",
     "status": "active"
@@ -1372,16 +1372,6 @@
   {
     "brand": "Carrefour",
     "store_name": "Carrefour",
-    "province_code": "AL",
-    "province_name": "Alessandria",
-    "address": "Una rivista di viaggi ha pubblicato un articolo sul suo sito web sui nuovi corsi online proposti da una scuola di lingue, al fine di migliorare le esperienze di viaggio all’estero. I post del blog della scuola vengono inseriti direttamente in fondo alla pagina e selezionati in base alla posizione approssimativa dell’utente (ad esempio, i post del blog che illustrano l’offerta formativa del corso per lingue diverse da quella del paese in cui si trova l’utente).",
-    "postal_code": "",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
     "province_code": "AO",
     "province_name": "Aosta",
     "address": "/volantino/supermercato-carrefour-express-aosta-corso-26-febbraio-10/4473",
@@ -1756,16 +1746,6 @@
     "province_name": "Asti",
     "address": "14100",
     "postal_code": "14100",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "BA",
-    "province_name": "Bari",
-    "address": "Clarity est un outil d'analyse comportementale qui permet de comprendre l'interaction des utilisateurs avec un site Web ou une application, notamment via l'utilisation de Session Replay.",
-    "postal_code": "",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
@@ -2302,16 +2282,6 @@
   {
     "brand": "Carrefour",
     "store_name": "Carrefour",
-    "province_code": "CE",
-    "province_name": "Caserta",
-    "address": "10361",
-    "postal_code": "10361",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
     "province_code": "CH",
     "province_name": "Chieti",
     "address": "/volantino/supermercato-carrefour-express-atessa-via-iv-novembre-4/4568",
@@ -2566,16 +2536,6 @@
     "province_name": "Cremona",
     "address": "/volantino/supermercato-carrefour-market-cremona-via-san-tommaso-11/5179",
     "postal_code": "26100",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "EN",
-    "province_name": "Enna",
-    "address": "ARMIS digitalise la communication de proximité des enseignes physiques pour générer du trafic en magasin via le média internet. Elle vise à fournir à l’ensemble des enseignes physiques des solutions technologiques pour tirer le meilleur parti de leur clientèle de proximité par le biais d'un dispositif publicitaire en ligne.",
-    "postal_code": "",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
@@ -4076,16 +4036,6 @@
     "province_name": "Isernia",
     "address": "/volantino/supermercato-carrefour-express-colli-a-volturno-via-roma2-a/2406",
     "postal_code": "86073",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "IS",
-    "province_name": "Isernia",
-    "address": "This domain is owned by Facebook, which is the world's largest social networking service. As a third party host provider, it mostly collects data on the interests of users via widgets such as the 'Like' button found on many websites. This is used to serve targeted advertising to its users when logged into its services. In 2014 it also started serving up behaviourally targeted advertising on other websites, similar to most dedicated online marketing companies.",
-    "postal_code": "",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
@@ -6481,16 +6431,6 @@
   },
   {
     "brand": "Carrefour",
-    "store_name": "User-provided data",
-    "province_code": "OR",
-    "province_name": "Oristano",
-    "address": "The information you may have provided by way of declaration via a form (e.g. feedback, a comment) or when creating an account (e.g. your age, your occupation).",
-    "postal_code": "",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
     "store_name": "Carrefour",
     "province_code": "PE",
     "province_name": "Pescara",
@@ -8802,16 +8742,6 @@
   {
     "brand": "Carrefour",
     "store_name": "Carrefour",
-    "province_code": "SS",
-    "province_name": "Sassari",
-    "address": "ss",
-    "postal_code": "",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
     "province_code": "SU",
     "province_name": "Sud Sardegna",
     "address": "/volantino/ipermercato-carrefour-iper-san-sperate-strada-statale-131-km-15600/1571",
@@ -10530,16 +10460,6 @@
     "status": "active"
   },
   {
-    "brand": "Conad",
-    "store_name": "Conad",
-    "province_code": "SS",
-    "province_name": "Sassari",
-    "address": "ss",
-    "postal_code": "",
-    "source_url": "https://www.conad.it/negozi-e-volantini",
-    "status": "active"
-  },
-  {
     "brand": "Lidl",
     "store_name": "Lidl",
     "province_code": "AL",
@@ -10556,6 +10476,36 @@
     "province_name": "Brindisi",
     "address": "Mit Ihrer Einwilligung werden wir die sogenannte EUID verwenden, die von TTD zur Verfügung gestellt wird, um Sie als denselben Webseiten-Besucher/App-Nutzer zu erkennen und Erkenntnisse über Ihr Nutzungsverhalten auf den Lidl-Diensten zu erfassen. <br /> <br /> Voraussetzung hierfür ist, dass Sie, nachdem Sie der Nutzung der genannten Technologie zugestimmt haben, entweder ein Lidl Plus-Konto eröffnen oder sich in ein bestehendes Lidl-Konto einloggen. In diesem Fall erhalten wir aus Ihrem Konto, das von der Lidl Stiftung & Co. KG (Stiftsbergstraße 1, 74167 Neckarsulm, Deutschland) betrieben wird, Ihre E-Mailadresse. Diese stellen wir sodann TTD zur Verfügung, die aus Ihrer E-Mailadresse eine spezielle Online-Kennung erstellt, die sogenannte EUID. Diese EUID stellt TTD uns dann zur Verfügung. Wir verwenden die EUID sodann, um Sie als denselben Webseiten-Besucher/App-Nutzer zu erkennen und Erkenntnisse über Ihr Nutzungsverhalten in den Lidl-Diensten zu erfassen. Wenn Sie Drittmedien besuchen, kann der jeweilige Betreiber, sofern er ebenfalls das EUID-Verfahren einsetzt und über eine E-Mailadresse von Ihnen verfügt, - Ihre Einwilligung vorausgesetzt – ebenfalls von TTD eine spezielle Online-Kennung berechnen lassen, das sogenannte EUID-Token. Mittels eines Abgleichs dieser Online-Kennungen können Sie auf dem Drittmedium wiedererkannt werden und wir können Ihnen dort personalisiert Werbung ausspielen. <br /> Sie können Ihre Einwilligung zur Verarbeitung der Sie betreffenden EUID auch über das nachfolgende Portal widerrufen: https://www.transparentadvertising.eu/.",
     "postal_code": "74167",
+    "source_url": "https://www.lidl.it/c/punti-vendita-e-orari/s10019838",
+    "status": "active"
+  },
+  {
+    "brand": "Lidl",
+    "store_name": "Lidl",
+    "province_code": "LE",
+    "province_name": "Lecce",
+    "address": "Caricamento prodotti in corso.",
+    "postal_code": "",
+    "source_url": "https://www.lidl.it/c/punti-vendita-e-orari/s10019838",
+    "status": "active"
+  },
+  {
+    "brand": "Lidl",
+    "store_name": "Lidl",
+    "province_code": "LE",
+    "province_name": "Lecce",
+    "address": "Ricerca in corso",
+    "postal_code": "",
+    "source_url": "https://www.lidl.it/c/punti-vendita-e-orari/s10019838",
+    "status": "active"
+  },
+  {
+    "brand": "Lidl",
+    "store_name": "Lidl",
+    "province_code": "PI",
+    "province_name": "Pisa",
+    "address": "Caricamento prodotti in corso.",
+    "postal_code": "",
     "source_url": "https://www.lidl.it/c/punti-vendita-e-orari/s10019838",
     "status": "active"
   },
