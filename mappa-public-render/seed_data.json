@@ -131,7 +131,7 @@
   },
   {
     "brand": "Basko",
-    "store_name": "Default Business Hour",
+    "store_name": "Default",
     "province_code": "BR",
     "province_name": "Brindisi",
     "address": "28800;72000;",
@@ -10176,6 +10176,16 @@
     "province_name": "Varese",
     "address": "/volantino/supermercato-carrefour-express-varese-via-del-cairo-26/4783",
     "postal_code": "21100",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
+    "province_code": "VA",
+    "province_name": "Varese",
+    "address": "/volantino/supermercato-carrefour-market-besozzo-via-michelino-da-besozzo-20/5264",
+    "postal_code": "21023",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
