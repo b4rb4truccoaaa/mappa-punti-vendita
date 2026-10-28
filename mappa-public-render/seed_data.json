@@ -131,7 +131,7 @@
   },
   {
     "brand": "Basko",
-    "store_name": "Default",
+    "store_name": "Default Business Hour",
     "province_code": "BR",
     "province_name": "Brindisi",
     "address": "28800;72000;",
@@ -164,7 +164,7 @@
     "store_name": "Basko",
     "province_code": "FC",
     "province_name": "Forlì-Cesena",
-    "address": "28800;72000;",
+    "address": "28800;61200;",
     "postal_code": "28800",
     "source_url": "https://www.basko.it/supermercati",
     "status": "active"
@@ -1274,16 +1274,6 @@
     "store_name": "Carrefour",
     "province_code": "AL",
     "province_name": "Alessandria",
-    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
-    "postal_code": "15067",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "AL",
-    "province_name": "Alessandria",
     "address": "/volantino/supermercato-carrefour-express-ticineto-via-cesare-battisti-11/5145",
     "postal_code": "15040",
     "source_url": "https://www.carrefour.it/punti-vendita",
@@ -1756,6 +1746,16 @@
     "province_name": "Asti",
     "address": "14100",
     "postal_code": "14100",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
+    "province_code": "BA",
+    "province_name": "Bari",
+    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
+    "postal_code": "15067",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
@@ -11031,6 +11031,16 @@
   },
   {
     "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "16044, Prato, Italia",
+    "postal_code": "16044",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
     "store_name": "Genova",
     "province_code": "BG",
     "province_name": "Bergamo",
@@ -11105,16 +11115,6 @@
     "province_code": "BG",
     "province_name": "Bergamo",
     "address": "19020, La Chiesa, Italia",
-    "postal_code": "19020",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
-    "province_code": "BG",
-    "province_name": "Bergamo",
-    "address": "19020, La Serra, Italia",
     "postal_code": "19020",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
@@ -12044,7 +12044,7 @@
     "store_name": "MD",
     "province_code": "BG",
     "province_name": "Bergamo",
-    "address": "40050, Venezzano Mascarino, Italia",
+    "address": "40050, Mascarino Venezzano, Italia",
     "postal_code": "40050",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
@@ -13281,16 +13281,6 @@
   },
   {
     "brand": "MD",
-    "store_name": "MD",
-    "province_code": "BG",
-    "province_name": "Bergamo",
-    "address": "89015, Prato, Italia",
-    "postal_code": "89015",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
     "store_name": "Palermo",
     "province_code": "BG",
     "province_name": "Bergamo",
@@ -13446,6 +13436,16 @@
     "province_name": "Bergamo",
     "address": "98124, Fondo Genovese, Italia",
     "postal_code": "98124",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "La Via, Borghetto di Vara, La Spezia, Italia",
+    "postal_code": "19020",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -13686,16 +13686,6 @@
     "province_name": "Catanzaro",
     "address": "50123, Firenze, Italia",
     "postal_code": "50123",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
-    "province_code": "CZ",
-    "province_name": "Catanzaro",
-    "address": "89015, Prato, Italia",
-    "postal_code": "89015",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
