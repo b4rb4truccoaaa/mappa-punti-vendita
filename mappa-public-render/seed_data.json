@@ -131,7 +131,7 @@
   },
   {
     "brand": "Basko",
-    "store_name": "Orario di Lavoro BASKO",
+    "store_name": "OrarioBaskoSpesaOnline",
     "province_code": "BR",
     "province_name": "Brindisi",
     "address": "28800;72000;",
@@ -164,7 +164,7 @@
     "store_name": "Basko",
     "province_code": "FC",
     "province_name": "Forlì-Cesena",
-    "address": "28800;61200;",
+    "address": "28800;72000;",
     "postal_code": "28800",
     "source_url": "https://www.basko.it/supermercati",
     "status": "active"
@@ -1274,6 +1274,16 @@
     "store_name": "Carrefour",
     "province_code": "AL",
     "province_name": "Alessandria",
+    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
+    "postal_code": "15067",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
+    "province_code": "AL",
+    "province_name": "Alessandria",
     "address": "/volantino/supermercato-carrefour-express-ticineto-via-cesare-battisti-11/5145",
     "postal_code": "15040",
     "source_url": "https://www.carrefour.it/punti-vendita",
@@ -2286,16 +2296,6 @@
     "province_name": "Cagliari",
     "address": "/volantino/supermercato-carrefour-express-cagliari-via-manno-10/4997",
     "postal_code": "09124",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "CE",
-    "province_name": "Caserta",
-    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
-    "postal_code": "15067",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
@@ -11131,6 +11131,16 @@
   },
   {
     "brand": "Eurospin",
+    "store_name": "San Salvo - Via Alcide De Gasperi",
+    "province_code": "FC",
+    "province_name": "Forlì-Cesena",
+    "address": "Via Alcide De Gasperi, 66050 San Salvo (Chieti)",
+    "postal_code": "66050",
+    "source_url": "https://www.eurospin.it/punti-vendita/",
+    "status": "active"
+  },
+  {
+    "brand": "Eurospin",
     "store_name": "Atri - Via Aldo Moro",
     "province_code": "FC",
     "province_name": "Forlì-Cesena",
@@ -12976,6 +12986,16 @@
     "province_name": "Forlì-Cesena",
     "address": "Via Valdambrini angolo Via Calabria, 00058 Santa Marinella (Roma)",
     "postal_code": "00058",
+    "source_url": "https://www.eurospin.it/punti-vendita/",
+    "status": "active"
+  },
+  {
+    "brand": "Eurospin",
+    "store_name": "Benevento - Via Valfortore",
+    "province_code": "FC",
+    "province_name": "Forlì-Cesena",
+    "address": "Via Valfortore n.12, 82100 Benevento (Benevento)",
+    "postal_code": "82100",
     "source_url": "https://www.eurospin.it/punti-vendita/",
     "status": "active"
   },
