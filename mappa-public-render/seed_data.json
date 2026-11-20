@@ -1274,16 +1274,6 @@
     "store_name": "Carrefour",
     "province_code": "AL",
     "province_name": "Alessandria",
-    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
-    "postal_code": "15067",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "AL",
-    "province_name": "Alessandria",
     "address": "/volantino/supermercato-carrefour-express-ticineto-via-cesare-battisti-11/5145",
     "postal_code": "15040",
     "source_url": "https://www.carrefour.it/punti-vendita",
@@ -2296,6 +2286,16 @@
     "province_name": "Cagliari",
     "address": "/volantino/supermercato-carrefour-express-cagliari-via-manno-10/4997",
     "postal_code": "09124",
+    "source_url": "https://www.carrefour.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "Carrefour",
+    "store_name": "Carrefour",
+    "province_code": "CB",
+    "province_name": "Campobasso",
+    "address": "/volantino/supermercato-carrefour-express-san-benedetto-val-di-sambro-via-autostazione-7-frazione-pian-del-voglio/3728",
+    "postal_code": "15067",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
@@ -5246,16 +5246,6 @@
     "province_name": "Milano",
     "address": "/volantino/supermercato-carrefour-express-milano-via-conca-del-naviglio-37/4898",
     "postal_code": "20123",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "MI",
-    "province_name": "Milano",
-    "address": "/volantino/supermercato-carrefour-express-milano-via-cosseria-n-1/4805",
-    "postal_code": "20136",
     "source_url": "https://www.carrefour.it/punti-vendita",
     "status": "active"
   },
@@ -9514,16 +9504,6 @@
     "store_name": "Carrefour",
     "province_code": "TO",
     "province_name": "Torino",
-    "address": "/volantino/supermercato-carrefour-express-sauze-d-oulx-via-clotes-14/1715",
-    "postal_code": "10050",
-    "source_url": "https://www.carrefour.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "Carrefour",
-    "store_name": "Carrefour",
-    "province_code": "TO",
-    "province_name": "Torino",
     "address": "/volantino/supermercato-carrefour-express-sestriere-via-pinerolo-n-14/4766",
     "postal_code": "10058",
     "source_url": "https://www.carrefour.it/punti-vendita",
@@ -13561,6 +13541,16 @@
   },
   {
     "brand": "Eurospin",
+    "store_name": "N.A. - Villa Literno - Viale dei Mille",
+    "province_code": "FC",
+    "province_name": "Forlì-Cesena",
+    "address": "Viale dei Mille, 81039 N.A. - Villa Literno (Caserta)",
+    "postal_code": "81039",
+    "source_url": "https://www.eurospin.it/punti-vendita/",
+    "status": "active"
+  },
+  {
+    "brand": "Eurospin",
     "store_name": "Lusciano - Viale della Liberta'",
     "province_code": "FC",
     "province_name": "Forlì-Cesena",
@@ -15011,16 +15001,6 @@
   },
   {
     "brand": "MD",
-    "store_name": "MD",
-    "province_code": "BG",
-    "province_name": "Bergamo",
-    "address": "16044, Prato, Italia",
-    "postal_code": "16044",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
     "store_name": "Genova",
     "province_code": "BG",
     "province_name": "Bergamo",
@@ -15095,6 +15075,16 @@
     "province_code": "BG",
     "province_name": "Bergamo",
     "address": "19020, La Chiesa, Italia",
+    "postal_code": "19020",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "19020, La Serra, Italia",
     "postal_code": "19020",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
@@ -16024,7 +16014,7 @@
     "store_name": "MD",
     "province_code": "BG",
     "province_name": "Bergamo",
-    "address": "40050, Mascarino Venezzano, Italia",
+    "address": "40050, Venezzano Mascarino, Italia",
     "postal_code": "40050",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
@@ -16201,7 +16191,7 @@
   },
   {
     "brand": "MD",
-    "store_name": "Reggio Emilia",
+    "store_name": "Reggio nell'Emilia",
     "province_code": "BG",
     "province_name": "Bergamo",
     "address": "42121",
@@ -16214,7 +16204,7 @@
     "store_name": "MD",
     "province_code": "BG",
     "province_name": "Bergamo",
-    "address": "42121, Reggio Emilia, Italia",
+    "address": "42121, Reggio nell'Emilia, Italia",
     "postal_code": "42121",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
@@ -17184,7 +17174,7 @@
     "store_name": "MD",
     "province_code": "BG",
     "province_name": "Bergamo",
-    "address": "87050, Pianette di Rovito, Italia",
+    "address": "87050, Bosco di Rovito, Italia",
     "postal_code": "87050",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
@@ -17256,6 +17246,16 @@
     "province_name": "Bergamo",
     "address": "88100, Catanzaro, Italia",
     "postal_code": "88100",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "BG",
+    "province_name": "Bergamo",
+    "address": "89015, Prato, Italia",
+    "postal_code": "89015",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -17416,16 +17416,6 @@
     "province_name": "Bergamo",
     "address": "98124, Fondo Genovese, Italia",
     "postal_code": "98124",
-    "source_url": "https://www.mdspa.it/punti-vendita",
-    "status": "active"
-  },
-  {
-    "brand": "MD",
-    "store_name": "MD",
-    "province_code": "BG",
-    "province_name": "Bergamo",
-    "address": "La Via, Borghetto di Vara, La Spezia, Italia",
-    "postal_code": "19020",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
@@ -17666,6 +17656,16 @@
     "province_name": "Catanzaro",
     "address": "50123, Firenze, Italia",
     "postal_code": "50123",
+    "source_url": "https://www.mdspa.it/punti-vendita",
+    "status": "active"
+  },
+  {
+    "brand": "MD",
+    "store_name": "MD",
+    "province_code": "CZ",
+    "province_name": "Catanzaro",
+    "address": "89015, Prato, Italia",
+    "postal_code": "89015",
     "source_url": "https://www.mdspa.it/punti-vendita",
     "status": "active"
   },
