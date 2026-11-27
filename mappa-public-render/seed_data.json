@@ -131,7 +131,7 @@
   },
   {
     "brand": "Basko",
-    "store_name": "Default Business Hour",
+    "store_name": "OrarioBaskoSpesaOnline",
     "province_code": "BR",
     "province_name": "Brindisi",
     "address": "28800;72000;",
@@ -14216,6 +14216,16 @@
     "province_name": "Sondrio",
     "address": "Corso G. Ferraris, 10034 Chivasso (Torino)",
     "postal_code": "10034",
+    "source_url": "https://www.eurospin.it/punti-vendita/",
+    "status": "active"
+  },
+  {
+    "brand": "Eurospin",
+    "store_name": "Pontecagnano - Corso Italia",
+    "province_code": "SO",
+    "province_name": "Sondrio",
+    "address": "Corso Italia, 84098 Pontecagnano (Salerno)",
+    "postal_code": "84098",
     "source_url": "https://www.eurospin.it/punti-vendita/",
     "status": "active"
   },
